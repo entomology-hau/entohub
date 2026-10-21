@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-21T10:06:41Z",
-  "lastSuccessfulUpdate": "2026-10-21T10:06:41Z",
+  "updatedAt": "2026-10-21T10:27:16Z",
+  "lastSuccessfulUpdate": "2026-10-21T10:27:16Z",
   "items": [
     {
       "id": "auto-a3409cd85f8e8f72",
@@ -2534,8 +2534,8 @@
       "url": "https://www.buglife.org.uk/news/feed/",
       "homepage": "https://www.buglife.org.uk/news/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 6
     },
     {
@@ -2544,8 +2544,8 @@
       "url": "https://www.bumblebeeconservation.org/feed/",
       "homepage": "https://www.bumblebeeconservation.org/what-we-do/news/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 9
     },
     {
@@ -2554,8 +2554,8 @@
       "url": "https://blog.cabi.org/feed/",
       "homepage": "https://blog.cabi.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 1
     },
     {
@@ -2564,8 +2564,8 @@
       "url": "https://entomologytoday.org/feed/",
       "homepage": "https://entomologytoday.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 9
     },
     {
@@ -2574,8 +2574,8 @@
       "url": "https://blog.plantwise.org/feed/",
       "homepage": "https://blog.plantwise.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 1
     },
     {
@@ -2584,8 +2584,8 @@
       "url": "https://www.royensoc.co.uk/feed/",
       "homepage": "https://www.royensoc.co.uk/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 10
     },
     {
@@ -2594,8 +2594,8 @@
       "url": "https://appliedecologistsblog.com/feed/",
       "homepage": "https://appliedecologistsblog.com/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 1
     },
     {
@@ -2604,8 +2604,8 @@
       "url": "https://xerces.org/rss.xml",
       "homepage": "https://xerces.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 6
     },
     {
@@ -2614,8 +2614,8 @@
       "url": "https://api.crossref.org/journals/1461-9563/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/14619563",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 25
     },
     {
@@ -2624,8 +2624,8 @@
       "url": "https://api.crossref.org/journals/1573-8248/works",
       "homepage": "https://link.springer.com/journal/10526",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 15
     },
     {
@@ -2633,21 +2633,21 @@
       "name": "Biological Control",
       "url": "https://api.crossref.org/journals/1049-9644/works",
       "homepage": "https://www.sciencedirect.com/journal/biological-control",
-      "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
+      "status": "error",
+      "lastAttempt": "2026-10-21T10:27:16Z",
       "lastSuccess": "2026-10-21T10:06:41Z",
-      "count": 0
+      "count": 0,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "ecological-entomology",
       "name": "Ecological Entomology",
       "url": "https://api.crossref.org/journals/1365-2311/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652311",
-      "status": "cached",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:05:01Z",
-      "count": 6,
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
+      "count": 35
     },
     {
       "id": "environmental-entomology",
@@ -2655,8 +2655,8 @@
       "url": "https://api.crossref.org/journals/1938-2936/works",
       "homepage": "https://academic.oup.com/ee",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 33
     },
     {
@@ -2665,8 +2665,8 @@
       "url": "https://api.crossref.org/journals/1752-4598/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/17524598",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 35
     },
     {
@@ -2675,8 +2675,8 @@
       "url": "https://api.crossref.org/journals/1365-2583/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652583",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 18
     },
     {
@@ -2685,8 +2685,8 @@
       "url": "https://api.crossref.org/journals/1744-7917/works",
       "homepage": "https://onlinelibrary.wiley.com/journal/17447917",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 35
     },
     {
@@ -2695,8 +2695,8 @@
       "url": "https://api.crossref.org/journals/2399-3421/works",
       "homepage": "https://academic.oup.com/isd",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 21
     },
     {
@@ -2705,8 +2705,8 @@
       "url": "https://api.crossref.org/journals/1938-291X/works",
       "homepage": "https://academic.oup.com/jee",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 35
     },
     {
@@ -2715,8 +2715,8 @@
       "url": "https://api.crossref.org/journals/1572-9753/works",
       "homepage": "https://link.springer.com/journal/10841",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 35
     },
     {
@@ -2725,8 +2725,8 @@
       "url": "https://api.crossref.org/journals/1938-2928/works",
       "homepage": "https://academic.oup.com/jme",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 35
     },
     {
@@ -2734,10 +2734,11 @@
       "name": "Medical and Veterinary Entomology",
       "url": "https://api.crossref.org/journals/1365-2915/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652915",
-      "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
+      "status": "cached",
+      "lastAttempt": "2026-10-21T10:27:16Z",
       "lastSuccess": "2026-10-21T10:06:41Z",
-      "count": 33
+      "count": 6,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "pest-management-science",
@@ -2745,8 +2746,8 @@
       "url": "https://api.crossref.org/journals/1526-4998/works",
       "homepage": "https://scijournals.onlinelibrary.wiley.com/journal/15264998",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 9
     },
     {
@@ -2755,8 +2756,8 @@
       "url": "https://api.crossref.org/journals/1365-3032/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653032",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 16
     },
     {
@@ -2765,8 +2766,8 @@
       "url": "https://api.crossref.org/journals/1365-3113/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653113",
       "status": "ok",
-      "lastAttempt": "2026-10-21T10:06:41Z",
-      "lastSuccess": "2026-10-21T10:06:41Z",
+      "lastAttempt": "2026-10-21T10:27:16Z",
+      "lastSuccess": "2026-10-21T10:27:16Z",
       "count": 14
     }
   ]
