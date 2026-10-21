@@ -1,7 +1,63 @@
 {
-  "updatedAt": "2026-10-20T13:18:55Z",
-  "lastSuccessfulUpdate": "2026-10-20T13:18:55Z",
+  "updatedAt": "2026-10-21T09:10:04Z",
+  "lastSuccessfulUpdate": "2026-10-21T09:10:04Z",
   "items": [
+    {
+      "id": "auto-2960b9a4caa47ab1",
+      "kind": "news",
+      "title": "‘Hidden’ Invasive Thrips Found in California Garden Stores",
+      "url": "https://entomologytoday.org/2026/10/20/invasive-thrips-parvispinus-california-garden-stores",
+      "source": "Entomology Today · Entomological Society of America",
+      "sourceId": "entomology-today",
+      "published": "2026-10-20",
+      "areas": [
+        "Crop protection & IPM"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 1
+    },
+    {
+      "id": "auto-2ae4cdb7d5d3c8ef",
+      "kind": "news",
+      "title": "Lifetime’s Work on Australian Moths Recognized with Prestigious Whitley Award",
+      "url": "https://www.royensoc.co.uk/news/lifetimes-work-on-australian-moths-recognized-with-prestigious-whitley-award",
+      "source": "Royal Entomological Society",
+      "sourceId": "royal-entomological-society",
+      "published": "2026-10-20",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 1
+    },
+    {
+      "id": "auto-3411a159b01abb4e",
+      "kind": "research",
+      "title": "Genome‐scale evidence for host‐associated lineage divergence in the parasitoid, Microctonus aethiopoides",
+      "url": "https://doi.org/10.1111/imb.70069",
+      "source": "Insect Molecular Biology",
+      "sourceId": "insect-molecular-biology",
+      "published": "2026-10-20",
+      "areas": [
+        "Insect biology & behaviour",
+        "Biological control"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 1,
+      "doi": "10.1111/imb.70069"
+    },
     {
       "id": "auto-e131dcdb8be4a472",
       "kind": "news",
@@ -1071,24 +1127,6 @@
       "curated": true
     },
     {
-      "id": "auto-ed8d7287de8377d9",
-      "kind": "news",
-      "title": "Scientists Report Continuing Harms to U.S. Science in Second-Year Survey",
-      "url": "https://entomologytoday.org/2026/09/21/scientists-report-continuing-harms-to-u-s-science-in-second-year-survey",
-      "source": "Entomology Today · Entomological Society of America",
-      "sourceId": "entomology-today",
-      "published": "2026-09-21",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
-    },
-    {
       "id": "auto-9b51838b6c8b7f8b",
       "kind": "research",
       "title": "Yahganona nom. nov., a replacement name for the South American moth genus Ona Sihvonen, Hausmann & Brehm (Lepidoptera: Apoprogonidae)",
@@ -2132,24 +2170,6 @@
       "doi": "10.1111/icad.70134"
     },
     {
-      "id": "auto-cd45b3fc9ca8491e",
-      "kind": "news",
-      "title": "Local Specialist Natural History Bookshop Celebrates 25 years in Iver",
-      "url": "https://www.royensoc.co.uk/news/local-specialist-natural-history-bookshop-celebrates-25-years-in-iver",
-      "source": "Royal Entomological Society",
-      "sourceId": "royal-entomological-society",
-      "published": "2026-08-20",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
-    },
-    {
       "id": "auto-27dacef4dfc6b32d",
       "kind": "research",
       "title": "Fire‐driven forest degradation enhances termite activity and accelerates litter decomposition in the Amazonia rainforest",
@@ -2417,25 +2437,6 @@
       "doi": "10.1111/mve.70092"
     },
     {
-      "id": "auto-77d0ecb0435c6390",
-      "kind": "research",
-      "title": "Early herbivory attracts and facilitates subsequent specialist herbivores with consequences for plant performance",
-      "url": "https://doi.org/10.1111/een.70133",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
-      "published": "2026-08-10",
-      "areas": [
-        "Crop protection & IPM"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70133"
-    },
-    {
       "id": "research-insect-baselines-2026",
       "title": "Ninety-year trends reveal sharpest insect declines in the mid-twentieth century",
       "url": "https://doi.org/10.1038/s41559-026-03074-6",
@@ -2542,8 +2543,8 @@
       "url": "https://entomologytoday.org/feed/",
       "homepage": "https://entomologytoday.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T13:18:55Z",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
       "count": 9
     },
     {
@@ -2552,8 +2553,8 @@
       "url": "https://www.royensoc.co.uk/feed/",
       "homepage": "https://www.royensoc.co.uk/",
       "status": "ok",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T13:18:55Z",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
       "count": 10
     },
     {
@@ -2562,8 +2563,8 @@
       "url": "https://www.buglife.org.uk/news/feed/",
       "homepage": "https://www.buglife.org.uk/news/",
       "status": "ok",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T13:18:55Z",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
       "count": 6
     },
     {
@@ -2572,8 +2573,8 @@
       "url": "https://blog.cabi.org/feed/",
       "homepage": "https://blog.cabi.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T13:18:55Z",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
       "count": 1
     },
     {
@@ -2582,8 +2583,8 @@
       "url": "https://blog.plantwise.org/feed/",
       "homepage": "https://blog.plantwise.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T13:18:55Z",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
       "count": 1
     },
     {
@@ -2592,8 +2593,8 @@
       "url": "https://api.crossref.org/journals/1365-2311/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652311",
       "status": "ok",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T13:18:55Z",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
       "count": 35
     },
     {
@@ -2601,11 +2602,10 @@
       "name": "Agricultural and Forest Entomology",
       "url": "https://api.crossref.org/journals/1461-9563/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/14619563",
-      "status": "cached",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T10:09:02Z",
-      "count": 15,
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
+      "count": 25
     },
     {
       "id": "insect-conservation-diversity",
@@ -2613,8 +2613,8 @@
       "url": "https://api.crossref.org/journals/1752-4598/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/17524598",
       "status": "ok",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T13:18:55Z",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
       "count": 35
     },
     {
@@ -2623,8 +2623,8 @@
       "url": "https://api.crossref.org/journals/1365-3032/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653032",
       "status": "ok",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T13:18:55Z",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
       "count": 16
     },
     {
@@ -2633,8 +2633,8 @@
       "url": "https://api.crossref.org/journals/1365-3113/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653113",
       "status": "ok",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T13:18:55Z",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
       "count": 14
     },
     {
@@ -2643,8 +2643,8 @@
       "url": "https://api.crossref.org/journals/1365-2915/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652915",
       "status": "ok",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T13:18:55Z",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
       "count": 33
     },
     {
@@ -2652,11 +2652,10 @@
       "name": "Insect Molecular Biology",
       "url": "https://api.crossref.org/journals/1365-2583/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652583",
-      "status": "cached",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T10:09:02Z",
-      "count": 8,
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
+      "count": 18
     },
     {
       "id": "biological-control",
@@ -2664,8 +2663,8 @@
       "url": "https://api.crossref.org/journals/1049-9644/works",
       "homepage": "https://www.sciencedirect.com/journal/biological-control",
       "status": "ok",
-      "lastAttempt": "2026-10-20T13:18:55Z",
-      "lastSuccess": "2026-10-20T13:18:55Z",
+      "lastAttempt": "2026-10-21T09:10:04Z",
+      "lastSuccess": "2026-10-21T09:10:04Z",
       "count": 0
     }
   ]
