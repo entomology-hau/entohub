@@ -6,8 +6,27 @@ const safeURL = value => {try {const u=new URL(value); return ['http:','https:']
 const validDate = value => typeof value==='string' && /^\d{4}-\d{2}-\d{2}(?:T.*)?$/.test(value) && Number.isFinite(Date.parse(value));
 const dateText = value => validDate(value)?new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/London'}).format(new Date(value.length===10?value+'T12:00:00Z':value)):'Date unavailable';
 const validItem = item => item && typeof item.id==='string' && typeof item.title==='string' && safeURL(item.url) && ['news','research'].includes(item.kind) && validDate(item.published) && item.published.slice(0,10)<=new Date().toISOString().slice(0,10) && Array.isArray(item.areas);
-let database=null,kind='all',currentPage=1,saved=new Map(),sourceConfig=[],activeSection='highlights';
-const SECTIONS=['highlights','courses','learn','sources','research'];
+let database=null,kind='all',currentPage=1,saved=new Map(),sourceConfig=[],activeSection='overview';
+const SECTIONS=['overview','highlights','courses','learn','sources','research'];
+const FEED_PARAMS=['view','q','area','region','selection','sort','size','page'];
+function setSectionParam(params){
+  if(activeSection==='overview'&&!FEED_PARAMS.some(name=>params.has(name)))params.delete('section');
+  else params.set('section',activeSection);
+}
+function initInstagram(){
+  const button=$('load-instagram'),preview=$('instagram-preview'),notice=$('instagram-notice');
+  if(!button||!preview)return;
+  button.hidden=false;
+  button.addEventListener('click',()=>{
+    button.hidden=true;preview.hidden=false;
+    notice.textContent='If the preview is unavailable, open our profile using the link below.';
+    const script=document.createElement('script');
+    script.src='https://www.instagram.com/embed.js';script.async=true;
+    script.onload=()=>window.instgrm?.Embeds?.process();
+    script.onerror=()=>{preview.hidden=true;notice.textContent='Instagram could not load here. You can still visit our profile below.';};
+    document.head.append(script);
+  },{once:true});
+}
 function initTheme(){
   let theme='light';try{theme=localStorage.getItem('entomology-theme')==='dark'?'dark':'light';}catch{}
   function apply(value){document.documentElement.dataset.theme=value;const dark=value==='dark';$('theme-toggle').setAttribute('aria-pressed',String(dark));$('theme-toggle').setAttribute('aria-label',`Switch to ${dark?'light':'dark'} mode`);$('theme-label').textContent=dark?'Light mode':'Dark mode';document.querySelector('meta[name="theme-color"]').content=dark?'#253750':'#eaf1fa';}
@@ -25,7 +44,7 @@ function toggleSaved(id){
 function state(){return {q:$('search').value.trim().toLowerCase(),area:$('area').value,region:$('region').value,selection:$('selection').value,sort:$('sort').value,pageSize:Number($('page-size').value)};}
 function matches(item,filter){const haystack=[item.title,item.summary,item.why,item.source,...item.areas].join(' ').toLowerCase();return (!filter.q||filter.q.split(/\s+/).every(word=>haystack.includes(word)))&&(!filter.area||item.areas.includes(filter.area))&&(!filter.region||item.region===filter.region)&&(!filter.selection||(filter.selection==='curated'?item.curated===true:item.curated!==true));}
 function card(item){const isSaved=saved.has(item.id),research=item.kind==='research';return `<article class="article-card ${research?'research':'news'}"><div class="article-meta"><span class="kind">${research?'RESEARCH':'IN THE NEWS'}</span><span class="region">${item.region==='uk'?'UK FOCUS':'GLOBAL'}</span></div><h3><a href="${escapeHTML(safeURL(item.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(item.title)}</a></h3><p class="byline">${escapeHTML(item.source)}<br><time datetime="${escapeHTML(item.published)}">${escapeHTML(dateText(item.published))}</time></p>${item.summary?`<p class="article-summary">${escapeHTML(item.summary)}</p>`:''}${item.why?`<p class="why"><strong>A CLOSER LOOK</strong>${escapeHTML(item.why)}</p>`:''}<div class="tags">${item.areas.slice(0,3).map(area=>`<span>${escapeHTML(area)}</span>`).join('')}</div><div class="card-footer"><a class="read-link" href="${escapeHTML(safeURL(item.url))}" target="_blank" rel="noopener noreferrer" aria-label="Read ${research?'paper':'article'}: ${escapeHTML(item.title)} (opens in a new tab)">${research?'Read the paper':'Read the article'} <span aria-hidden="true">↗</span></a><button type="button" class="save-button" data-save="${escapeHTML(item.id)}" aria-pressed="${isSaved}" aria-label="${isSaved?'Remove from saved':'Save'}: ${escapeHTML(item.title)}">${isSaved?'✓ Saved':'+ Save'}</button></div><p class="selection-label">${item.curated?'Selected highlight':'From the feeds · automatic match'}</p></article>`;}
-function syncURL(filter){const p=new URLSearchParams();if(activeSection!=='highlights')p.set('section',activeSection);if(kind!=='all')p.set('view',kind);for(const name of ['q','area','region','selection'])if(filter[name])p.set(name,filter[name]);if(filter.sort!=='newest')p.set('sort',filter.sort);if(filter.pageSize!==9)p.set('size',filter.pageSize);if(currentPage>1)p.set('page',currentPage);try{history.replaceState(null,'',location.pathname+(p.size?'?'+p:'')+location.hash);}catch{}}
+function syncURL(filter){const p=new URLSearchParams();if(kind!=='all')p.set('view',kind);for(const name of ['q','area','region','selection'])if(filter[name])p.set(name,filter[name]);if(filter.sort!=='newest')p.set('sort',filter.sort);if(filter.pageSize!==9)p.set('size',filter.pageSize);if(currentPage>1)p.set('page',currentPage);setSectionParam(p);try{history.replaceState(null,'',location.pathname+(p.size?'?'+p:'')+location.hash);}catch{}}
 function render(){
   if(!database)return;const filter=state();let items=(kind==='saved'?[...saved.values()]:database.items.filter(item=>kind==='all'||item.kind===kind)).filter(item=>matches(item,filter));items.sort((a,b)=>filter.sort==='title'?a.title.localeCompare(b.title):filter.sort==='oldest'?a.published.localeCompare(b.published)||a.title.localeCompare(b.title):b.published.localeCompare(a.published)||(Number(b.curated)-Number(a.curated))||a.title.localeCompare(b.title));
   const pages=Math.max(1,Math.ceil(items.length/filter.pageSize));currentPage=Math.min(Math.max(1,currentPage),pages);const start=(currentPage-1)*filter.pageSize,visible=items.slice(start,start+filter.pageSize);
@@ -35,7 +54,7 @@ function render(){
 }
 function filterChanged(){currentPage=1;render();}
 function reset(){kind='all';for(const id of ['search','area','region','selection'])$(id).value='';$('sort').value='newest';filterChanged();}
-function restore(){for(const id of ['search','area','region','selection'])$(id).value='';$('sort').value='newest';$('page-size').value='9';kind='all';currentPage=1;const p=new URLSearchParams(location.search);activeSection=SECTIONS.includes(p.get('section'))?p.get('section'):'highlights';if(['all','news','research','saved'].includes(p.get('view')))kind=p.get('view');$('search').value=p.get('q')||'';for(const id of ['area','region','selection','sort'])if([...$(id).options].some(o=>o.value===p.get(id)))$(id).value=p.get(id);if(['9','18','36'].includes(p.get('size')))$('page-size').value=p.get('size');const page=Number(p.get('page'));if(Number.isSafeInteger(page)&&page>0)currentPage=page;}
+function restore(){for(const id of ['search','area','region','selection'])$(id).value='';$('sort').value='newest';$('page-size').value='9';kind='all';currentPage=1;const p=new URLSearchParams(location.search);activeSection=SECTIONS.includes(p.get('section'))?p.get('section'):(FEED_PARAMS.some(name=>p.has(name))?'highlights':'overview');if(['all','news','research','saved'].includes(p.get('view')))kind=p.get('view');$('search').value=p.get('q')||'';for(const id of ['area','region','selection','sort'])if([...$(id).options].some(o=>o.value===p.get(id)))$(id).value=p.get(id);if(['9','18','36'].includes(p.get('size')))$('page-size').value=p.get('size');const page=Number(p.get('page'));if(Number.isSafeInteger(page)&&page>0)currentPage=page;}
 function renderSources(){
   const status=Array.isArray(database.sources)?database.sources:[];const lastAttempt=database.updatedAt;const good=status.filter(s=>s.status==='ok');const stale=!validDate(lastAttempt)||Date.now()-Date.parse(lastAttempt)>48*60*60*1000;
   $('feed-status').textContent=(validDate(lastAttempt)?`Last source check: ${dateText(lastAttempt)}.`:'Source-check date unavailable.')+(status.length?` ${good.length} of ${status.length} sources responded.`:'')+(stale?' Checks are over 48 hours old or unavailable; browse the original sources for newer items.':good.length<status.length?' Some sources are unavailable; previously collected items remain available.':'') ;$('feed-status').classList.toggle('warning',stale||good.length<status.length);
@@ -44,14 +63,14 @@ function renderSources(){
 }
 
 function showSection(name,{push=false,focus=false,clearHash=false}={}){
-  activeSection=SECTIONS.includes(name)?name:'highlights';
+  activeSection=SECTIONS.includes(name)?name:'overview';
   for(const panel of document.querySelectorAll('[data-panel]'))panel.hidden=panel.dataset.panel!==activeSection;
   for(const tab of document.querySelectorAll('[data-section]')){
     const selected=tab.dataset.section===activeSection;
     tab.setAttribute('aria-selected',String(selected));tab.classList.toggle('active',selected);tab.tabIndex=selected?0:-1;
   }
   if(push){
-    const url=new URL(location.href);if(activeSection==='highlights')url.searchParams.delete('section');else url.searchParams.set('section',activeSection);
+    const url=new URL(location.href);setSectionParam(url.searchParams);
     if(clearHash)url.hash='';
     try{history.pushState(null,'',url.pathname+url.search+url.hash);}catch{}
   }
@@ -83,16 +102,28 @@ function initNavigation(){
     });
   });
   document.addEventListener('click',event=>{
+    if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
     const link=event.target.closest('a[href^="#"]');if(!link)return;
+    const linkTarget=link.getAttribute('target');
+    if((linkTarget&&linkTarget.toLowerCase()!=='_self')||link.getAttribute('download')!==null)return;
     let id;try{id=decodeURIComponent(link.getAttribute('href').slice(1));}catch{return;}
     const target=$(id),panel=target?.closest('[data-panel]');
-    if(panel)showSection(panel.dataset.panel);
+    if(!panel)return;
+    // Handle the fragment synchronously: a delayed native hash navigation must
+    // not reopen this panel after the visitor has already selected another tab.
+    event.preventDefault();showSection(panel.dataset.panel);
+    const url=new URL(location.href);setSectionParam(url.searchParams);url.hash=link.getAttribute('href');
+    if(url.href!==location.href){try{history.pushState(null,'',url.pathname+url.search+url.hash);}catch{}}
+    let ancestor=target.parentElement;while(ancestor){if(ancestor.tagName==='DETAILS')ancestor.open=true;ancestor=ancestor.parentElement;}
+    target.scrollIntoView({block:'start'});
+    if(target.tabIndex<0&&target.getAttribute('tabindex')===null)target.setAttribute('tabindex','-1');
+    target.focus({preventScroll:true});
   });
   window.addEventListener('hashchange',()=>{revealFragment();syncURL(state());});
 }
 
 async function load(){
- initTheme();loadSaved();for(const area of AREAS)$('area').add(new Option(area,area));restore();initNavigation();
+ initTheme();initInstagram();loadSaved();for(const area of AREAS)$('area').add(new Option(area,area));restore();initNavigation();
  $('filters').addEventListener('submit',e=>e.preventDefault());$('search').addEventListener('input',filterChanged);for(const id of ['area','region','selection','sort','page-size'])$(id).addEventListener('change',filterChanged);document.querySelectorAll('[data-kind]').forEach(button=>button.addEventListener('click',()=>{kind=button.dataset.kind;filterChanged();}));$('reset').addEventListener('click',reset);$('empty-reset').addEventListener('click',reset);$('cards').addEventListener('click',event=>{const button=event.target.closest('[data-save]');if(button)toggleSaved(button.dataset.save);});for(const [id,delta] of [['previous',-1],['next',1]])$(id).addEventListener('click',()=>{currentPage+=delta;render();$('feed-heading').setAttribute('tabindex','-1');$('feed-heading').focus({preventScroll:true});$('highlights').scrollIntoView({block:'start'});});window.addEventListener('popstate',()=>{restore();showSection(activeSection);revealFragment();render();});window.addEventListener('storage',event=>{if(event.key==='entomology-hub-saved'){loadSaved();render();}});
  try{const response=await fetch('data/feed.json');if(!response.ok)throw Error('Feed unavailable');database=await response.json();if(!Array.isArray(database.items))throw Error('Invalid feed');database.items=database.items.filter(validItem);render();renderSources();}catch{ $('feed-error').hidden=false;$('result-count').textContent='Highlights unavailable';if(saved.size){database={items:[],sources:[]};kind='saved';render();}}
  try{const response=await fetch('data/sources.json');if(response.ok){const config=await response.json();sourceConfig=Array.isArray(config)?config:config.sources||[];if(database)renderSources();}}catch{}

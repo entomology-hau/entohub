@@ -364,3 +364,23 @@
   .hub-masthead .course-links {gap:6px 14px}
   #main-content {padding-top:24px}
 }
+
+/* A compact guide to the hub, alongside updates from the HAU community. */
+.overview-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,380px);align-items:start;gap:24px}
+.overview-guides{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;min-width:0}
+.overview-card{display:flex;flex-direction:column;min-width:0;padding:22px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);text-decoration:none}
+.overview-card:hover{border-color:var(--control);background:var(--soft)}
+.overview-card h3{margin:0 0 10px;font-size:1.05rem;line-height:1.4;letter-spacing:-.02em}
+.overview-card p{margin:0 0 18px;font-size:.875rem;line-height:1.65;color:var(--muted)}
+.overview-card-link{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;font-size:.8rem;font-weight:600;color:var(--link)}
+.overview-instagram{min-width:0;padding:22px;border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:6px;background:var(--panel)}
+.overview-instagram h3{font-size:1.15rem;line-height:1.4;letter-spacing:-.02em;margin:0 0 10px}
+.overview-instagram>p{font-size:.875rem;line-height:1.65;color:var(--muted);margin:0 0 14px}
+.instagram-profile-link{display:inline-block;font-size:.8rem;font-weight:600}
+@media(max-width:1050px){.overview-layout{grid-template-columns:minmax(0,1fr)}.overview-instagram{width:100%;max-width:540px}}
+@media(max-width:620px){.overview-guides{grid-template-columns:minmax(0,1fr);gap:14px}.overview-card,.overview-instagram{padding:19px}}
+
+.instagram-load{margin:0 0 14px;font-size:.8rem}
+.overview-instagram .instagram-notice{font-size:.75rem;line-height:1.55}
+.instagram-preview{margin:0 0 16px;overflow:auto}
+.instagram-preview .instagram-media,.instagram-preview iframe{width:100%!important;min-width:0!important;max-width:540px!important;margin:0!important}

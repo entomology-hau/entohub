@@ -15,6 +15,7 @@ The site lives at the root of this repository's GitHub Pages deployment. The opp
 - `scripts/refresh_hub.py`: collects metadata, validates dates and links, assigns topic tags and deduplicates.
 - `scripts/persist_feed.py`: commits only the generated feed, preserving newer edits on `main`.
 - `tests/test_hub_feed.py`: offline collection and persistence checks.
+- `tests/test_hub_navigation.cjs`: offline navigation, deep-link and keyboard checks (Node.js 20+).
 
 The public frontend does not itself enforce access to protected research-centre information; that remains the responsibility of the external service.
 
@@ -30,6 +31,7 @@ Open http://localhost:8000/.
 
 ```sh
 python -m unittest discover -s tests -v
+node --test tests/test_hub_navigation.cjs
 python scripts/refresh_hub.py
 ```
 
@@ -48,3 +50,9 @@ Edit `site/data/curated.json` to add, amend or remove an authored highlight. Kee
 Automatic records are labelled as automatically collected, with empty summary/significance fields. The collector excludes sponsored feed posts identified in publisher metadata, invalid or future publication dates, and unrelated items from mixed-topic sources. It retains at most 120 automatic records from the previous 120 days, plus valid curated highlights. Automatic places are shared between sources one newest unique item at a time, with unused capacity passed on when quieter sources run out; the combined selection is then displayed chronologically. Mixed-topic sources can set `matchTitleOnly: true` to require an entomological subject in the headline rather than incidental references elsewhere in the feed text. Topic filters use title keywords and journal scope, so they are approximate.
 
 Failed sources retain eligible cached records that passed the current content checks. Each source exposes its last successful fetch, latest attempt and status. An overall refresh timestamp does not imply every source succeeded. Publisher metadata without an exact day is omitted rather than assigned an invented date.
+
+## Overview and Instagram
+
+The bare site URL opens the Overview, which introduces the hub and links to every section. Explicit `?section=` links and older feed-filter-only links remain supported. Research toolkit stays last in the tab order.
+
+The Overview includes Instagram’s native profile preview for `hau_entomology`. It loads `https://www.instagram.com/embed.js` only after the visitor selects **Show Instagram preview**; no account token is stored in the repository. A permanent profile link remains available if Instagram cannot load. The embedded content is controlled by Instagram and depends on the profile remaining public and embeddable. It is a profile preview, not a separate configurable media feed. The native embed was verified with recent posts on 21 October 2026.
