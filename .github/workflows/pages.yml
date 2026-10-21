@@ -1,0 +1,79 @@
+name: Refresh entomology hub and publish Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: entohub-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pages: read
+    outputs:
+      stale: ${{ steps.persist.outputs.stale }}
+      commit: ${{ steps.persist.outputs.commit }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Check collection and persistence rules
+        run: python -m unittest discover -s tests -v
+      - name: Refresh news and research metadata
+        run: python scripts/refresh_hub.py
+      - name: Preserve generated feed if main is unchanged
+        id: persist
+        run: |
+          python scripts/persist_feed.py
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - uses: actions/configure-pages@v5
+        if: steps.persist.outputs.stale == 'false'
+      - uses: actions/upload-pages-artifact@v4
+        if: steps.persist.outputs.stale == 'false'
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.stale == 'false'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: Check the branch again before publishing
+        id: current
+        env:
+          EXPECTED_COMMIT: ${{ needs.build.outputs.commit }}
+        run: |
+          if [ "$(git rev-parse HEAD)" = "$EXPECTED_COMMIT" ]; then
+            echo 'fresh=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'fresh=false' >> "$GITHUB_OUTPUT"
+            echo '::warning::A newer commit exists; its workflow will publish the site.'
+          fi
+      - name: Publish
+        id: deployment
+        if: steps.current.outputs.fresh == 'true'
+        uses: actions/deploy-pages@v4

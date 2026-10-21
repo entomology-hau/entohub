@@ -1,0 +1,248 @@
+[
+  {
+    "id": "news-20261015-pollinator-flowers",
+    "title": "National pollinator survey reveals insects’ favoured flowers",
+    "url": "https://www.buglife.org.uk/news/national-pollinator-survey-reveals-insects-favoured-flowers/",
+    "source": "Buglife",
+    "published": "2026-10-15",
+    "region": "uk",
+    "areas": [
+      "Pollination & beneficial insects",
+      "Taxonomy & biodiversity recording",
+      "Ecology & conservation"
+    ],
+    "summary": "Eight years of UK flower counts put ivy first for average insect visits among the 14 target flowers. The findings also underline different trends among pollinator groups.",
+    "why": "Connect flower choice, survey design and seasonal resources when planning habitat management or field projects.",
+    "kind": "news",
+    "curated": true
+  },
+  {
+    "id": "news-20261014-vietnam-ipm",
+    "title": "How IPM is helping Vietnam’s tomato farmers manage invasive tomato leafminer",
+    "url": "https://blog.plantwise.org/2026/10/14/how-ipm-is-helping-vietnams-tomato-farmers-manage-invasive-tomato-leafminer/",
+    "source": "CABI PlantwisePlus",
+    "published": "2026-10-14",
+    "region": "global",
+    "areas": [
+      "Crop protection & IPM",
+      "Biological control"
+    ],
+    "summary": "A greenhouse demonstration in Vietnam brings monitoring, sanitation, natural enemies and selective interventions together to tackle tomato leafminer, alongside practical training for growers.",
+    "why": "A useful applied case study for evaluating biological control, farmer learning and the limits of demonstration trials.",
+    "kind": "news",
+    "curated": true
+  },
+  {
+    "id": "news-20261008-ecuador-pesticide-risks",
+    "title": "Pest management in Ecuador: knowledge and access to alternatives",
+    "url": "https://blog.cabi.org/2026/10/08/pest-management-in-ecuador-how-farmer-knowledge-and-access-to-alternatives-can-reduce-pesticide-risks/",
+    "source": "CABI",
+    "published": "2026-10-08",
+    "region": "global",
+    "areas": [
+      "Crop protection & IPM",
+      "Monitoring & environmental risk"
+    ],
+    "summary": "CABI examines how farmer knowledge and access to pest-management alternatives can help reduce pesticide risks in Ecuador.",
+    "why": "Explore the social and practical barriers that shape whether IPM is adopted beyond the trial plot.",
+    "kind": "news",
+    "curated": true
+  },
+  {
+    "id": "news-20260925-entomology-software-careers",
+    "title": "An entomologist working with software engineers to improve farming",
+    "url": "https://entomologytoday.org/2026/09/25/entomologist-collaborating-software-engineers-improve-farming-clay-morrow-standout-early-career-professional/",
+    "source": "Entomology Today · Entomological Society of America",
+    "published": "2026-09-25",
+    "region": "global",
+    "areas": [
+      "Crop protection & IPM",
+      "Insect biology & behaviour"
+    ],
+    "summary": "An early-career profile follows Clay Morrow from plant–insect interactions and statistics into open-source whole-farm modelling, with pest-management features planned for future development.",
+    "why": "See how entomology, quantitative skills and collaboration can combine in a research career.",
+    "kind": "news",
+    "curated": true
+  },
+  {
+    "id": "news-20260917-scottish-records",
+    "title": "Three new pollinator records in the Scottish Borders",
+    "url": "https://www.buglife.org.uk/news/pollinator-survey-uncovers-three-new-species-records-across-the-scottish-borders/",
+    "source": "Buglife",
+    "published": "2026-09-17",
+    "region": "uk",
+    "areas": [
+      "Taxonomy & biodiversity recording",
+      "Pollination & beneficial insects",
+      "Ecology & conservation"
+    ],
+    "summary": "Surveys on council-managed sites found new vice-county records of Rose Chafer, Blue Mason Bee and Hairy-footed Flower Bee in the Scottish Borders.",
+    "why": "Discuss why a new record can reflect improved detection or range expansion, and how records inform management.",
+    "kind": "news",
+    "curated": true
+  },
+  {
+    "id": "news-20260826-approaches-entomology",
+    "title": "A new home for entomological methods and ethics",
+    "url": "https://www.royensoc.co.uk/news/approaches-in-entomology-qa/",
+    "source": "Royal Entomological Society",
+    "published": "2026-08-26",
+    "region": "uk",
+    "areas": [
+      "Insect biology & behaviour",
+      "Taxonomy & biodiversity recording",
+      "Monitoring & environmental risk"
+    ],
+    "summary": "The first papers in Approaches in Entomology introduce a fully open-access journal covering methods, research philosophies and ethics across insect science.",
+    "why": "A useful reading destination for research design, reproducibility, insect welfare and dissertation methods.",
+    "kind": "news",
+    "curated": true
+  },
+  {
+    "id": "news-20260824-devon-ants",
+    "title": "A conservation boost for two rare Devon ants",
+    "url": "https://www.buglife.org.uk/news/brighter-future-beckons-for-two-of-devons-rarest-ants/",
+    "source": "Buglife",
+    "published": "2026-08-24",
+    "region": "uk",
+    "areas": [
+      "Ecology & conservation",
+      "Taxonomy & biodiversity recording"
+    ],
+    "summary": "A three-year partnership will improve heathland habitat, establish additional colonies and monitor Narrow-headed and Erratic Ants at Devon nature reserves.",
+    "why": "Consider how habitat restoration, translocation and monitoring fit together in species recovery plans.",
+    "kind": "news",
+    "curated": true
+  },
+  {
+    "id": "news-20260814-bee-veterinary",
+    "title": "Honey bee veterinary medicine: a growing specialty",
+    "url": "https://entomologytoday.org/2026/08/14/honey-bee-veterinary-medicine-challenges-opportunities-small-growing-specialty/",
+    "source": "Entomology Today · Entomological Society of America",
+    "published": "2026-08-14",
+    "region": "global",
+    "areas": [
+      "Vectors & veterinary entomology",
+      "Pollination & beneficial insects"
+    ],
+    "summary": "A US-focused overview explores the growing role of veterinary expertise in managed honey bee health, alongside barriers in training, access and cost.",
+    "why": "Connect bee pathogens, husbandry and professional practice, while distinguishing US policy from UK arrangements.",
+    "kind": "news",
+    "curated": true
+  },
+  {
+    "id": "research-regiella-plasmid-2026",
+    "title": "Phenotypic divergence is driven by mobile genetic elements in a heritable insect symbiont",
+    "url": "https://doi.org/10.1073/pnas.2607226123",
+    "source": "PNAS",
+    "published": "2026-09-21",
+    "kind": "research",
+    "region": "global",
+    "areas": [
+      "Insect biology & behaviour",
+      "Biological control"
+    ],
+    "summary": "A mobile plasmid in the aphid symbiont Regiella was required for protection against a fungal pathogen, linking microbial evolution to differences among aphid populations.",
+    "why": "Connects insect–microbe interactions, evolutionary biology and variation in susceptibility to fungal natural enemies.",
+    "curated": true
+  },
+  {
+    "id": "research-insect-baselines-2026",
+    "title": "Ninety-year trends reveal sharpest insect declines in the mid-twentieth century",
+    "url": "https://doi.org/10.1038/s41559-026-03074-6",
+    "source": "Nature Ecology & Evolution",
+    "published": "2026-06-02",
+    "kind": "research",
+    "region": "global",
+    "areas": [
+      "Ecology & conservation",
+      "Taxonomy & biodiversity recording",
+      "Monitoring & environmental risk"
+    ],
+    "summary": "Swiss records spanning nine decades suggest that major butterfly and deadwood beetle declines preceded many modern monitoring programmes, with later trajectories differing between groups.",
+    "why": "A useful case study for interpreting biological records, shifting baselines and conservation targets.",
+    "curated": true
+  },
+  {
+    "id": "research-merseyside-pollinators-2026",
+    "title": "Pollinator functional group responses to urban land cover in Merseyside, UK",
+    "url": "https://doi.org/10.1007/s10841-026-00774-z",
+    "source": "Journal of Insect Conservation",
+    "published": "2026-04-25",
+    "kind": "research",
+    "region": "uk",
+    "areas": [
+      "Pollination & beneficial insects",
+      "Ecology & conservation",
+      "Taxonomy & biodiversity recording"
+    ],
+    "summary": "An exploratory modelling study found that predicted habitat suitability for bee and hoverfly functional groups varied across urban land cover, including some densely developed areas.",
+    "why": "Offers a UK example for discussing functional traits, species distribution models and the limits of habitat predictions.",
+    "curated": true
+  },
+  {
+    "id": "research-waggle-audience-2026",
+    "title": "The audience shapes the information content of the honey bee waggle dance",
+    "url": "https://doi.org/10.1073/pnas.2518687123",
+    "source": "PNAS",
+    "published": "2026-03-23",
+    "kind": "research",
+    "region": "global",
+    "areas": [
+      "Insect biology & behaviour",
+      "Pollination & beneficial insects"
+    ],
+    "summary": "Honey bees communicated food direction and distance less precisely when suitable dance followers were scarce, showing that the audience influences the signal.",
+    "why": "An accessible update to animal communication teaching and a good example of testing a familiar biological explanation.",
+    "curated": true
+  },
+  {
+    "id": "research-tropical-thermal-tolerance-2026",
+    "title": "Limited thermal tolerance in tropical insects and its genomic signature",
+    "url": "https://doi.org/10.1038/s41586-026-10155-w",
+    "source": "Nature",
+    "published": "2026-03-04",
+    "kind": "research",
+    "region": "global",
+    "areas": [
+      "Insect biology & behaviour",
+      "Ecology & conservation",
+      "Monitoring & environmental risk"
+    ],
+    "summary": "Measurements across approximately 2,300 tropical insect species revealed restricted scope for lowland communities to increase heat tolerance, alongside strong differences among insect lineages.",
+    "why": "Links physiological limits, evolutionary relationships and climate-change vulnerability in a broad comparative study.",
+    "curated": true
+  },
+  {
+    "id": "research-metarhizium-beet-2026",
+    "title": "Biocontrol potential of Metarhizium spp. against Myzus persicae and beet mild yellowing virus in the post-neonicotinoid era",
+    "url": "https://doi.org/10.1016/j.jip.2026.108559",
+    "source": "Journal of Invertebrate Pathology",
+    "published": "2026-02-04",
+    "kind": "research",
+    "region": "global",
+    "areas": [
+      "Biological control",
+      "Crop protection & IPM"
+    ],
+    "summary": "Controlled experiments found that Metarhizium isolates killed aphids and that fungal colonisation of sugar beet was associated with reduced beet mild yellowing virus loads.",
+    "why": "Provides a case study in fungal biocontrol while inviting discussion of strain effects and the evidence needed before field application.",
+    "curated": true
+  },
+  {
+    "id": "research-mosquito-vector-specificity-2026",
+    "title": "Mosquito–capsid interactions contribute to flavivirus vector specificity",
+    "url": "https://doi.org/10.1038/s41586-026-10100-x",
+    "source": "Nature",
+    "published": "2026-02-04",
+    "kind": "research",
+    "region": "global",
+    "areas": [
+      "Vectors & veterinary entomology",
+      "Insect biology & behaviour"
+    ],
+    "summary": "The study identified molecular interactions within mosquitoes that help explain why particular mosquito species differ in their compatibility with flaviviruses.",
+    "why": "Connects insect physiology to vector competence and shows why vector–pathogen relationships require species-specific evidence.",
+    "curated": true
+  }
+]
