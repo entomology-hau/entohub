@@ -1,29 +1,5 @@
 [
   {
-    "id": "entomology-today",
-    "name": "Entomology Today · Entomological Society of America",
-    "url": "https://entomologytoday.org/feed/",
-    "format": "rss",
-    "kind": "news",
-    "scope": "entomology",
-    "defaultAreas": [
-      "Insect biology & behaviour"
-    ],
-    "homepage": "https://entomologytoday.org/"
-  },
-  {
-    "id": "royal-entomological-society",
-    "name": "Royal Entomological Society",
-    "url": "https://www.royensoc.co.uk/feed/",
-    "format": "rss",
-    "kind": "news",
-    "scope": "entomology",
-    "defaultAreas": [
-      "Insect biology & behaviour"
-    ],
-    "homepage": "https://www.royensoc.co.uk/"
-  },
-  {
     "id": "buglife",
     "name": "Buglife",
     "url": "https://www.buglife.org.uk/news/feed/",
@@ -34,6 +10,19 @@
       "Ecology & conservation"
     ],
     "homepage": "https://www.buglife.org.uk/news/"
+  },
+  {
+    "id": "bumblebee-conservation-trust",
+    "name": "Bumblebee Conservation Trust",
+    "url": "https://www.bumblebeeconservation.org/feed/",
+    "homepage": "https://www.bumblebeeconservation.org/what-we-do/news/",
+    "format": "rss",
+    "kind": "news",
+    "scope": "entomology",
+    "defaultAreas": [
+      "Pollination & beneficial insects",
+      "Ecology & conservation"
+    ]
   },
   {
     "id": "cabi",
@@ -48,6 +37,18 @@
     "homepage": "https://blog.cabi.org/"
   },
   {
+    "id": "entomology-today",
+    "name": "Entomology Today · Entomological Society of America",
+    "url": "https://entomologytoday.org/feed/",
+    "format": "rss",
+    "kind": "news",
+    "scope": "entomology",
+    "defaultAreas": [
+      "Insect biology & behaviour"
+    ],
+    "homepage": "https://entomologytoday.org/"
+  },
+  {
     "id": "plantwiseplus",
     "name": "PlantwisePlus · CABI",
     "url": "https://blog.plantwise.org/feed/",
@@ -60,16 +61,42 @@
     "homepage": "https://blog.plantwise.org/"
   },
   {
-    "id": "ecological-entomology",
-    "name": "Ecological Entomology",
-    "url": "https://api.crossref.org/journals/1365-2311/works",
-    "format": "crossref",
-    "kind": "research",
+    "id": "royal-entomological-society",
+    "name": "Royal Entomological Society",
+    "url": "https://www.royensoc.co.uk/feed/",
+    "format": "rss",
+    "kind": "news",
     "scope": "entomology",
     "defaultAreas": [
-      "Ecology & conservation"
+      "Insect biology & behaviour"
     ],
-    "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652311"
+    "homepage": "https://www.royensoc.co.uk/"
+  },
+  {
+    "id": "applied-ecologist",
+    "name": "The Applied Ecologist · British Ecological Society",
+    "url": "https://appliedecologistsblog.com/feed/",
+    "homepage": "https://appliedecologistsblog.com/",
+    "format": "rss",
+    "kind": "news",
+    "scope": "mixed",
+    "matchTitleOnly": true,
+    "defaultAreas": [
+      "Ecology & conservation"
+    ]
+  },
+  {
+    "id": "xerces-society",
+    "name": "Xerces Society for Invertebrate Conservation",
+    "url": "https://xerces.org/rss.xml",
+    "homepage": "https://xerces.org/",
+    "format": "rss",
+    "kind": "news",
+    "scope": "mixed",
+    "defaultAreas": [
+      "Ecology & conservation",
+      "Pollination & beneficial insects"
+    ]
   },
   {
     "id": "agricultural-forest-entomology",
@@ -84,6 +111,54 @@
     "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/14619563"
   },
   {
+    "id": "biocontrol",
+    "name": "BioControl",
+    "url": "https://api.crossref.org/journals/1573-8248/works",
+    "format": "crossref",
+    "kind": "research",
+    "scope": "mixed",
+    "defaultAreas": [
+      "Biological control"
+    ],
+    "homepage": "https://link.springer.com/journal/10526"
+  },
+  {
+    "id": "biological-control",
+    "name": "Biological Control",
+    "url": "https://api.crossref.org/journals/1049-9644/works",
+    "format": "crossref",
+    "kind": "research",
+    "scope": "mixed",
+    "defaultAreas": [
+      "Biological control"
+    ],
+    "homepage": "https://www.sciencedirect.com/journal/biological-control"
+  },
+  {
+    "id": "ecological-entomology",
+    "name": "Ecological Entomology",
+    "url": "https://api.crossref.org/journals/1365-2311/works",
+    "format": "crossref",
+    "kind": "research",
+    "scope": "entomology",
+    "defaultAreas": [
+      "Ecology & conservation"
+    ],
+    "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652311"
+  },
+  {
+    "id": "environmental-entomology",
+    "name": "Environmental Entomology",
+    "url": "https://api.crossref.org/journals/1938-2936/works",
+    "format": "crossref",
+    "kind": "research",
+    "scope": "entomology",
+    "defaultAreas": [
+      "Ecology & conservation"
+    ],
+    "homepage": "https://academic.oup.com/ee"
+  },
+  {
     "id": "insect-conservation-diversity",
     "name": "Insect Conservation and Diversity",
     "url": "https://api.crossref.org/journals/1752-4598/works",
@@ -95,6 +170,102 @@
       "Taxonomy & biodiversity recording"
     ],
     "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/17524598"
+  },
+  {
+    "id": "insect-molecular-biology",
+    "name": "Insect Molecular Biology",
+    "url": "https://api.crossref.org/journals/1365-2583/works",
+    "format": "crossref",
+    "kind": "research",
+    "scope": "entomology",
+    "defaultAreas": [
+      "Insect biology & behaviour"
+    ],
+    "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652583"
+  },
+  {
+    "id": "insect-science",
+    "name": "Insect Science",
+    "url": "https://api.crossref.org/journals/1744-7917/works",
+    "format": "crossref",
+    "kind": "research",
+    "scope": "entomology",
+    "defaultAreas": [
+      "Insect biology & behaviour"
+    ],
+    "homepage": "https://onlinelibrary.wiley.com/journal/17447917"
+  },
+  {
+    "id": "insect-systematics-diversity",
+    "name": "Insect Systematics and Diversity",
+    "url": "https://api.crossref.org/journals/2399-3421/works",
+    "format": "crossref",
+    "kind": "research",
+    "scope": "entomology",
+    "defaultAreas": [
+      "Taxonomy & biodiversity recording"
+    ],
+    "homepage": "https://academic.oup.com/isd"
+  },
+  {
+    "id": "journal-economic-entomology",
+    "name": "Journal of Economic Entomology",
+    "url": "https://api.crossref.org/journals/1938-291X/works",
+    "format": "crossref",
+    "kind": "research",
+    "scope": "entomology",
+    "defaultAreas": [
+      "Crop protection & IPM"
+    ],
+    "homepage": "https://academic.oup.com/jee"
+  },
+  {
+    "id": "journal-insect-conservation",
+    "name": "Journal of Insect Conservation",
+    "url": "https://api.crossref.org/journals/1572-9753/works",
+    "format": "crossref",
+    "kind": "research",
+    "scope": "entomology",
+    "defaultAreas": [
+      "Ecology & conservation"
+    ],
+    "homepage": "https://link.springer.com/journal/10841"
+  },
+  {
+    "id": "journal-medical-entomology",
+    "name": "Journal of Medical Entomology",
+    "url": "https://api.crossref.org/journals/1938-2928/works",
+    "format": "crossref",
+    "kind": "research",
+    "scope": "entomology",
+    "defaultAreas": [
+      "Vectors & veterinary entomology"
+    ],
+    "homepage": "https://academic.oup.com/jme"
+  },
+  {
+    "id": "medical-veterinary-entomology",
+    "name": "Medical and Veterinary Entomology",
+    "url": "https://api.crossref.org/journals/1365-2915/works",
+    "format": "crossref",
+    "kind": "research",
+    "scope": "entomology",
+    "defaultAreas": [
+      "Vectors & veterinary entomology"
+    ],
+    "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652915"
+  },
+  {
+    "id": "pest-management-science",
+    "name": "Pest Management Science",
+    "url": "https://api.crossref.org/journals/1526-4998/works",
+    "format": "crossref",
+    "kind": "research",
+    "scope": "mixed",
+    "defaultAreas": [
+      "Crop protection & IPM"
+    ],
+    "homepage": "https://scijournals.onlinelibrary.wiley.com/journal/15264998"
   },
   {
     "id": "physiological-entomology",
@@ -119,41 +290,5 @@
       "Taxonomy & biodiversity recording"
     ],
     "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653113"
-  },
-  {
-    "id": "medical-veterinary-entomology",
-    "name": "Medical and Veterinary Entomology",
-    "url": "https://api.crossref.org/journals/1365-2915/works",
-    "format": "crossref",
-    "kind": "research",
-    "scope": "entomology",
-    "defaultAreas": [
-      "Vectors & veterinary entomology"
-    ],
-    "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652915"
-  },
-  {
-    "id": "insect-molecular-biology",
-    "name": "Insect Molecular Biology",
-    "url": "https://api.crossref.org/journals/1365-2583/works",
-    "format": "crossref",
-    "kind": "research",
-    "scope": "entomology",
-    "defaultAreas": [
-      "Insect biology & behaviour"
-    ],
-    "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652583"
-  },
-  {
-    "id": "biological-control",
-    "name": "Biological Control",
-    "url": "https://api.crossref.org/journals/1049-9644/works",
-    "format": "crossref",
-    "kind": "research",
-    "scope": "mixed",
-    "defaultAreas": [
-      "Biological control"
-    ],
-    "homepage": "https://www.sciencedirect.com/journal/biological-control"
   }
 ]

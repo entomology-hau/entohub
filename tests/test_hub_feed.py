@@ -1,6 +1,7 @@
 """Hub collection boundaries: publication evidence, provenance and outage behaviour."""
 import importlib.util
 import json
+from collections import Counter
 from datetime import date, datetime, timezone
 from pathlib import Path
 import unittest
@@ -76,6 +77,27 @@ class HubParseTests(unittest.TestCase):
         items = hub.parse_xml(payload, source, TODAY)
         self.assertEqual(len(items), 1)
         self.assertIn('aphid', items[0]['title'])
+
+    def test_title_only_matching_ignores_incidental_related_articles(self):
+        mixed = dict(SOURCE, scope='mixed')
+        strict = dict(mixed, matchTitleOnly=True)
+        elephant = entry('How elephants change savannah vegetation').replace(
+            '</item>', '<description>Related articles: insects and pollination.</description></item>')
+        pollinator = entry('Pollinators help restore grasslands', url='https://example.org/pollinators')
+        self.assertEqual(hub.parse_xml(rss(elephant), strict, TODAY), [])
+        self.assertEqual(len(hub.parse_xml(rss(pollinator), strict, TODAY)), 1)
+        # Established mixed feeds still inspect their descriptions by default.
+        self.assertEqual(len(hub.parse_xml(rss(elephant), mixed, TODAY)), 1)
+
+    def test_mixed_relevance_does_not_treat_fly_verbs_as_insects(self):
+        mixed = dict(SOURCE, scope='mixed')
+        aircraft = entry('A Cessna plane flies low during a wildlife survey').replace(
+            '</item>', '<description>Survey teams will fly over the study area.</description></item>')
+        self.assertEqual(hub.parse_xml(rss(aircraft), mixed, TODAY), [])
+        for insect in ('fruit flies', 'fruit fly', 'houseflies', 'tsetse', 'sandfly',
+                       'blowflies', 'blackfly', 'soldier flies'):
+            with self.subTest(insect=insect):
+                self.assertEqual(len(hub.parse_xml(rss(entry(f'Monitoring {insect}')), mixed, TODAY)), 1)
 
     def test_global_default_does_not_infer_source_location(self):
         source = dict(SOURCE, name='British Entomology', region='uk')
@@ -187,12 +209,17 @@ class HubAssemblyTests(unittest.TestCase):
         self.assertEqual(feed['sources'][0]['status'], 'error')
 
     def test_cache_from_before_sponsored_checks_is_not_republished(self):
-        item = cached_item()
-        del item['contentChecksVersion']
         def fail(_):
             raise TimeoutError('offline')
-        feed = hub.build_feed([SOURCE], [], {'items': [item]}, NOW, fail)
-        self.assertEqual(feed['items'], [])
+        for old_version in (None, hub.CONTENT_CHECKS_VERSION - 1):
+            with self.subTest(content_checks_version=old_version):
+                item = cached_item()
+                if old_version is None:
+                    del item['contentChecksVersion']
+                else:
+                    item['contentChecksVersion'] = old_version
+                feed = hub.build_feed([SOURCE], [], {'items': [item]}, NOW, fail)
+                self.assertEqual(feed['items'], [])
 
     def test_cap_keeps_all_curated(self):
         curated = [cached_item(id='curated', url='https://example.org/curated', curated=True)]
@@ -205,6 +232,106 @@ class HubAssemblyTests(unittest.TestCase):
 PERSIST_SPEC = importlib.util.spec_from_file_location('persist_feed', Path(__file__).parents[1] / 'scripts/persist_feed.py')
 persistence = importlib.util.module_from_spec(PERSIST_SPEC)
 PERSIST_SPEC.loader.exec_module(persistence)
+
+
+class BalancedRetentionTests(unittest.TestCase):
+    def assemble(self, batches, cap=120, curated=(), previous=None, order=None):
+        sources = [dict(SOURCE, id=source_id, url=f'https://example.org/feed/{source_id}')
+                   for source_id in (order or batches)]
+        payloads = {f'https://example.org/feed/{source_id}': records
+                    for source_id, records in batches.items()}
+        def fetch(url):
+            records = payloads[url]
+            if isinstance(records, Exception):
+                raise records
+            return rss(*records)
+        with patch.object(hub, 'MAX_AUTOMATIC_ITEMS', cap):
+            return hub.build_feed(sources, list(curated), previous, NOW, fetch)
+
+    def test_high_volume_recent_source_cannot_crowd_out_another_source(self):
+        batches = {
+            'busy': [entry(url=f'https://example.org/busy/{i}', published='2026-10-16')
+                     for i in range(150)],
+            'quieter': [entry(url=f'https://example.org/quieter/{i}', published='2026-09-20')
+                        for i in range(80)],
+        }
+        feed = self.assemble(batches)
+        self.assertEqual(len(feed['items']), 120)
+        self.assertEqual(Counter(i['sourceId'] for i in feed['items']), {'busy': 60, 'quieter': 60})
+
+    def test_unused_capacity_is_filled_and_empty_sources_take_no_places(self):
+        batches = {
+            'busy': [entry(url=f'https://example.org/busy/{i}') for i in range(150)],
+            'quiet': [entry(url=f'https://example.org/quiet/{i}') for i in range(2)],
+            'empty': [],
+        }
+        feed = self.assemble(batches)
+        self.assertEqual(len(feed['items']), 120)
+        self.assertEqual(Counter(i['sourceId'] for i in feed['items']), {'busy': 118, 'quiet': 2})
+
+    def test_cross_source_duplicate_does_not_consume_a_fair_turn(self):
+        shared = entry(url='https://example.org/shared', published='2026-10-16')
+        batches = {
+            'a': [shared, entry(url='https://example.org/a1', published='2026-10-14'),
+                  entry(url='https://example.org/a2', published='2026-10-12')],
+            'b': [shared, entry(url='https://example.org/b1', published='2026-10-13'),
+                  entry(url='https://example.org/b2', published='2026-10-11')],
+        }
+        feed = self.assemble(batches, cap=4)
+        self.assertEqual(Counter(i['sourceId'] for i in feed['items']), {'a': 2, 'b': 2})
+        self.assertEqual({i['url'] for i in feed['items']},
+                         {f'https://example.org/{name}' for name in ('shared', 'a1', 'b1', 'b2')})
+
+    def test_newest_items_per_source_are_displayed_chronologically(self):
+        batches = {
+            'a': [entry(url=f'https://example.org/a{day}', published=f'2026-10-{day}')
+                  for day in ('12', '10', '16')],
+            'b': [entry(url=f'https://example.org/b{day}', published=f'2026-10-{day}')
+                  for day in ('14', '09', '15')],
+        }
+        feed = self.assemble(batches, cap=4)
+        self.assertEqual([i['published'] for i in feed['items']],
+                         ['2026-10-16', '2026-10-15', '2026-10-14', '2026-10-12'])
+        self.assertEqual(Counter(i['sourceId'] for i in feed['items']), {'a': 2, 'b': 2})
+
+    def test_curated_doi_and_url_duplicates_do_not_use_automatic_capacity(self):
+        curated = [
+            cached_item(id='curated-doi', url='https://publisher.example/paper',
+                        doi='10.1234/shared', curated=True),
+            cached_item(id='curated-url', url='https://example.org/editorial', curated=True),
+        ]
+        batches = {
+            'a': [entry(url='https://doi.org/10.1234/SHARED')] +
+                 [entry(url=f'https://example.org/a{i}', published='2026-10-15') for i in range(3)],
+            'b': [entry(url='https://example.org/editorial/?utm_source=feed')] +
+                 [entry(url=f'https://example.org/b{i}', published='2026-10-15') for i in range(3)],
+        }
+        feed = self.assemble(batches, cap=4, curated=curated)
+        self.assertEqual(len(feed['items']), 6)
+        self.assertEqual({i['id'] for i in feed['items'] if i['curated']}, {'curated-doi', 'curated-url'})
+        self.assertEqual(Counter(i['sourceId'] for i in feed['items'] if not i['curated']), {'a': 2, 'b': 2})
+
+    def test_source_config_order_does_not_change_retained_items(self):
+        batches = {source_id: [entry(url=f'https://example.org/{source_id}/{i}') for i in range(4)]
+                   for source_id in ('a', 'b', 'c')}
+        forward = self.assemble(batches, cap=5, order=['a', 'b', 'c'])
+        reverse = self.assemble(batches, cap=5, order=['c', 'b', 'a'])
+        self.assertEqual(forward['items'], reverse['items'])
+
+    def test_cached_source_keeps_a_share_when_another_source_refreshes(self):
+        cached = [cached_item(id=f'cached-{i}', sourceId='cached',
+                             url=f'https://example.org/cached/{i}', published='2026-10-15')
+                  for i in range(3)]
+        previous = {'items': cached, 'sources': [{'id': 'cached', 'lastSuccess': '2026-10-15T12:00:00Z'}]}
+        batches = {
+            'fresh': [entry(url=f'https://example.org/fresh/{i}') for i in range(10)],
+            'cached': TimeoutError('offline'),
+        }
+        feed = self.assemble(batches, cap=4, previous=previous)
+        self.assertEqual(Counter(i['sourceId'] for i in feed['items']), {'fresh': 2, 'cached': 2})
+        status = next(s for s in feed['sources'] if s['id'] == 'cached')
+        self.assertEqual(status['status'], 'cached')
+        self.assertEqual(status['lastSuccess'], '2026-10-15T12:00:00Z')
 
 
 class PersistenceTests(unittest.TestCase):

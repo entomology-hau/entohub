@@ -1,7 +1,26 @@
 {
-  "updatedAt": "2026-10-21T09:23:48Z",
-  "lastSuccessfulUpdate": "2026-10-21T09:23:48Z",
+  "updatedAt": "2026-10-21T10:05:01Z",
+  "lastSuccessfulUpdate": "2026-10-21T10:05:01Z",
   "items": [
+    {
+      "id": "auto-a3409cd85f8e8f72",
+      "kind": "research",
+      "title": "The entomopathogenic fungus Metarhizium anisopliae (Hypocreales: Clavicipitaceae) infection of Solenopsis invicta (Hymenoptera: Formicidae) and transcriptomic identification of host targets",
+      "url": "https://doi.org/10.1007/s10526-026-10441-6",
+      "source": "BioControl",
+      "sourceId": "biocontrol",
+      "published": "2026-10-20",
+      "areas": [
+        "Biological control"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1007/s10526-026-10441-6"
+    },
     {
       "id": "auto-2960b9a4caa47ab1",
       "kind": "news",
@@ -18,25 +37,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
-    },
-    {
-      "id": "auto-2ae4cdb7d5d3c8ef",
-      "kind": "news",
-      "title": "Lifetime’s Work on Australian Moths Recognized with Prestigious Whitley Award",
-      "url": "https://www.royensoc.co.uk/news/lifetimes-work-on-australian-moths-recognized-with-prestigious-whitley-award",
-      "source": "Royal Entomological Society",
-      "sourceId": "royal-entomological-society",
-      "published": "2026-10-20",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
+      "contentChecksVersion": 2
     },
     {
       "id": "auto-3411a159b01abb4e",
@@ -55,8 +56,123 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/imb.70069"
+    },
+    {
+      "id": "auto-f1d7bfaea4109ebb",
+      "kind": "research",
+      "title": "Family-specific reassembly of ground-dwelling beetles along an alfalfa-field abandonment gradient in semiarid forage agroecosystems",
+      "url": "https://doi.org/10.1007/s10841-026-00839-z",
+      "source": "Journal of Insect Conservation",
+      "sourceId": "journal-insect-conservation",
+      "published": "2026-10-20",
+      "areas": [
+        "Ecology & conservation"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1007/s10841-026-00839-z"
+    },
+    {
+      "id": "auto-2ae4cdb7d5d3c8ef",
+      "kind": "news",
+      "title": "Lifetime’s Work on Australian Moths Recognized with Prestigious Whitley Award",
+      "url": "https://www.royensoc.co.uk/news/lifetimes-work-on-australian-moths-recognized-with-prestigious-whitley-award",
+      "source": "Royal Entomological Society",
+      "sourceId": "royal-entomological-society",
+      "published": "2026-10-20",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2
+    },
+    {
+      "id": "auto-b52c20322c046bce",
+      "kind": "research",
+      "title": "Riparian corridors structure flower-visiting insect communities in expanding vineyard landscapes, with opposing responses among taxonomic groups",
+      "url": "https://doi.org/10.1007/s10841-026-00838-0",
+      "source": "Journal of Insect Conservation",
+      "sourceId": "journal-insect-conservation",
+      "published": "2026-10-20",
+      "areas": [
+        "Ecology & conservation",
+        "Taxonomy & biodiversity recording"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1007/s10841-026-00838-0"
+    },
+    {
+      "id": "auto-bb6179e9b4cd8953",
+      "kind": "research",
+      "title": "Combining essential oils and kaolin clay increased repellency against Bemisia tabaci (Hemiptera: Aleyrodidae): implications for management",
+      "url": "https://doi.org/10.1093/jee/toag314",
+      "source": "Journal of Economic Entomology",
+      "sourceId": "journal-economic-entomology",
+      "published": "2026-10-19",
+      "areas": [
+        "Crop protection & IPM"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jee/toag314"
+    },
+    {
+      "id": "auto-f86a73da17cd04f8",
+      "kind": "research",
+      "title": "Cascading bottom‐up effects of invasive alien plants on the parasitoid Aphidius colemani mediated by the aphid host Aphis fabae",
+      "url": "https://doi.org/10.1002/ps.71406",
+      "source": "Pest Management Science",
+      "sourceId": "pest-management-science",
+      "published": "2026-10-19",
+      "areas": [
+        "Crop protection & IPM",
+        "Biological control"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1002/ps.71406"
+    },
+    {
+      "id": "auto-5c7e9cca67153043",
+      "kind": "research",
+      "title": "Oxathiazepane compounds as potential insecticidal agents",
+      "url": "https://doi.org/10.1002/ps.71403",
+      "source": "Pest Management Science",
+      "sourceId": "pest-management-science",
+      "published": "2026-10-19",
+      "areas": [
+        "Crop protection & IPM"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1002/ps.71403"
     },
     {
       "id": "auto-e131dcdb8be4a472",
@@ -74,7 +190,26 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
+      "contentChecksVersion": 2
+    },
+    {
+      "id": "auto-41d958b8c584d7dd",
+      "kind": "research",
+      "title": "Epigenetic remodeling of DNA methylation is associated with pupal diapause regulation in Helicoverpa armigera",
+      "url": "https://doi.org/10.1111/1744-7917.70379",
+      "source": "Insect Science",
+      "sourceId": "insect-science",
+      "published": "2026-10-18",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1111/1744-7917.70379"
     },
     {
       "id": "auto-b2c5d9e1eafa02b6",
@@ -92,7 +227,45 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
+      "contentChecksVersion": 2
+    },
+    {
+      "id": "auto-0768fa59be8c8e1e",
+      "kind": "research",
+      "title": "Search for Tenebrio molitor (Coleoptera: Tenebrionidae) behaviorally active compounds in Aspergillus flavus (Eurotiales: Aspergillaceae)-infected grain",
+      "url": "https://doi.org/10.1093/jee/toag313",
+      "source": "Journal of Economic Entomology",
+      "sourceId": "journal-economic-entomology",
+      "published": "2026-10-16",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jee/toag313"
+    },
+    {
+      "id": "auto-dd033d27d15e073c",
+      "kind": "research",
+      "title": "Reduced body size and ornamentation in a re-established population of a critically endangered dragonfly",
+      "url": "https://doi.org/10.1007/s10841-026-00837-1",
+      "source": "Journal of Insect Conservation",
+      "sourceId": "journal-insect-conservation",
+      "published": "2026-10-16",
+      "areas": [
+        "Ecology & conservation"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1007/s10841-026-00837-1"
     },
     {
       "id": "news-20261015-pollinator-flowers",
@@ -112,25 +285,6 @@
       "curated": true
     },
     {
-      "id": "auto-b0a928522aaeb6eb",
-      "kind": "news",
-      "title": "Announcement: New Editors-in-Chief for Agriculture and Forest Entomology",
-      "url": "https://www.royensoc.co.uk/news/announcement-new-editors-in-chief-for-agriculture-forest-entomology",
-      "source": "Royal Entomological Society",
-      "sourceId": "royal-entomological-society",
-      "published": "2026-10-15",
-      "areas": [
-        "Crop protection & IPM",
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
-    },
-    {
       "id": "auto-6d9dc5d1a8cbe4f7",
       "kind": "research",
       "title": "Potential range shifts of the morphotypes within the Anastrepha fraterculus complex (Diptera: Tephritidae): Implications under climate change scenarios",
@@ -146,8 +300,27 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/afe.70093"
+    },
+    {
+      "id": "auto-4979ffb85dffe1cd",
+      "kind": "news",
+      "title": "Scottish Parliament motion highlights importance of biodiversity monitoring",
+      "url": "https://www.bumblebeeconservation.org/news/scottish-parliament-motion-highlights-importance-of-biodiversity-monitoring",
+      "source": "Bumblebee Conservation Trust",
+      "sourceId": "bumblebee-conservation-trust",
+      "published": "2026-10-15",
+      "areas": [
+        "Taxonomy & biodiversity recording",
+        "Monitoring & environmental risk"
+      ],
+      "region": "uk",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2
     },
     {
       "id": "auto-2f0e189bd36b2192",
@@ -165,8 +338,67 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/afe.70091"
+    },
+    {
+      "id": "auto-757aa6fed64405eb",
+      "kind": "research",
+      "title": "Evaluating a CRISPR-based sterile male for Drosophila suzukii (Diptera: Drosophilidae) control",
+      "url": "https://doi.org/10.1093/jee/toag315",
+      "source": "Journal of Economic Entomology",
+      "sourceId": "journal-economic-entomology",
+      "published": "2026-10-15",
+      "areas": [
+        "Crop protection & IPM"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jee/toag315"
+    },
+    {
+      "id": "auto-b0a928522aaeb6eb",
+      "kind": "news",
+      "title": "Announcement: New Editors-in-Chief for Agriculture and Forest Entomology",
+      "url": "https://www.royensoc.co.uk/news/announcement-new-editors-in-chief-for-agriculture-forest-entomology",
+      "source": "Royal Entomological Society",
+      "sourceId": "royal-entomological-society",
+      "published": "2026-10-15",
+      "areas": [
+        "Crop protection & IPM",
+        "Ecology & conservation"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2
+    },
+    {
+      "id": "auto-2d1fde759e958d3f",
+      "kind": "research",
+      "title": "The biostimulants and NPK fertilizer affect the physiological and biochemical responses of cucumber plants and the ecological fitness parameters of Aphis gossypii (Hemiptera: Aphididae)",
+      "url": "https://doi.org/10.1093/jee/toag260",
+      "source": "Journal of Economic Entomology",
+      "sourceId": "journal-economic-entomology",
+      "published": "2026-10-15",
+      "areas": [
+        "Insect biology & behaviour",
+        "Crop protection & IPM",
+        "Ecology & conservation"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jee/toag260"
     },
     {
       "id": "news-20261014-vietnam-ipm",
@@ -185,6 +417,25 @@
       "curated": true
     },
     {
+      "id": "auto-fdea62cd4ba0274f",
+      "kind": "research",
+      "title": "Form, function, and evolution of worker–worker social carrying in ants",
+      "url": "https://doi.org/10.1111/1744-7917.70377",
+      "source": "Insect Science",
+      "sourceId": "insect-science",
+      "published": "2026-10-14",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1111/1744-7917.70377"
+    },
+    {
       "id": "auto-e505e7a40fca4733",
       "kind": "news",
       "title": "Putting Weeds to Work: A Circular Agriculture Solution for Insect Farming",
@@ -200,7 +451,179 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
+      "contentChecksVersion": 2
+    },
+    {
+      "id": "auto-ecd508d531012dc5",
+      "kind": "research",
+      "title": "On‐farm comparison of aerial and chemigation application methods for Striacosta albicosta (lepidoptera: Noctuidae) management in corn using pyrethroid and diamide insecticides",
+      "url": "https://doi.org/10.1002/ps.71387",
+      "source": "Pest Management Science",
+      "sourceId": "pest-management-science",
+      "published": "2026-10-14",
+      "areas": [
+        "Crop protection & IPM"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1002/ps.71387"
+    },
+    {
+      "id": "auto-d7019bcc1b55f799",
+      "kind": "research",
+      "title": "Catmint (Nepeta cataria L.) as a valuable floral resource: diversity and temporal dynamics of insect floral visitors in a subtropical agroecosystem",
+      "url": "https://doi.org/10.1007/s10841-026-00836-2",
+      "source": "Journal of Insect Conservation",
+      "sourceId": "journal-insect-conservation",
+      "published": "2026-10-14",
+      "areas": [
+        "Ecology & conservation"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1007/s10841-026-00836-2"
+    },
+    {
+      "id": "auto-8037be51b660d054",
+      "kind": "research",
+      "title": "NPF and sNPF can regulate lipid metabolism to prevent oxidative imbalance in the brown planthopper under elevated CO 2",
+      "url": "https://doi.org/10.1002/ps.71367",
+      "source": "Pest Management Science",
+      "sourceId": "pest-management-science",
+      "published": "2026-10-14",
+      "areas": [
+        "Insect biology & behaviour",
+        "Crop protection & IPM"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1002/ps.71367"
+    },
+    {
+      "id": "auto-b7cd52f4ec51eaa2",
+      "kind": "research",
+      "title": "The effects of daily fluctuating low-oxygen conditions on life table parameters of Tribolium castaneum (Coleoptera: Tenebrionidae) and their subsequent generations in controlled atmospheres",
+      "url": "https://doi.org/10.1093/jee/toag309",
+      "source": "Journal of Economic Entomology",
+      "sourceId": "journal-economic-entomology",
+      "published": "2026-10-14",
+      "areas": [
+        "Crop protection & IPM"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jee/toag309"
+    },
+    {
+      "id": "auto-62d14f5c81864c57",
+      "kind": "research",
+      "title": "Supporting the implementation of a conservation action plan for three sympatric hoverflies",
+      "url": "https://doi.org/10.1007/s10841-026-00835-3",
+      "source": "Journal of Insect Conservation",
+      "sourceId": "journal-insect-conservation",
+      "published": "2026-10-14",
+      "areas": [
+        "Ecology & conservation",
+        "Pollination & beneficial insects"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1007/s10841-026-00835-3"
+    },
+    {
+      "id": "auto-403a1a69056e8d8e",
+      "kind": "research",
+      "title": "Insecticide susceptibility of brown planthopper ( Nilaparvata lugens ) and white‐backed planthopper ( Sogatella furcifera ) in Vietnam and Japan to triflumezopyrim and other insecticides",
+      "url": "https://doi.org/10.1002/ps.71383",
+      "source": "Pest Management Science",
+      "sourceId": "pest-management-science",
+      "published": "2026-10-14",
+      "areas": [
+        "Crop protection & IPM"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1002/ps.71383"
+    },
+    {
+      "id": "auto-85e2c0a3a53c94c1",
+      "kind": "research",
+      "title": "Sustainable and affordable pest control: In silico study and toxicological effects of black soldier fly, Hermetia illucens (Diptera: Stratiomyidae), oil, and its nanoemulsion against Agrotis ipsilon (Lepidoptera: Noctuidae) larvae",
+      "url": "https://doi.org/10.1093/jee/toag294",
+      "source": "Journal of Economic Entomology",
+      "sourceId": "journal-economic-entomology",
+      "published": "2026-10-14",
+      "areas": [
+        "Crop protection & IPM"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jee/toag294"
+    },
+    {
+      "id": "auto-948a176cb8d7d719",
+      "kind": "news",
+      "title": "Rare bumblebee recorded at historic London site",
+      "url": "https://www.bumblebeeconservation.org/news/rare-bumblebee-recorded-at-historic-london-site",
+      "source": "Bumblebee Conservation Trust",
+      "sourceId": "bumblebee-conservation-trust",
+      "published": "2026-10-13",
+      "areas": [
+        "Pollination & beneficial insects"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2
+    },
+    {
+      "id": "auto-f73d9e9a6c8b1ed4",
+      "kind": "research",
+      "title": "Divergent migratory strategies along the East Asian insect flyway: A trade‐off between flight power and atmospheric dependence",
+      "url": "https://doi.org/10.1111/1744-7917.70376",
+      "source": "Insect Science",
+      "sourceId": "insect-science",
+      "published": "2026-10-13",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1111/1744-7917.70376"
     },
     {
       "id": "auto-6244030c94ae8cd4",
@@ -218,25 +641,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
-    },
-    {
-      "id": "auto-9808d48e8c7a59ee",
-      "kind": "news",
-      "title": "Policy and Public Affairs News – Q3 2026",
-      "url": "https://www.royensoc.co.uk/news/policy-news-q3-2026",
-      "source": "Royal Entomological Society",
-      "sourceId": "royal-entomological-society",
-      "published": "2026-10-12",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
+      "contentChecksVersion": 2
     },
     {
       "id": "auto-0cc866f64de71708",
@@ -255,7 +660,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/icad.70143"
     },
     {
@@ -274,8 +679,46 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/mve.70123"
+    },
+    {
+      "id": "auto-9808d48e8c7a59ee",
+      "kind": "news",
+      "title": "Policy and Public Affairs News – Q3 2026",
+      "url": "https://www.royensoc.co.uk/news/policy-news-q3-2026",
+      "source": "Royal Entomological Society",
+      "sourceId": "royal-entomological-society",
+      "published": "2026-10-12",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2
+    },
+    {
+      "id": "auto-fcb3f7d8f7b2300d",
+      "kind": "research",
+      "title": "BdPiwi is essential for gametogenesis and post‐embryonic development in the oriental fruit fly, Bactrocera dorsalis",
+      "url": "https://doi.org/10.1002/ps.71378",
+      "source": "Pest Management Science",
+      "sourceId": "pest-management-science",
+      "published": "2026-10-12",
+      "areas": [
+        "Insect biology & behaviour",
+        "Crop protection & IPM"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1002/ps.71378"
     },
     {
       "id": "auto-3ada896d0f6da5c6",
@@ -293,27 +736,8 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/een.70153"
-    },
-    {
-      "id": "auto-1189b0d7f7f5c96d",
-      "kind": "research",
-      "title": "Global climatic suitability and future distribution of Hypsipyla grandella : Implications for Meliaceae under climate change",
-      "url": "https://doi.org/10.1111/afe.70092",
-      "source": "Agricultural and Forest Entomology",
-      "sourceId": "agricultural-forest-entomology",
-      "published": "2026-10-10",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/afe.70092"
     },
     {
       "id": "auto-b2adf80f3b694344",
@@ -331,7 +755,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/phen.70069"
     },
     {
@@ -350,35 +774,17 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/mve.70124"
     },
     {
-      "id": "auto-c303e6c1e9118168",
-      "kind": "news",
-      "title": "New Respirometry Method Could Expand Studies of Insect Thermal Biology",
-      "url": "https://entomologytoday.org/2026/10/09/respirometry-method-studies-insect-thermal-biology",
-      "source": "Entomology Today · Entomological Society of America",
-      "sourceId": "entomology-today",
-      "published": "2026-10-09",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
-    },
-    {
-      "id": "auto-97b067bc216efafb",
+      "id": "auto-1189b0d7f7f5c96d",
       "kind": "research",
-      "title": "Dung beetle declines merit global attention",
-      "url": "https://doi.org/10.1111/icad.70152",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-10-09",
+      "title": "Global climatic suitability and future distribution of Hypsipyla grandella : Implications for Meliaceae under climate change",
+      "url": "https://doi.org/10.1111/afe.70092",
+      "source": "Agricultural and Forest Entomology",
+      "sourceId": "agricultural-forest-entomology",
+      "published": "2026-10-10",
       "areas": [
         "Ecology & conservation"
       ],
@@ -387,8 +793,8 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70152"
+      "contentChecksVersion": 2,
+      "doi": "10.1111/afe.70092"
     },
     {
       "id": "auto-afeee40135899db8",
@@ -406,8 +812,27 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/syen.70072"
+    },
+    {
+      "id": "auto-97b067bc216efafb",
+      "kind": "research",
+      "title": "Dung beetle declines merit global attention",
+      "url": "https://doi.org/10.1111/icad.70152",
+      "source": "Insect Conservation and Diversity",
+      "sourceId": "insect-conservation-diversity",
+      "published": "2026-10-09",
+      "areas": [
+        "Ecology & conservation"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1111/icad.70152"
     },
     {
       "id": "auto-9755226c7edd5b8a",
@@ -426,8 +851,45 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/mve.70119"
+    },
+    {
+      "id": "auto-c303e6c1e9118168",
+      "kind": "news",
+      "title": "New Respirometry Method Could Expand Studies of Insect Thermal Biology",
+      "url": "https://entomologytoday.org/2026/10/09/respirometry-method-studies-insect-thermal-biology",
+      "source": "Entomology Today · Entomological Society of America",
+      "sourceId": "entomology-today",
+      "published": "2026-10-09",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2
+    },
+    {
+      "id": "auto-e6c9dfdd30bd71fb",
+      "kind": "research",
+      "title": "Harnessing bacterial symbionts of beetles for the valorization of lignin into value‐added byproducts: Recent advances and future perspectives",
+      "url": "https://doi.org/10.1111/1744-7917.70378",
+      "source": "Insect Science",
+      "sourceId": "insect-science",
+      "published": "2026-10-09",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1111/1744-7917.70378"
     },
     {
       "id": "auto-0b105e507f9cd829",
@@ -445,8 +907,46 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/mve.70121"
+    },
+    {
+      "id": "auto-77f869d448f03179",
+      "kind": "research",
+      "title": "Issue Information",
+      "url": "https://doi.org/10.1111/1744-7917.70358",
+      "source": "Insect Science",
+      "sourceId": "insect-science",
+      "published": "2026-10-09",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1111/1744-7917.70358"
+    },
+    {
+      "id": "auto-486bf05ba8d64551",
+      "kind": "research",
+      "title": "BmSNX20 restricts Bombyx mori nucleopolyhedrovirus infection and is associated with autophagy‐mediated antiviral immunity",
+      "url": "https://doi.org/10.1111/1744-7917.70368",
+      "source": "Insect Science",
+      "sourceId": "insect-science",
+      "published": "2026-10-09",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1111/1744-7917.70368"
     },
     {
       "id": "news-20261008-ecuador-pesticide-risks",
@@ -481,7 +981,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/afe.70085"
     },
     {
@@ -500,7 +1000,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/mve.70122"
     },
     {
@@ -519,7 +1019,26 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
+      "contentChecksVersion": 2
+    },
+    {
+      "id": "auto-9635d90859737f83",
+      "kind": "research",
+      "title": "Evaluating the post-release survival of the critically endangered Poweshiek skipperling, Oarisma poweshiek, in Michigan",
+      "url": "https://doi.org/10.1007/s10841-026-00833-5",
+      "source": "Journal of Insect Conservation",
+      "sourceId": "journal-insect-conservation",
+      "published": "2026-10-07",
+      "areas": [
+        "Ecology & conservation"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1007/s10841-026-00833-5"
     },
     {
       "id": "auto-5cc406d3bb3d2b31",
@@ -537,8 +1056,26 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/mve.70104"
+    },
+    {
+      "id": "auto-a0d99af95eaa6438",
+      "kind": "news",
+      "title": "How Xerces is Improving the Supply of Native Plants for Pollinators",
+      "url": "https://xerces.org/news/organizational-news/how-xerces-is-improving-supply-of-native-plants-for-pollinators",
+      "source": "Xerces Society for Invertebrate Conservation",
+      "sourceId": "xerces-society",
+      "published": "2026-10-06",
+      "areas": [
+        "Pollination & beneficial insects"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2
     },
     {
       "id": "auto-e6243bdfd54be31a",
@@ -556,27 +1093,8 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/afe.70089"
-    },
-    {
-      "id": "auto-9a10fd24ff1fc892",
-      "kind": "research",
-      "title": "Diapausing adult female mosquitoes (Diptera: Culicidae) in overwintering sites in Estonia in 2023–2024: Species composition and variation",
-      "url": "https://doi.org/10.1111/mve.70118",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-10-06",
-      "areas": [
-        "Vectors & veterinary entomology"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70118"
     },
     {
       "id": "auto-5952cda968ff3089",
@@ -594,26 +1112,8 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/imb.70068"
-    },
-    {
-      "id": "auto-aa39a48c682e66b4",
-      "kind": "news",
-      "title": "A Cross-Border Problem: Modeling New World Screwworm’s South American Range",
-      "url": "https://entomologytoday.org/2026/10/02/cross-border-problem-modeling-new-world-screwworm-south-america-range",
-      "source": "Entomology Today · Entomological Society of America",
-      "sourceId": "entomology-today",
-      "published": "2026-10-02",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
     },
     {
       "id": "auto-1ad752b86dc24d44",
@@ -631,27 +1131,26 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/imb.70067"
     },
     {
-      "id": "auto-694e42f96c41f297",
-      "kind": "research",
-      "title": "Interactions of land use and climate change disproportionately impact Lepidoptera of the five major insect orders",
-      "url": "https://doi.org/10.1111/icad.70149",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-10-01",
+      "id": "auto-aa39a48c682e66b4",
+      "kind": "news",
+      "title": "A Cross-Border Problem: Modeling New World Screwworm’s South American Range",
+      "url": "https://entomologytoday.org/2026/10/02/cross-border-problem-modeling-new-world-screwworm-south-america-range",
+      "source": "Entomology Today · Entomological Society of America",
+      "sourceId": "entomology-today",
+      "published": "2026-10-02",
       "areas": [
-        "Ecology & conservation"
+        "Insect biology & behaviour"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70149"
+      "contentChecksVersion": 2
     },
     {
       "id": "auto-d1ed8085a3cb65b5",
@@ -669,45 +1168,27 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/icad.70148"
     },
     {
-      "id": "auto-b3492e720542575f",
-      "kind": "news",
-      "title": "Reading the Rainbow: Butterfly Color Signals Combine UV, Visible Light",
-      "url": "https://entomologytoday.org/2026/09/30/butterfly-color-signals-combine-ultraviolet-visible-light",
-      "source": "Entomology Today · Entomological Society of America",
-      "sourceId": "entomology-today",
-      "published": "2026-09-30",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
-    },
-    {
-      "id": "auto-c8a98a53ac302d21",
+      "id": "auto-694e42f96c41f297",
       "kind": "research",
-      "title": "A global assessment of the viruses transmitted by the peach‐potato aphid ( Myzus persicae )",
-      "url": "https://doi.org/10.1111/afe.70086",
-      "source": "Agricultural and Forest Entomology",
-      "sourceId": "agricultural-forest-entomology",
-      "published": "2026-09-30",
+      "title": "Interactions of land use and climate change disproportionately impact Lepidoptera of the five major insect orders",
+      "url": "https://doi.org/10.1111/icad.70149",
+      "source": "Insect Conservation and Diversity",
+      "sourceId": "insect-conservation-diversity",
+      "published": "2026-10-01",
       "areas": [
-        "Crop protection & IPM"
+        "Ecology & conservation"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/afe.70086"
+      "contentChecksVersion": 2,
+      "doi": "10.1111/icad.70149"
     },
     {
       "id": "auto-70950622861e13ef",
@@ -726,7 +1207,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/syen.70071"
     },
     {
@@ -745,67 +1226,8 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/syen.70054"
-    },
-    {
-      "id": "auto-db7765a68e2dcfdd",
-      "kind": "research",
-      "title": "Diversity and seasonal dynamics of mosquitoes in urban water drainage systems: Insights into sanitary relevant species in Salta, Argentina",
-      "url": "https://doi.org/10.1111/mve.70115",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-09-30",
-      "areas": [
-        "Ecology & conservation",
-        "Vectors & veterinary entomology"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70115"
-    },
-    {
-      "id": "auto-a66ee6852982f504",
-      "kind": "research",
-      "title": "Head lice among Greek schoolchildren: Prevalence, impact of the COVID ‐19 pandemic and parental beliefs",
-      "url": "https://doi.org/10.1111/mve.70120",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-09-30",
-      "areas": [
-        "Vectors & veterinary entomology"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70120"
-    },
-    {
-      "id": "auto-18c80fb6b64f0273",
-      "kind": "research",
-      "title": "Insecticide resistance in Aedes aegypti across sub‐Saharan Africa: An overview and perspectives for effective arbovirus control",
-      "url": "https://doi.org/10.1111/mve.70113",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-09-30",
-      "areas": [
-        "Crop protection & IPM",
-        "Vectors & veterinary entomology"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70113"
     },
     {
       "id": "auto-2d10af92c3010a1c",
@@ -823,45 +1245,64 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/imb.70064"
     },
     {
-      "id": "auto-ed1fd4375836a42d",
-      "kind": "news",
-      "title": "Deep Work in the Wild: Making the Most of Station Life",
-      "url": "https://entomologytoday.org/2026/09/29/deep-work-wild-making-most-research-station-life-students",
-      "source": "Entomology Today · Entomological Society of America",
-      "sourceId": "entomology-today",
-      "published": "2026-09-29",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
-    },
-    {
-      "id": "auto-32e1753bf5f0c0b6",
+      "id": "auto-c8a98a53ac302d21",
       "kind": "research",
-      "title": "Biology, ecology and dynamics of Deborrea malgassa (Heylarts 1884) (Lepidoptera: Psychidae), the main threat to apple Malus domestica Borkh growing in Madagascar",
-      "url": "https://doi.org/10.1111/afe.70087",
+      "title": "A global assessment of the viruses transmitted by the peach‐potato aphid ( Myzus persicae )",
+      "url": "https://doi.org/10.1111/afe.70086",
       "source": "Agricultural and Forest Entomology",
       "sourceId": "agricultural-forest-entomology",
-      "published": "2026-09-28",
+      "published": "2026-09-30",
       "areas": [
-        "Ecology & conservation"
+        "Crop protection & IPM"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/afe.70087"
+      "contentChecksVersion": 2,
+      "doi": "10.1111/afe.70086"
+    },
+    {
+      "id": "auto-1f238c3cb6486329",
+      "kind": "news",
+      "title": "Going the extra mile: environmental data collected by citizen scientists help shape new models of UK pollinating insect trends",
+      "url": "https://appliedecologistsblog.com/2026/09/29/going-the-extra-mile-environmental-data-collected-by-citizen-scientists-help-shape-new-models-of-uk-pollinating-insect-trends",
+      "source": "The Applied Ecologist · British Ecological Society",
+      "sourceId": "applied-ecologist",
+      "published": "2026-09-29",
+      "areas": [
+        "Pollination & beneficial insects"
+      ],
+      "region": "uk",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2
+    },
+    {
+      "id": "auto-f4f98302dd3caced",
+      "kind": "research",
+      "title": "Integration of inherited sterility and a larval parasitoid to manage Tuta absoluta",
+      "url": "https://doi.org/10.1007/s10526-026-10436-3",
+      "source": "BioControl",
+      "sourceId": "biocontrol",
+      "published": "2026-09-29",
+      "areas": [
+        "Biological control"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1007/s10526-026-10436-3"
     },
     {
       "id": "auto-71610e340b083303",
@@ -879,7 +1320,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/phen.70065"
     },
     {
@@ -898,7 +1339,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/phen.70067"
     },
     {
@@ -917,7 +1358,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/phen.70068"
     },
     {
@@ -937,8 +1378,27 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/imb.70065"
+    },
+    {
+      "id": "auto-387943aaa1a7fc84",
+      "kind": "research",
+      "title": "Bumble bees alter diet breadth but maintain pollen macronutrient levels in response to varying floral availability in managed timberlands",
+      "url": "https://doi.org/10.1111/icad.70142",
+      "source": "Insect Conservation and Diversity",
+      "sourceId": "insect-conservation-diversity",
+      "published": "2026-09-26",
+      "areas": [
+        "Pollination & beneficial insects"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1111/icad.70142"
     },
     {
       "id": "auto-1238628de30a5d9b",
@@ -957,27 +1417,8 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/icad.70139"
-    },
-    {
-      "id": "auto-387943aaa1a7fc84",
-      "kind": "research",
-      "title": "Bumble bees alter diet breadth but maintain pollen macronutrient levels in response to varying floral availability in managed timberlands",
-      "url": "https://doi.org/10.1111/icad.70142",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-09-26",
-      "areas": [
-        "Pollination & beneficial insects"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70142"
     },
     {
       "id": "auto-239fbd0b2e4ea5a3",
@@ -995,7 +1436,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/imb.70066"
     },
     {
@@ -1015,33 +1456,13 @@
       "curated": true
     },
     {
-      "id": "auto-1c54cdf316b0fd16",
-      "kind": "research",
-      "title": "Combined effects of the landscape and crop management on ant communities",
-      "url": "https://doi.org/10.1111/afe.70088",
-      "source": "Agricultural and Forest Entomology",
-      "sourceId": "agricultural-forest-entomology",
-      "published": "2026-09-25",
-      "areas": [
-        "Crop protection & IPM",
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/afe.70088"
-    },
-    {
-      "id": "auto-4a0e15f01d4c0061",
-      "kind": "research",
-      "title": "Climatic and density‐dependent drivers of population dynamics in a hazardous urban scorpion species over seven years",
-      "url": "https://doi.org/10.1111/mve.70117",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-09-25",
+      "id": "auto-2953e456bf170ba7",
+      "kind": "news",
+      "title": "Supporting Farmers with Conservation Innovation Grant Field Days",
+      "url": "https://xerces.org/news/organizational-news/supporting-farmers-with-conservation-innovation-grant-field-days",
+      "source": "Xerces Society for Invertebrate Conservation",
+      "sourceId": "xerces-society",
+      "published": "2026-09-23",
       "areas": [
         "Ecology & conservation"
       ],
@@ -1050,8 +1471,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70117"
+      "contentChecksVersion": 2
     },
     {
       "id": "auto-a99d024d99ba3a6f",
@@ -1069,18 +1489,19 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/een.70151"
     },
     {
-      "id": "auto-eb2eedbe4ad5b48c",
-      "kind": "research",
-      "title": "Roadside pollinator populations and the negative impact of intensive roadside vegetation maintenance",
-      "url": "https://doi.org/10.1111/icad.70144",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
+      "id": "auto-be7e56669e3ac125",
+      "kind": "news",
+      "title": "Bumblebee Conservation Trust leads major national effort to restore threatened Moss carder bumblebee",
+      "url": "https://www.bumblebeeconservation.org/news/bumblebee-conservation-trust-leads-major-national-effort-to-restore-threatened-moss-carder-bumblebee",
+      "source": "Bumblebee Conservation Trust",
+      "sourceId": "bumblebee-conservation-trust",
       "published": "2026-09-22",
       "areas": [
+        "Ecology & conservation",
         "Pollination & beneficial insects"
       ],
       "region": "global",
@@ -1088,27 +1509,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70144"
-    },
-    {
-      "id": "auto-450830e9fa59aabf",
-      "kind": "research",
-      "title": "Does topography matter in the canopy? Spatial variation of ant assemblages across vertical and horizontal gradients",
-      "url": "https://doi.org/10.1111/icad.70146",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-09-22",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70146"
+      "contentChecksVersion": 2
     },
     {
       "id": "research-regiella-plasmid-2026",
@@ -1142,46 +1543,8 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/syen.70070"
-    },
-    {
-      "id": "auto-4e1bbe3755cad3fa",
-      "kind": "research",
-      "title": "Hippobosca equina as an emerging threat in northern temperate zones: Species distribution modelling under climate change",
-      "url": "https://doi.org/10.1111/mve.70116",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-09-21",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70116"
-    },
-    {
-      "id": "auto-b6172af015c4f341",
-      "kind": "research",
-      "title": "Evaluation of ovitraps of different materials to monitor the seasonal activity of co‐occurring Aedes aegypti and Aedes albopictus",
-      "url": "https://doi.org/10.1111/mve.70114",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-09-21",
-      "areas": [
-        "Monitoring & environmental risk"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70114"
     },
     {
       "id": "auto-184852dcdfdf98c2",
@@ -1199,27 +1562,8 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/een.70150"
-    },
-    {
-      "id": "auto-71323ad174f498a5",
-      "kind": "research",
-      "title": "Population‐specific gene expression patterns underlying differential sensitivity to deltamethrin in Culex pipiens in Blida Province, Northern Algeria",
-      "url": "https://doi.org/10.1111/phen.70064",
-      "source": "Physiological Entomology",
-      "sourceId": "physiological-entomology",
-      "published": "2026-09-18",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/phen.70064"
     },
     {
       "id": "auto-cb41ccbb4cc4cda5",
@@ -1237,8 +1581,27 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/phen.70066"
+    },
+    {
+      "id": "auto-71323ad174f498a5",
+      "kind": "research",
+      "title": "Population‐specific gene expression patterns underlying differential sensitivity to deltamethrin in Culex pipiens in Blida Province, Northern Algeria",
+      "url": "https://doi.org/10.1111/phen.70064",
+      "source": "Physiological Entomology",
+      "sourceId": "physiological-entomology",
+      "published": "2026-09-18",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1111/phen.70064"
     },
     {
       "id": "news-20260917-scottish-records",
@@ -1258,43 +1621,42 @@
       "curated": true
     },
     {
-      "id": "auto-a4a121715d27177b",
-      "kind": "research",
-      "title": "Species diversity and host plant associations of ambrosia beetles in Southeast Asian forests of Laos and Vietnam revealed by DNA barcoding",
-      "url": "https://doi.org/10.1111/icad.70141",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-09-17",
+      "id": "auto-96b6c14d76aec8c8",
+      "kind": "news",
+      "title": "Climate change is weakening nature’s pest controllers",
+      "url": "https://blog.cabi.org/2026/09/16/climate-change-weakening-natures-pest-controllers",
+      "source": "CABI",
+      "sourceId": "cabi",
+      "published": "2026-09-16",
       "areas": [
-        "Ecology & conservation",
-        "Taxonomy & biodiversity recording"
+        "Crop protection & IPM",
+        "Ecology & conservation"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70141"
+      "contentChecksVersion": 2
     },
     {
-      "id": "auto-690585954cc53a8c",
-      "kind": "research",
-      "title": "Body size and wing shape responses of mosquitoes (Diptera: Culicidae) to contrasting environmental conditions in cold‐temperate Argentine Patagonia",
-      "url": "https://doi.org/10.1111/mve.70112",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-09-17",
+      "id": "auto-1b619bb858c36d48",
+      "kind": "news",
+      "title": "BeeWalking on the Edge: Supporting a Lasting Legacy for Bumblebee Monitoring",
+      "url": "https://www.bumblebeeconservation.org/news/beewalking-on-the-edge-supporting-a-lasting-legacy-for-bumblebee-monitoring",
+      "source": "Bumblebee Conservation Trust",
+      "sourceId": "bumblebee-conservation-trust",
+      "published": "2026-09-16",
       "areas": [
-        "Vectors & veterinary entomology"
+        "Pollination & beneficial insects",
+        "Monitoring & environmental risk"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70112"
+      "contentChecksVersion": 2
     },
     {
       "id": "auto-88eab8e276d55baf",
@@ -1312,45 +1674,26 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
+      "contentChecksVersion": 2
     },
     {
-      "id": "auto-96b6c14d76aec8c8",
-      "kind": "news",
-      "title": "Climate change is weakening nature’s pest controllers",
-      "url": "https://blog.cabi.org/2026/09/16/climate-change-weakening-natures-pest-controllers",
-      "source": "CABI",
-      "sourceId": "cabi",
-      "published": "2026-09-16",
-      "areas": [
-        "Crop protection & IPM",
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
-    },
-    {
-      "id": "auto-a83917d62bea5ce3",
+      "id": "auto-d2571e7b2faae4c0",
       "kind": "research",
-      "title": "Conifer host identity shapes wood‐boring beetle communities more than climate across a latitudinal forest gradient in Quebec (Canada)",
-      "url": "https://doi.org/10.1111/icad.70140",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
+      "title": "Efficacy and persistence of entomopathogenic nematodes for biological control of small hive beetle under glasshouse conditions",
+      "url": "https://doi.org/10.1007/s10526-026-10430-9",
+      "source": "BioControl",
+      "sourceId": "biocontrol",
       "published": "2026-09-15",
       "areas": [
-        "Ecology & conservation"
+        "Biological control"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70140"
+      "contentChecksVersion": 2,
+      "doi": "10.1007/s10526-026-10430-9"
     },
     {
       "id": "auto-e9e63ed4f23c95f4",
@@ -1368,8 +1711,28 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/syen.70068"
+    },
+    {
+      "id": "auto-65e7356430d74b58",
+      "kind": "research",
+      "title": "Occurrence and persistence of entomopathogenic fungi in soil following experimental application of Beauveria pseudobassiana in oak forests infested by Corythucha arcuata",
+      "url": "https://doi.org/10.1007/s10526-026-10427-4",
+      "source": "BioControl",
+      "sourceId": "biocontrol",
+      "published": "2026-09-14",
+      "areas": [
+        "Biological control",
+        "Ecology & conservation"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1007/s10526-026-10427-4"
     },
     {
       "id": "auto-70cf741326eea961",
@@ -1387,96 +1750,19 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/een.70139"
     },
     {
-      "id": "auto-3a82d28cd9358bee",
-      "kind": "research",
-      "title": "Plant‐derived eDNA metabarcoding is an effective approach for monitoring invertebrate rice pests",
-      "url": "https://doi.org/10.1111/afe.70082",
-      "source": "Agricultural and Forest Entomology",
-      "sourceId": "agricultural-forest-entomology",
-      "published": "2026-09-12",
+      "id": "auto-f0c3d82f1a1eca15",
+      "kind": "news",
+      "title": "Rebecca Rose of Columbus, Ohio: Leaving the Leaves, an Invitation to Make Space for Nature",
+      "url": "https://xerces.org/news/organizational-news/rebecca-rose-of-columbus-ohio-leaving-leaves-invitation-to-make-space-for",
+      "source": "Xerces Society for Invertebrate Conservation",
+      "sourceId": "xerces-society",
+      "published": "2026-09-09",
       "areas": [
-        "Crop protection & IPM",
-        "Monitoring & environmental risk"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/afe.70082"
-    },
-    {
-      "id": "auto-35d79517d13b6902",
-      "kind": "research",
-      "title": "Where are they now? Establishment and impact reports of bark beetle biocontrol agents with a case study of introduced parasitoids from Southeast Queensland, Australia",
-      "url": "https://doi.org/10.1111/afe.70083",
-      "source": "Agricultural and Forest Entomology",
-      "sourceId": "agricultural-forest-entomology",
-      "published": "2026-09-11",
-      "areas": [
-        "Biological control"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/afe.70083"
-    },
-    {
-      "id": "auto-0f9ff028cf83ab18",
-      "kind": "research",
-      "title": "Binding characteristics and physicochemical basis of C ‐minus odorant‐binding protein 8 in western flower thrips, Frankliniella occidentalis , with various host vegetable volatiles",
-      "url": "https://doi.org/10.1111/imb.70063",
-      "source": "Insect Molecular Biology",
-      "sourceId": "insect-molecular-biology",
-      "published": "2026-09-11",
-      "areas": [
-        "Crop protection & IPM"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/imb.70063"
-    },
-    {
-      "id": "auto-df456f5aa3be2d54",
-      "kind": "research",
-      "title": "Comparing verbenone‐based repellents for ambrosia beetle management in eastern apple orchards",
-      "url": "https://doi.org/10.1111/afe.70084",
-      "source": "Agricultural and Forest Entomology",
-      "sourceId": "agricultural-forest-entomology",
-      "published": "2026-09-10",
-      "areas": [
-        "Crop protection & IPM"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/afe.70084"
-    },
-    {
-      "id": "auto-ad2aba0a1ea4f499",
-      "kind": "research",
-      "title": "Ecosystem services in agriculture: How can annual plant mixes support pollinator populations?",
-      "url": "https://doi.org/10.1111/afe.70080",
-      "source": "Agricultural and Forest Entomology",
-      "sourceId": "agricultural-forest-entomology",
-      "published": "2026-09-10",
-      "areas": [
-        "Crop protection & IPM",
+        "Ecology & conservation",
         "Pollination & beneficial insects"
       ],
       "region": "global",
@@ -1484,26 +1770,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/afe.70080"
-    },
-    {
-      "id": "auto-c2c154e36bc87feb",
-      "kind": "news",
-      "title": "Welcome to our newly elected Trustees",
-      "url": "https://www.royensoc.co.uk/news/welcome-to-our-newly-elected-trustees-2026",
-      "source": "Royal Entomological Society",
-      "sourceId": "royal-entomological-society",
-      "published": "2026-09-08",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
+      "contentChecksVersion": 2
     },
     {
       "id": "auto-ddcdf74594f987de",
@@ -1521,67 +1788,104 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/een.70148"
     },
     {
-      "id": "auto-9be6d8774bcf51c7",
+      "id": "auto-da4f3f82695109ef",
       "kind": "research",
-      "title": "Issue Information",
-      "url": "https://doi.org/10.1111/icad.70138",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-09-08",
+      "title": "Bacillus velezensis as an active ingredient in toxic sugar baits against adult Culex quinquefasciatus (Diptera: Culicidae)",
+      "url": "https://doi.org/10.1093/jme/tjag140",
+      "source": "Journal of Medical Entomology",
+      "sourceId": "journal-medical-entomology",
+      "published": "2026-09-04",
       "areas": [
-        "Ecology & conservation",
-        "Taxonomy & biodiversity recording"
+        "Vectors & veterinary entomology"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70138"
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jme/tjag140"
     },
     {
-      "id": "auto-edfedd81c45aa009",
+      "id": "auto-d676415c3817ec84",
       "kind": "research",
-      "title": "Issue Information",
-      "url": "https://doi.org/10.1111/imb.70062",
-      "source": "Insect Molecular Biology",
-      "sourceId": "insect-molecular-biology",
-      "published": "2026-09-08",
+      "title": "Evaluation of mosquito transmission of equine hepacivirus in laboratory and field studies",
+      "url": "https://doi.org/10.1093/jme/tjag121",
+      "source": "Journal of Medical Entomology",
+      "sourceId": "journal-medical-entomology",
+      "published": "2026-09-04",
       "areas": [
-        "Insect biology & behaviour"
+        "Vectors & veterinary entomology"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/imb.70062"
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jme/tjag121"
     },
     {
-      "id": "auto-0a5b5103460ae1f5",
+      "id": "auto-ce4101de1f5e21ab",
       "kind": "research",
-      "title": "A new beetle‐specific light trap design reducing flying insect bycatch",
-      "url": "https://doi.org/10.1111/icad.70129",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-09-07",
+      "title": "Effect of mosquito lures and location types on the abundance of mosquitoes collected using Black Hole light traps at different collection periods",
+      "url": "https://doi.org/10.1093/jme/tjag139",
+      "source": "Journal of Medical Entomology",
+      "sourceId": "journal-medical-entomology",
+      "published": "2026-09-04",
       "areas": [
-        "Ecology & conservation",
-        "Taxonomy & biodiversity recording"
+        "Vectors & veterinary entomology"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70129"
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jme/tjag139"
+    },
+    {
+      "id": "auto-ce28ea08e099dfe8",
+      "kind": "research",
+      "title": "Mosquito diversity, range-expanding species, and host-feeding patterns across Virginia’s heterogeneous landscapes",
+      "url": "https://doi.org/10.1093/jme/tjag150",
+      "source": "Journal of Medical Entomology",
+      "sourceId": "journal-medical-entomology",
+      "published": "2026-09-04",
+      "areas": [
+        "Ecology & conservation",
+        "Vectors & veterinary entomology"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jme/tjag150"
+    },
+    {
+      "id": "auto-cb1eb78d68792c76",
+      "kind": "research",
+      "title": "Assessment of costs for implementation of park specific tick management plans for selected high-use recreational areas in Monmouth County, New Jersey",
+      "url": "https://doi.org/10.1093/jme/tjag138",
+      "source": "Journal of Medical Entomology",
+      "sourceId": "journal-medical-entomology",
+      "published": "2026-09-04",
+      "areas": [
+        "Vectors & veterinary entomology"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jme/tjag138"
     },
     {
       "id": "auto-f57ff24034302c64",
@@ -1599,16 +1903,16 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/een.70149"
     },
     {
-      "id": "auto-69a51d56f57faafb",
+      "id": "auto-c8f0f0f5f39c1c1c",
       "kind": "research",
-      "title": "Preference‐performance relationship in the thistle tortoise beetle: Implications for its realised host range",
-      "url": "https://doi.org/10.1111/een.70136",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
+      "title": "Climate-driven redistribution of Hyalomma marginatum (Ixodida: Ixodidae): robust ecological niche modeling reveals future expansion and quantifies projection uncertainty",
+      "url": "https://doi.org/10.1093/jme/tjag163",
+      "source": "Journal of Medical Entomology",
+      "sourceId": "journal-medical-entomology",
       "published": "2026-09-04",
       "areas": [
         "Ecology & conservation"
@@ -1618,73 +1922,16 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70136"
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jme/tjag163"
     },
     {
-      "id": "auto-20c1f8c20b2deb3b",
-      "kind": "news",
-      "title": "The RES HQ acquires new base in London",
-      "url": "https://www.royensoc.co.uk/news/were-moving",
-      "source": "Royal Entomological Society",
-      "sourceId": "royal-entomological-society",
-      "published": "2026-09-03",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
-    },
-    {
-      "id": "auto-d9408596221fc779",
+      "id": "auto-febee0fc01d25611",
       "kind": "research",
-      "title": "Thermal acclimation and environment drive field dispersal patterns of adult Mediterranean fruit flies",
-      "url": "https://doi.org/10.1111/een.70147",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
-      "published": "2026-09-03",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70147"
-    },
-    {
-      "id": "auto-98a5e0b429aff9cd",
-      "kind": "research",
-      "title": "Effect of the insecticide cypermethrin on behaviour and oxidative stress in the spider Loxosceles laeta",
-      "url": "https://doi.org/10.1111/mve.70110",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-09-02",
-      "areas": [
-        "Insect biology & behaviour",
-        "Crop protection & IPM"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70110"
-    },
-    {
-      "id": "auto-c0b05d49aa08b1f2",
-      "kind": "research",
-      "title": "The effect of caste, mass and colony identity on rescue priorities in the red imported fire ant",
-      "url": "https://doi.org/10.1111/een.70137",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
+      "title": "Oviposition and early survival of Anoplophora glabripennis (Coleoptera: Cerambycidae) in common garden and natural field environments in South Carolina",
+      "url": "https://doi.org/10.1093/ee/nvag093",
+      "source": "Environmental Entomology",
+      "sourceId": "environmental-entomology",
       "published": "2026-09-01",
       "areas": [
         "Ecology & conservation"
@@ -1694,55 +1941,17 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70137"
+      "contentChecksVersion": 2,
+      "doi": "10.1093/ee/nvag093"
     },
     {
-      "id": "auto-6ad8c27ca5120148",
+      "id": "auto-f22b38b91d8c4a9e",
       "kind": "research",
-      "title": "Microbiome‐mediated immunity: Limited support from the gazelle dung beetle",
-      "url": "https://doi.org/10.1111/een.70146",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
+      "title": "In-field habitat diversification increases arthropod species richness and abundance in sweet corn",
+      "url": "https://doi.org/10.1093/ee/nvag091",
+      "source": "Environmental Entomology",
+      "sourceId": "environmental-entomology",
       "published": "2026-09-01",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70146"
-    },
-    {
-      "id": "auto-f2bf786d3508b43a",
-      "kind": "research",
-      "title": "Bacterial composition of P olygenis ( P olygenis ) bohlsi bohlsi ( W agner, 1901) ( S iphonaptera: R hopalopsyllidae) associated with T hrichomys fosteri ( R odentia: E chimyidae) in the B razilian P antanal wetland",
-      "url": "https://doi.org/10.1111/mve.70111",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-09-01",
-      "areas": [
-        "Vectors & veterinary entomology"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70111"
-    },
-    {
-      "id": "auto-9a80d031e8a89c74",
-      "kind": "research",
-      "title": "Citizen science shows local flower diversity, not landscape composition, drives flower‐visitor diversity in experimental mini‐meadows in gardens",
-      "url": "https://doi.org/10.1111/een.70143",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
-      "published": "2026-08-31",
       "areas": [
         "Ecology & conservation",
         "Taxonomy & biodiversity recording"
@@ -1752,37 +1961,17 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70143"
+      "contentChecksVersion": 2,
+      "doi": "10.1093/ee/nvag091"
     },
     {
-      "id": "auto-332ce888a5c9c014",
+      "id": "auto-e5a790e9cce2c1d8",
       "kind": "research",
-      "title": "Comparing time‐lapse photography and traditional human observation in collecting crop pollinator visitation data",
-      "url": "https://doi.org/10.1111/afe.70081",
-      "source": "Agricultural and Forest Entomology",
-      "sourceId": "agricultural-forest-entomology",
-      "published": "2026-08-31",
-      "areas": [
-        "Crop protection & IPM",
-        "Pollination & beneficial insects"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/afe.70081"
-    },
-    {
-      "id": "auto-5c2af95ea3473952",
-      "kind": "research",
-      "title": "Small birches matter: Beetle diversity on burned birch and pine in boreal forests",
-      "url": "https://doi.org/10.1111/icad.70133",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-08-31",
+      "title": "Detection of Nosema ceranae in Euglossa imperialis (Apidae) and a synthesis of host associations across Hymenoptera",
+      "url": "https://doi.org/10.1093/ee/nvag102",
+      "source": "Environmental Entomology",
+      "sourceId": "environmental-entomology",
+      "published": "2026-09-01",
       "areas": [
         "Ecology & conservation"
       ],
@@ -1791,28 +1980,65 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70133"
+      "contentChecksVersion": 2,
+      "doi": "10.1093/ee/nvag102"
     },
     {
-      "id": "auto-299ad4f971155c74",
+      "id": "auto-d4ba10c900f4700c",
       "kind": "research",
-      "title": "Effects of essential amino acids on phagostimulation and reproduction in adults of the Mediterranean fruit fly",
-      "url": "https://doi.org/10.1111/phen.70063",
-      "source": "Physiological Entomology",
-      "sourceId": "physiological-entomology",
-      "published": "2026-08-31",
+      "title": "Varietal preference of codling moth for damage and dependence of population build-up on important weather parameters",
+      "url": "https://doi.org/10.1093/ee/nvag092",
+      "source": "Environmental Entomology",
+      "sourceId": "environmental-entomology",
+      "published": "2026-09-01",
       "areas": [
-        "Insect biology & behaviour",
-        "Crop protection & IPM"
+        "Ecology & conservation"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/phen.70063"
+      "contentChecksVersion": 2,
+      "doi": "10.1093/ee/nvag092"
+    },
+    {
+      "id": "auto-aef921eb03899dfd",
+      "kind": "research",
+      "title": "Palmitic and stearic acids increase oviposition behavior and residence time as contact-based arrestants in Drosophila suzukii (Diptera: Drosophilidae)",
+      "url": "https://doi.org/10.1093/ee/nvag090",
+      "source": "Environmental Entomology",
+      "sourceId": "environmental-entomology",
+      "published": "2026-09-01",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/ee/nvag090"
+    },
+    {
+      "id": "auto-75b670cc33eba6fe",
+      "kind": "research",
+      "title": "Response of the surface-active beetle community (Coleoptera) to mixed-conifer forest restoration thinning and burning treatments in northern New Mexico, USA",
+      "url": "https://doi.org/10.1093/ee/nvag098",
+      "source": "Environmental Entomology",
+      "sourceId": "environmental-entomology",
+      "published": "2026-09-01",
+      "areas": [
+        "Ecology & conservation"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/ee/nvag098"
     },
     {
       "id": "auto-af99f59c98a4fed0",
@@ -1830,46 +2056,160 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
+      "contentChecksVersion": 2,
       "doi": "10.1111/syen.70067"
     },
     {
-      "id": "auto-3a60c65b2311eb1f",
+      "id": "auto-869bc3299775ebb9",
       "kind": "research",
-      "title": "Canopy position and tree size structure the distribution of honeydew‐producing scale insects ( H emiptera: C occoidea) in a temperate hardwood forest",
-      "url": "https://doi.org/10.1111/een.70144",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
-      "published": "2026-08-28",
+      "title": "Species-specific interactions between Marrubium vulgare solvent extracts and entomopathogenic nematodes for Phthorimaea operculella (Lepidoptera: Gelechiidae) control",
+      "url": "https://doi.org/10.1007/s10526-026-10428-3",
+      "source": "BioControl",
+      "sourceId": "biocontrol",
+      "published": "2026-08-29",
       "areas": [
-        "Ecology & conservation"
+        "Biological control"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70144"
+      "contentChecksVersion": 2,
+      "doi": "10.1007/s10526-026-10428-3"
     },
     {
-      "id": "auto-882a557b87c4cf89",
+      "id": "auto-eee7992f1acf28d6",
       "kind": "research",
-      "title": "Moth traps shine a light on nocturnal parasitoid wasps: Snapshot assessment of UK diversity and distributions",
-      "url": "https://doi.org/10.1111/icad.70135",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-08-27",
+      "title": "Unraveling the mitochondrial gene rearrangements and structural plasticity of Tanytarsini (Diptera: Chironomidae)",
+      "url": "https://doi.org/10.1093/isd/ixag044",
+      "source": "Insect Systematics and Diversity",
+      "sourceId": "insect-systematics-diversity",
+      "published": "2026-08-28",
       "areas": [
-        "Biological control"
+        "Taxonomy & biodiversity recording"
       ],
-      "region": "uk",
+      "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70135"
+      "contentChecksVersion": 2,
+      "doi": "10.1093/isd/ixag044"
+    },
+    {
+      "id": "auto-def9540f4b33452a",
+      "kind": "research",
+      "title": "Correction to: Regionally localized population genetic structure of a non-native terrestrial isopod ( Porcellio spinicornis ) (Isopoda: Porcellionidae)",
+      "url": "https://doi.org/10.1093/isd/ixag041",
+      "source": "Insect Systematics and Diversity",
+      "sourceId": "insect-systematics-diversity",
+      "published": "2026-08-28",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/isd/ixag041"
+    },
+    {
+      "id": "auto-d18d1b51160336fc",
+      "kind": "research",
+      "title": "Phylogeography of Amblycheila schwarzi (Coleoptera: Cicindelidae), supports the Colorado River as a leaky barrier",
+      "url": "https://doi.org/10.1093/isd/ixag036",
+      "source": "Insect Systematics and Diversity",
+      "sourceId": "insect-systematics-diversity",
+      "published": "2026-08-28",
+      "areas": [
+        "Taxonomy & biodiversity recording"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/isd/ixag036"
+    },
+    {
+      "id": "auto-cadf053f6019523a",
+      "kind": "research",
+      "title": "Shadow ants: a phylogenomically informed revision of the Gnamptogenys mordax clade (Hymenoptera: Formicidae)",
+      "url": "https://doi.org/10.1093/isd/ixag029",
+      "source": "Insect Systematics and Diversity",
+      "sourceId": "insect-systematics-diversity",
+      "published": "2026-08-28",
+      "areas": [
+        "Taxonomy & biodiversity recording"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/isd/ixag029"
+    },
+    {
+      "id": "auto-aa6f4679ec539fbf",
+      "kind": "research",
+      "title": "Of birds and beasts: the evolution of louse and bat flies",
+      "url": "https://doi.org/10.1093/isd/ixag031",
+      "source": "Insect Systematics and Diversity",
+      "sourceId": "insect-systematics-diversity",
+      "published": "2026-08-28",
+      "areas": [
+        "Taxonomy & biodiversity recording"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/isd/ixag031"
+    },
+    {
+      "id": "auto-893b6ea3f423204c",
+      "kind": "research",
+      "title": "Phylogenomics and revision of Proctacanthus (Diptera: Asilidae) north of Mexico",
+      "url": "https://doi.org/10.1093/isd/ixag043",
+      "source": "Insect Systematics and Diversity",
+      "sourceId": "insect-systematics-diversity",
+      "published": "2026-08-28",
+      "areas": [
+        "Taxonomy & biodiversity recording"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/isd/ixag043"
+    },
+    {
+      "id": "auto-c1dc2e287fdb63ad",
+      "kind": "news",
+      "title": "Oregon’s New Pollinator Conservation Strategy Prioritizes Actions Across the State",
+      "url": "https://xerces.org/news/organizational-news/oregons-new-pollinator-conservation-strategy-prioritizes-actions-across",
+      "source": "Xerces Society for Invertebrate Conservation",
+      "sourceId": "xerces-society",
+      "published": "2026-08-27",
+      "areas": [
+        "Ecology & conservation",
+        "Pollination & beneficial insects"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2
     },
     {
       "id": "news-20260826-approaches-entomology",
@@ -1904,7 +2244,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
+      "contentChecksVersion": 2
     },
     {
       "id": "auto-a59e253b812e8bcb",
@@ -1922,64 +2262,7 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
-    },
-    {
-      "id": "auto-b82e90b2445e0a2b",
-      "kind": "research",
-      "title": "Habitat selection for trap building in antlion larvae: Influence of patch area and travelling distance",
-      "url": "https://doi.org/10.1111/een.70145",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
-      "published": "2026-08-25",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70145"
-    },
-    {
-      "id": "auto-7d95b363b018f709",
-      "kind": "research",
-      "title": "Climatic, biogeographic and ecological factors influence the spatial patterns of odd‐ and even‐year dominance in biennial European butterflies and burnet moths",
-      "url": "https://doi.org/10.1111/een.70141",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
-      "published": "2026-08-25",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70141"
-    },
-    {
-      "id": "auto-97d6e1941d4cd09f",
-      "kind": "research",
-      "title": "Declining habitat directive butterflies within a major stronghold: Challenges for conservation",
-      "url": "https://doi.org/10.1111/icad.70137",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-08-25",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70137"
+      "contentChecksVersion": 2
     },
     {
       "id": "news-20260824-devon-ants",
@@ -1998,243 +2281,13 @@
       "curated": true
     },
     {
-      "id": "auto-df9d7d9df2b69f83",
-      "kind": "news",
-      "title": "Endangered Butterfly Returns After 50 Years",
-      "url": "https://www.royensoc.co.uk/news/endangered-butterfly-returns-after-50-years",
-      "source": "Royal Entomological Society",
-      "sourceId": "royal-entomological-society",
+      "id": "auto-b66176bf8b590777",
+      "kind": "research",
+      "title": "A new potential biological control agent—the interaction between the parasitoid fly Neobrachelia edessae (Diptera: Tachinidae) and the stink bug Edessa meditabunda (Hemiptera: Pentatomidae)",
+      "url": "https://doi.org/10.1007/s10526-026-10424-7",
+      "source": "BioControl",
+      "sourceId": "biocontrol",
       "published": "2026-08-24",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
-    },
-    {
-      "id": "auto-fe98c040dba8f780",
-      "kind": "research",
-      "title": "Food deprivation and crowding shape stage‐dependent cannibalism‐associated mortality in caterpillars",
-      "url": "https://doi.org/10.1111/een.70142",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
-      "published": "2026-08-24",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70142"
-    },
-    {
-      "id": "auto-fe5eae0e953cdf4f",
-      "kind": "research",
-      "title": "Linking EU habitat and species protection through favourable reference areas: Evidence from threatened saproxylic beetles",
-      "url": "https://doi.org/10.1111/icad.70136",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-08-24",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70136"
-    },
-    {
-      "id": "auto-5cff4530f304b4f4",
-      "kind": "research",
-      "title": "Effects of A saia spp. on the development, size and associated microbiomes of two mosquito species of medical importance",
-      "url": "https://doi.org/10.1111/mve.70109",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-08-24",
-      "areas": [
-        "Insect biology & behaviour",
-        "Vectors & veterinary entomology"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70109"
-    },
-    {
-      "id": "auto-b5f170f393a35dc0",
-      "kind": "research",
-      "title": "Impact of bauxite mining on mosquito communities (Diptera: Culicidae) and pathogen transmission risks in the eastern Amazon",
-      "url": "https://doi.org/10.1111/mve.70107",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-08-24",
-      "areas": [
-        "Vectors & veterinary entomology"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70107"
-    },
-    {
-      "id": "auto-be0dde40d9739513",
-      "kind": "research",
-      "title": "Fungal infection affects sexual signalling and mate choice in the sugarcane borer",
-      "url": "https://doi.org/10.1111/een.70140",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
-      "published": "2026-08-23",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70140"
-    },
-    {
-      "id": "auto-523ee0b88f95fd2d",
-      "kind": "research",
-      "title": "Social bees can enhance the persistence of plant–bee interactions during seasonal changes in seasonally dry tropical forests",
-      "url": "https://doi.org/10.1111/een.70138",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
-      "published": "2026-08-21",
-      "areas": [
-        "Ecology & conservation",
-        "Pollination & beneficial insects"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70138"
-    },
-    {
-      "id": "auto-562f0551a3199764",
-      "kind": "research",
-      "title": "Evidence for a defensive ceiling in the effectiveness of plant silicon defences against an insect herbivore",
-      "url": "https://doi.org/10.1111/een.70135",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
-      "published": "2026-08-21",
-      "areas": [
-        "Crop protection & IPM"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70135"
-    },
-    {
-      "id": "auto-3cc2bfea6fb3fd62",
-      "kind": "research",
-      "title": "Keeping the herds: Traditional grazing shapes beetle assemblages in Mongolian steppes",
-      "url": "https://doi.org/10.1111/icad.70134",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-08-21",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70134"
-    },
-    {
-      "id": "auto-27dacef4dfc6b32d",
-      "kind": "research",
-      "title": "Fire‐driven forest degradation enhances termite activity and accelerates litter decomposition in the Amazonia rainforest",
-      "url": "https://doi.org/10.1111/icad.70130",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-08-20",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70130"
-    },
-    {
-      "id": "auto-e5795ae53856ec92",
-      "kind": "research",
-      "title": "Beetle and spider responses to burning and mowing in a Scots pine Pinus sylvestris forest",
-      "url": "https://doi.org/10.1111/icad.70131",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-08-20",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70131"
-    },
-    {
-      "id": "auto-72a1afc2eed46cbf",
-      "kind": "research",
-      "title": "Urban ants as potential mechanical vectors of pathogenic and antibiotic‐resistant bacteria in a Brazilian hospital",
-      "url": "https://doi.org/10.1111/mve.70108",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-08-19",
-      "areas": [
-        "Ecology & conservation",
-        "Vectors & veterinary entomology"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70108"
-    },
-    {
-      "id": "auto-a8c9d8af08f4e3c5",
-      "kind": "research",
-      "title": "Maternal factors from a parasitoid wasp mediate hyperparasitoid attraction to parasitized caterpillars",
-      "url": "https://doi.org/10.1111/een.70131",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
-      "published": "2026-08-18",
       "areas": [
         "Biological control"
       ],
@@ -2243,46 +2296,8 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70131"
-    },
-    {
-      "id": "auto-c7f1ea602152488d",
-      "kind": "research",
-      "title": "Integrative transcriptomic and machine learning approaches reveal candidate genes for silk and venom production in B ibionomorpha ( D iptera)",
-      "url": "https://doi.org/10.1111/imb.70061",
-      "source": "Insect Molecular Biology",
-      "sourceId": "insect-molecular-biology",
-      "published": "2026-08-18",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/imb.70061"
-    },
-    {
-      "id": "auto-6970408a19e4eb94",
-      "kind": "research",
-      "title": "Butterflies in urban India: Diversity, conservation actions and future prospects",
-      "url": "https://doi.org/10.1111/icad.70132",
-      "source": "Insect Conservation and Diversity",
-      "sourceId": "insect-conservation-diversity",
-      "published": "2026-08-16",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/icad.70132"
+      "contentChecksVersion": 2,
+      "doi": "10.1007/s10526-026-10424-7"
     },
     {
       "id": "news-20260814-bee-veterinary",
@@ -2301,45 +2316,6 @@
       "curated": true
     },
     {
-      "id": "auto-1ddd40a6dc3b5a5f",
-      "kind": "research",
-      "title": "Pollinator behaviour and morphology to understand pollination niche partitioning in co‐occurring closely related plant species",
-      "url": "https://doi.org/10.1111/een.70134",
-      "source": "Ecological Entomology",
-      "sourceId": "ecological-entomology",
-      "published": "2026-08-14",
-      "areas": [
-        "Insect biology & behaviour",
-        "Pollination & beneficial insects"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/een.70134"
-    },
-    {
-      "id": "auto-a433b5b178e6ea9b",
-      "kind": "research",
-      "title": "Predicting global habitat suitability and invasion risks of the red gum lerp psyllid Glycaspis brimblecombei under current and future climates",
-      "url": "https://doi.org/10.1111/afe.70076",
-      "source": "Agricultural and Forest Entomology",
-      "sourceId": "agricultural-forest-entomology",
-      "published": "2026-08-13",
-      "areas": [
-        "Ecology & conservation"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/afe.70076"
-    },
-    {
       "id": "auto-468d2ef6fae802ba",
       "kind": "news",
       "title": "New report calls for a ban on the general sale of off-the-shelf and unchecked online pet parasite treatments and further inquiry into veterinary medicine regulations",
@@ -2355,86 +2331,101 @@
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1
+      "contentChecksVersion": 2
     },
     {
-      "id": "auto-eb16466b07b4b340",
-      "kind": "research",
-      "title": "Behavioural responses of peach potato aphid, M yzus persicae S ulzer ( H emiptera: A phididae), to entomopathogenic fungi infected conspecifics",
-      "url": "https://doi.org/10.1111/afe.70078",
-      "source": "Agricultural and Forest Entomology",
-      "sourceId": "agricultural-forest-entomology",
+      "id": "auto-3afa1448ec6f020d",
+      "kind": "news",
+      "title": "Volunteer-led project smashes events target",
+      "url": "https://www.bumblebeeconservation.org/news/volunteer-led-project-smashes-events-target",
+      "source": "Bumblebee Conservation Trust",
+      "sourceId": "bumblebee-conservation-trust",
       "published": "2026-08-12",
       "areas": [
-        "Insect biology & behaviour",
-        "Crop protection & IPM",
-        "Biological control"
+        "Pollination & beneficial insects",
+        "Ecology & conservation"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/afe.70078"
+      "contentChecksVersion": 2
     },
     {
-      "id": "auto-533599057ad1b292",
-      "kind": "research",
-      "title": "Tick‐borne diseases in subtropical dairy farming: The role of calf rearing strategies in antibody and antigen prevalence",
-      "url": "https://doi.org/10.1111/mve.70103",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-08-12",
+      "id": "auto-658347a62b4dbb0f",
+      "kind": "news",
+      "title": "MP’s decade-long search for rare Ruderal bumblebee finally ends",
+      "url": "https://www.bumblebeeconservation.org/news/mps-decade-long-search-for-rare-ruderal-bumblebee-finally-ends",
+      "source": "Bumblebee Conservation Trust",
+      "sourceId": "bumblebee-conservation-trust",
+      "published": "2026-08-05",
       "areas": [
-        "Vectors & veterinary entomology"
+        "Pollination & beneficial insects"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70103"
+      "contentChecksVersion": 2
     },
     {
-      "id": "auto-b2479bfadb9a24bb",
-      "kind": "research",
-      "title": "Monitoring the spread and seasonal abundance of the Asian tiger mosquito, Aedes albopictus (Diptera: Culicidae), in Limassol, Cyprus",
-      "url": "https://doi.org/10.1111/mve.70105",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-08-12",
+      "id": "auto-0fe51438a1c5e7bf",
+      "kind": "news",
+      "title": "Find the Right Plants for Monarchs in Your Area",
+      "url": "https://xerces.org/news/organizational-news/find-right-plants-for-monarchs-in-your-area",
+      "source": "Xerces Society for Invertebrate Conservation",
+      "sourceId": "xerces-society",
+      "published": "2026-07-30",
       "areas": [
-        "Vectors & veterinary entomology",
-        "Monitoring & environmental risk"
+        "Ecology & conservation",
+        "Pollination & beneficial insects"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70105"
+      "contentChecksVersion": 2
     },
     {
-      "id": "auto-b4bc6c799dcc2793",
-      "kind": "research",
-      "title": "Integrative revision of the Australian carrion‐breeding Calliphorinae (Diptera: Calliphoridae): Revision of the Calliphora stygia ‐ and ochracea ‐groups",
-      "url": "https://doi.org/10.1111/mve.70092",
-      "source": "Medical and Veterinary Entomology",
-      "sourceId": "medical-veterinary-entomology",
-      "published": "2026-08-11",
+      "id": "auto-43f46cc25fe5740f",
+      "kind": "news",
+      "title": "Meet Three Xerces Members Taking Action by Fundraising",
+      "url": "https://xerces.org/news/organizational-news/meet-three-xerces-members-taking-action-by-fundraising-0",
+      "source": "Xerces Society for Invertebrate Conservation",
+      "sourceId": "xerces-society",
+      "published": "2026-07-16",
       "areas": [
-        "Vectors & veterinary entomology"
+        "Ecology & conservation",
+        "Pollination & beneficial insects"
       ],
       "region": "global",
       "curated": false,
       "summary": "",
       "why": "",
       "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 1,
-      "doi": "10.1111/mve.70092"
+      "contentChecksVersion": 2
+    },
+    {
+      "id": "auto-3f7f5035a08b754d",
+      "kind": "news",
+      "title": "New data on insect pollinators shows dramatic decline in hoverflies",
+      "url": "https://www.buglife.org.uk/news/new-data-on-insect-pollinators-shows-dramatic-decline-in-hoverflies",
+      "source": "Buglife",
+      "sourceId": "buglife",
+      "published": "2026-06-25",
+      "areas": [
+        "Ecology & conservation",
+        "Pollination & beneficial insects"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2
     },
     {
       "id": "research-insect-baselines-2026",
@@ -2538,34 +2529,24 @@
   ],
   "sources": [
     {
-      "id": "entomology-today",
-      "name": "Entomology Today · Entomological Society of America",
-      "url": "https://entomologytoday.org/feed/",
-      "homepage": "https://entomologytoday.org/",
-      "status": "ok",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:23:48Z",
-      "count": 9
-    },
-    {
-      "id": "royal-entomological-society",
-      "name": "Royal Entomological Society",
-      "url": "https://www.royensoc.co.uk/feed/",
-      "homepage": "https://www.royensoc.co.uk/",
-      "status": "ok",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:23:48Z",
-      "count": 10
-    },
-    {
       "id": "buglife",
       "name": "Buglife",
       "url": "https://www.buglife.org.uk/news/feed/",
       "homepage": "https://www.buglife.org.uk/news/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:23:48Z",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
       "count": 6
+    },
+    {
+      "id": "bumblebee-conservation-trust",
+      "name": "Bumblebee Conservation Trust",
+      "url": "https://www.bumblebeeconservation.org/feed/",
+      "homepage": "https://www.bumblebeeconservation.org/what-we-do/news/",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 9
     },
     {
       "id": "cabi",
@@ -2573,9 +2554,19 @@
       "url": "https://blog.cabi.org/feed/",
       "homepage": "https://blog.cabi.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:23:48Z",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
       "count": 1
+    },
+    {
+      "id": "entomology-today",
+      "name": "Entomology Today · Entomological Society of America",
+      "url": "https://entomologytoday.org/feed/",
+      "homepage": "https://entomologytoday.org/",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 9
     },
     {
       "id": "plantwiseplus",
@@ -2583,9 +2574,69 @@
       "url": "https://blog.plantwise.org/feed/",
       "homepage": "https://blog.plantwise.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:23:48Z",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
       "count": 1
+    },
+    {
+      "id": "royal-entomological-society",
+      "name": "Royal Entomological Society",
+      "url": "https://www.royensoc.co.uk/feed/",
+      "homepage": "https://www.royensoc.co.uk/",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 10
+    },
+    {
+      "id": "applied-ecologist",
+      "name": "The Applied Ecologist · British Ecological Society",
+      "url": "https://appliedecologistsblog.com/feed/",
+      "homepage": "https://appliedecologistsblog.com/",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 1
+    },
+    {
+      "id": "xerces-society",
+      "name": "Xerces Society for Invertebrate Conservation",
+      "url": "https://xerces.org/rss.xml",
+      "homepage": "https://xerces.org/",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 6
+    },
+    {
+      "id": "agricultural-forest-entomology",
+      "name": "Agricultural and Forest Entomology",
+      "url": "https://api.crossref.org/journals/1461-9563/works",
+      "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/14619563",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 25
+    },
+    {
+      "id": "biocontrol",
+      "name": "BioControl",
+      "url": "https://api.crossref.org/journals/1573-8248/works",
+      "homepage": "https://link.springer.com/journal/10526",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 15
+    },
+    {
+      "id": "biological-control",
+      "name": "Biological Control",
+      "url": "https://api.crossref.org/journals/1049-9644/works",
+      "homepage": "https://www.sciencedirect.com/journal/biological-control",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 0
     },
     {
       "id": "ecological-entomology",
@@ -2593,20 +2644,19 @@
       "url": "https://api.crossref.org/journals/1365-2311/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652311",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:23:48Z",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
       "count": 35
     },
     {
-      "id": "agricultural-forest-entomology",
-      "name": "Agricultural and Forest Entomology",
-      "url": "https://api.crossref.org/journals/1461-9563/works",
-      "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/14619563",
-      "status": "cached",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
-      "count": 15,
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      "id": "environmental-entomology",
+      "name": "Environmental Entomology",
+      "url": "https://api.crossref.org/journals/1938-2936/works",
+      "homepage": "https://academic.oup.com/ee",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 33
     },
     {
       "id": "insect-conservation-diversity",
@@ -2614,9 +2664,89 @@
       "url": "https://api.crossref.org/journals/1752-4598/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/17524598",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:23:48Z",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
       "count": 35
+    },
+    {
+      "id": "insect-molecular-biology",
+      "name": "Insect Molecular Biology",
+      "url": "https://api.crossref.org/journals/1365-2583/works",
+      "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652583",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 18
+    },
+    {
+      "id": "insect-science",
+      "name": "Insect Science",
+      "url": "https://api.crossref.org/journals/1744-7917/works",
+      "homepage": "https://onlinelibrary.wiley.com/journal/17447917",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 35
+    },
+    {
+      "id": "insect-systematics-diversity",
+      "name": "Insect Systematics and Diversity",
+      "url": "https://api.crossref.org/journals/2399-3421/works",
+      "homepage": "https://academic.oup.com/isd",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 21
+    },
+    {
+      "id": "journal-economic-entomology",
+      "name": "Journal of Economic Entomology",
+      "url": "https://api.crossref.org/journals/1938-291X/works",
+      "homepage": "https://academic.oup.com/jee",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 35
+    },
+    {
+      "id": "journal-insect-conservation",
+      "name": "Journal of Insect Conservation",
+      "url": "https://api.crossref.org/journals/1572-9753/works",
+      "homepage": "https://link.springer.com/journal/10841",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 35
+    },
+    {
+      "id": "journal-medical-entomology",
+      "name": "Journal of Medical Entomology",
+      "url": "https://api.crossref.org/journals/1938-2928/works",
+      "homepage": "https://academic.oup.com/jme",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 35
+    },
+    {
+      "id": "medical-veterinary-entomology",
+      "name": "Medical and Veterinary Entomology",
+      "url": "https://api.crossref.org/journals/1365-2915/works",
+      "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652915",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 33
+    },
+    {
+      "id": "pest-management-science",
+      "name": "Pest Management Science",
+      "url": "https://api.crossref.org/journals/1526-4998/works",
+      "homepage": "https://scijournals.onlinelibrary.wiley.com/journal/15264998",
+      "status": "ok",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
+      "count": 9
     },
     {
       "id": "physiological-entomology",
@@ -2624,8 +2754,8 @@
       "url": "https://api.crossref.org/journals/1365-3032/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653032",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:23:48Z",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
       "count": 16
     },
     {
@@ -2634,39 +2764,9 @@
       "url": "https://api.crossref.org/journals/1365-3113/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653113",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:23:48Z",
+      "lastAttempt": "2026-10-21T10:05:01Z",
+      "lastSuccess": "2026-10-21T10:05:01Z",
       "count": 14
-    },
-    {
-      "id": "medical-veterinary-entomology",
-      "name": "Medical and Veterinary Entomology",
-      "url": "https://api.crossref.org/journals/1365-2915/works",
-      "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652915",
-      "status": "ok",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:23:48Z",
-      "count": 33
-    },
-    {
-      "id": "insect-molecular-biology",
-      "name": "Insect Molecular Biology",
-      "url": "https://api.crossref.org/journals/1365-2583/works",
-      "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652583",
-      "status": "ok",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:23:48Z",
-      "count": 18
-    },
-    {
-      "id": "biological-control",
-      "name": "Biological Control",
-      "url": "https://api.crossref.org/journals/1049-9644/works",
-      "homepage": "https://www.sciencedirect.com/journal/biological-control",
-      "status": "ok",
-      "lastAttempt": "2026-10-21T09:23:48Z",
-      "lastSuccess": "2026-10-21T09:23:48Z",
-      "count": 0
     }
   ]
 }

@@ -8,6 +8,7 @@ sources keep their previously fetched entries, subject to the age limit.
 from __future__ import annotations
 
 import argparse
+from collections import deque
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -32,7 +33,7 @@ MAX_AUTOMATIC_ITEMS = 120
 TIMEOUT_SECONDS = 8
 ATTEMPTS = 2
 WORKERS = 4
-CONTENT_CHECKS_VERSION = 1
+CONTENT_CHECKS_VERSION = 2
 AREAS = (
     'Insect biology & behaviour', 'Crop protection & IPM', 'Biological control',
     'Ecology & conservation', 'Pollination & beneficial insects',
@@ -55,7 +56,9 @@ SPONSORED_CONTENT = re.compile(
 ENTOMOLOGY = re.compile(
     r'\b(?:insect\w*|entomolog\w*|arthropod\w*|aphid\w*|parasitoid\w*|'
     r'entomopathogen\w*|beauveria|metarhizium|pollinat\w*|bee|bees|bumblebee\w*|'
-    r'honeybee\w*|beetle\w*|butterfl\w*|moth\w*|ant|ants|wasp\w*|fly|flies|'
+    r'honeybee\w*|beetle\w*|butterfl\w*|moth\w*|ant|ants|wasp\w*|'
+    r'fruit[- ]?fl(?:y|ies)|housefl(?:y|ies)|tsetse|sand[- ]?fl(?:y|ies)|'
+    r'blowfl(?:y|ies)|blackfl(?:y|ies)|soldier[- ]?fl(?:y|ies)|'
     r'hoverfl\w*|mosquito\w*|whitefl\w*|thrips|leafhopper\w*|planthopper\w*|'
     r'caterpillar\w*|locust\w*|grasshopper\w*|ladybird\w*|ladybug\w*|lacewing\w*|'
     r'weevil\w*|mealybug\w*|termite\w*|dragonfl\w*|damselfl\w*|lepidoptera|'
@@ -136,7 +139,8 @@ def make_item(title, url, published, source, today, relevance_text='', doi=None)
         return None
     if published < today - timedelta(days=MAX_AGE_DAYS):
         return None
-    if source.get('scope') != 'entomology' and not ENTOMOLOGY.search(title + ' ' + relevance_text):
+    matching_text = title if source.get('matchTitleOnly') else title + ' ' + relevance_text
+    if source.get('scope') != 'entomology' and not ENTOMOLOGY.search(matching_text):
         return None
     doi = normalise_doi(doi) or normalise_doi(url)
     identity = doi or url
@@ -317,18 +321,39 @@ def build_feed(sources, curated, previous=None, now=None, fetcher=fetch_bytes):
     # Curated editorial records win over metadata discoveries of the same work.
     ordered_curated = sorted((dict(i, curated=True) for i in curated if valid_item(i, today, True)),
                              key=lambda i: i['published'], reverse=True)
-    ordered_auto = sorted(automatic, key=lambda i: i['published'], reverse=True)
     items, seen, auto_count = [], set(), 0
-    for item in ordered_curated + ordered_auto:
+    for item in ordered_curated:
         keys = identity_keys(item)
         if not keys or seen.intersection(keys):
             continue
-        if not item.get('curated'):
-            if auto_count >= MAX_AUTOMATIC_ITEMS:
-                continue
-            auto_count += 1
         seen.update(keys)
         items.append(item)
+
+    # Give each source one newest unique item per round. Quiet sources release
+    # their spare capacity naturally, while duplicates do not consume a turn.
+    # Stable source/item ordering makes retention independent of config order.
+    buckets = {}
+    for item in automatic:
+        buckets.setdefault(item['sourceId'], []).append(item)
+    queues = {source_id: deque(sorted(buckets[source_id],
+              key=lambda i: (i['published'], i['id'], i['url']), reverse=True))
+              for source_id in sorted(buckets)}
+    while queues and auto_count < MAX_AUTOMATIC_ITEMS:
+        for source_id in list(queues):
+            queue = queues[source_id]
+            while queue:
+                item = queue.popleft()
+                keys = identity_keys(item)
+                if not keys or seen.intersection(keys):
+                    continue
+                seen.update(keys)
+                items.append(item)
+                auto_count += 1
+                break
+            if not queue:
+                del queues[source_id]
+            if auto_count >= MAX_AUTOMATIC_ITEMS:
+                break
     items.sort(key=lambda i: i['published'], reverse=True)
     return {
         'updatedAt': timestamp,
