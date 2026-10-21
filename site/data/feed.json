@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-21T09:10:04Z",
-  "lastSuccessfulUpdate": "2026-10-21T09:10:04Z",
+  "updatedAt": "2026-10-21T09:23:48Z",
+  "lastSuccessfulUpdate": "2026-10-21T09:23:48Z",
   "items": [
     {
       "id": "auto-2960b9a4caa47ab1",
@@ -2543,8 +2543,8 @@
       "url": "https://entomologytoday.org/feed/",
       "homepage": "https://entomologytoday.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
+      "lastAttempt": "2026-10-21T09:23:48Z",
+      "lastSuccess": "2026-10-21T09:23:48Z",
       "count": 9
     },
     {
@@ -2553,8 +2553,8 @@
       "url": "https://www.royensoc.co.uk/feed/",
       "homepage": "https://www.royensoc.co.uk/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
+      "lastAttempt": "2026-10-21T09:23:48Z",
+      "lastSuccess": "2026-10-21T09:23:48Z",
       "count": 10
     },
     {
@@ -2563,8 +2563,8 @@
       "url": "https://www.buglife.org.uk/news/feed/",
       "homepage": "https://www.buglife.org.uk/news/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
+      "lastAttempt": "2026-10-21T09:23:48Z",
+      "lastSuccess": "2026-10-21T09:23:48Z",
       "count": 6
     },
     {
@@ -2573,8 +2573,8 @@
       "url": "https://blog.cabi.org/feed/",
       "homepage": "https://blog.cabi.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
+      "lastAttempt": "2026-10-21T09:23:48Z",
+      "lastSuccess": "2026-10-21T09:23:48Z",
       "count": 1
     },
     {
@@ -2583,8 +2583,8 @@
       "url": "https://blog.plantwise.org/feed/",
       "homepage": "https://blog.plantwise.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
+      "lastAttempt": "2026-10-21T09:23:48Z",
+      "lastSuccess": "2026-10-21T09:23:48Z",
       "count": 1
     },
     {
@@ -2593,8 +2593,8 @@
       "url": "https://api.crossref.org/journals/1365-2311/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652311",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
+      "lastAttempt": "2026-10-21T09:23:48Z",
+      "lastSuccess": "2026-10-21T09:23:48Z",
       "count": 35
     },
     {
@@ -2602,10 +2602,11 @@
       "name": "Agricultural and Forest Entomology",
       "url": "https://api.crossref.org/journals/1461-9563/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/14619563",
-      "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
+      "status": "cached",
+      "lastAttempt": "2026-10-21T09:23:48Z",
       "lastSuccess": "2026-10-21T09:10:04Z",
-      "count": 25
+      "count": 15,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "insect-conservation-diversity",
@@ -2613,8 +2614,8 @@
       "url": "https://api.crossref.org/journals/1752-4598/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/17524598",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
+      "lastAttempt": "2026-10-21T09:23:48Z",
+      "lastSuccess": "2026-10-21T09:23:48Z",
       "count": 35
     },
     {
@@ -2623,8 +2624,8 @@
       "url": "https://api.crossref.org/journals/1365-3032/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653032",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
+      "lastAttempt": "2026-10-21T09:23:48Z",
+      "lastSuccess": "2026-10-21T09:23:48Z",
       "count": 16
     },
     {
@@ -2633,8 +2634,8 @@
       "url": "https://api.crossref.org/journals/1365-3113/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653113",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
+      "lastAttempt": "2026-10-21T09:23:48Z",
+      "lastSuccess": "2026-10-21T09:23:48Z",
       "count": 14
     },
     {
@@ -2643,8 +2644,8 @@
       "url": "https://api.crossref.org/journals/1365-2915/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652915",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
+      "lastAttempt": "2026-10-21T09:23:48Z",
+      "lastSuccess": "2026-10-21T09:23:48Z",
       "count": 33
     },
     {
@@ -2653,8 +2654,8 @@
       "url": "https://api.crossref.org/journals/1365-2583/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652583",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
+      "lastAttempt": "2026-10-21T09:23:48Z",
+      "lastSuccess": "2026-10-21T09:23:48Z",
       "count": 18
     },
     {
@@ -2663,8 +2664,8 @@
       "url": "https://api.crossref.org/journals/1049-9644/works",
       "homepage": "https://www.sciencedirect.com/journal/biological-control",
       "status": "ok",
-      "lastAttempt": "2026-10-21T09:10:04Z",
-      "lastSuccess": "2026-10-21T09:10:04Z",
+      "lastAttempt": "2026-10-21T09:23:48Z",
+      "lastSuccess": "2026-10-21T09:23:48Z",
       "count": 0
     }
   ]
