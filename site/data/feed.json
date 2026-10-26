@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-25T09:49:39Z",
-  "lastSuccessfulUpdate": "2026-10-25T09:49:39Z",
+  "updatedAt": "2026-10-26T11:08:10Z",
+  "lastSuccessfulUpdate": "2026-10-26T11:08:10Z",
   "items": [
     {
       "id": "auto-8fe41ff922a3a861",
@@ -2535,8 +2535,8 @@
       "url": "https://www.buglife.org.uk/news/feed/",
       "homepage": "https://www.buglife.org.uk/news/",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 6
     },
     {
@@ -2545,8 +2545,8 @@
       "url": "https://www.bumblebeeconservation.org/feed/",
       "homepage": "https://www.bumblebeeconservation.org/what-we-do/news/",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 9
     },
     {
@@ -2555,8 +2555,8 @@
       "url": "https://blog.cabi.org/feed/",
       "homepage": "https://blog.cabi.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 0
     },
     {
@@ -2565,8 +2565,8 @@
       "url": "https://entomologytoday.org/feed/",
       "homepage": "https://entomologytoday.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 9
     },
     {
@@ -2575,8 +2575,8 @@
       "url": "https://blog.plantwise.org/feed/",
       "homepage": "https://blog.plantwise.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 1
     },
     {
@@ -2585,8 +2585,8 @@
       "url": "https://www.royensoc.co.uk/feed/",
       "homepage": "https://www.royensoc.co.uk/",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 10
     },
     {
@@ -2595,8 +2595,8 @@
       "url": "https://appliedecologistsblog.com/feed/",
       "homepage": "https://appliedecologistsblog.com/",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 1
     },
     {
@@ -2605,8 +2605,8 @@
       "url": "https://xerces.org/rss.xml",
       "homepage": "https://xerces.org/",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 6
     },
     {
@@ -2615,8 +2615,8 @@
       "url": "https://api.crossref.org/journals/1461-9563/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/14619563",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 27
     },
     {
@@ -2624,10 +2624,11 @@
       "name": "BioControl",
       "url": "https://api.crossref.org/journals/1573-8248/works",
       "homepage": "https://link.springer.com/journal/10526",
-      "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
+      "status": "cached",
+      "lastAttempt": "2026-10-26T11:08:10Z",
       "lastSuccess": "2026-10-25T09:49:39Z",
-      "count": 15
+      "count": 6,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "biological-control",
@@ -2635,8 +2636,8 @@
       "url": "https://api.crossref.org/journals/1049-9644/works",
       "homepage": "https://www.sciencedirect.com/journal/biological-control",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 0
     },
     {
@@ -2644,20 +2645,22 @@
       "name": "Ecological Entomology",
       "url": "https://api.crossref.org/journals/1365-2311/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652311",
-      "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
+      "status": "cached",
+      "lastAttempt": "2026-10-26T11:08:10Z",
       "lastSuccess": "2026-10-25T09:49:39Z",
-      "count": 35
+      "count": 6,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "environmental-entomology",
       "name": "Environmental Entomology",
       "url": "https://api.crossref.org/journals/1938-2936/works",
       "homepage": "https://academic.oup.com/ee",
-      "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
+      "status": "cached",
+      "lastAttempt": "2026-10-26T11:08:10Z",
       "lastSuccess": "2026-10-25T09:49:39Z",
-      "count": 34
+      "count": 6,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "insect-conservation-diversity",
@@ -2665,8 +2668,8 @@
       "url": "https://api.crossref.org/journals/1752-4598/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/17524598",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 35
     },
     {
@@ -2675,8 +2678,8 @@
       "url": "https://api.crossref.org/journals/1365-2583/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652583",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 18
     },
     {
@@ -2685,7 +2688,7 @@
       "url": "https://api.crossref.org/journals/1744-7917/works",
       "homepage": "https://onlinelibrary.wiley.com/journal/17447917",
       "status": "cached",
-      "lastAttempt": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
       "lastSuccess": "2026-10-24T09:33:13Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2696,8 +2699,8 @@
       "url": "https://api.crossref.org/journals/2399-3421/works",
       "homepage": "https://academic.oup.com/isd",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 23
     },
     {
@@ -2705,20 +2708,22 @@
       "name": "Journal of Economic Entomology",
       "url": "https://api.crossref.org/journals/1938-291X/works",
       "homepage": "https://academic.oup.com/jee",
-      "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
+      "status": "cached",
+      "lastAttempt": "2026-10-26T11:08:10Z",
       "lastSuccess": "2026-10-25T09:49:39Z",
-      "count": 35
+      "count": 6,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "journal-insect-conservation",
       "name": "Journal of Insect Conservation",
       "url": "https://api.crossref.org/journals/1572-9753/works",
       "homepage": "https://link.springer.com/journal/10841",
-      "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
+      "status": "cached",
+      "lastAttempt": "2026-10-26T11:08:10Z",
       "lastSuccess": "2026-10-25T09:49:39Z",
-      "count": 35
+      "count": 6,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "journal-medical-entomology",
@@ -2726,8 +2731,8 @@
       "url": "https://api.crossref.org/journals/1938-2928/works",
       "homepage": "https://academic.oup.com/jme",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 35
     },
     {
@@ -2736,8 +2741,8 @@
       "url": "https://api.crossref.org/journals/1365-2915/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652915",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 34
     },
     {
@@ -2746,8 +2751,8 @@
       "url": "https://api.crossref.org/journals/1526-4998/works",
       "homepage": "https://scijournals.onlinelibrary.wiley.com/journal/15264998",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 12
     },
     {
@@ -2756,8 +2761,8 @@
       "url": "https://api.crossref.org/journals/1365-3032/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653032",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 16
     },
     {
@@ -2766,8 +2771,8 @@
       "url": "https://api.crossref.org/journals/1365-3113/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653113",
       "status": "ok",
-      "lastAttempt": "2026-10-25T09:49:39Z",
-      "lastSuccess": "2026-10-25T09:49:39Z",
+      "lastAttempt": "2026-10-26T11:08:10Z",
+      "lastSuccess": "2026-10-26T11:08:10Z",
       "count": 15
     }
   ]
