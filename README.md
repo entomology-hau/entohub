@@ -16,6 +16,7 @@ The site lives at the root of this repository's GitHub Pages deployment. The opp
 - `scripts/persist_feed.py`: commits only the generated feed, preserving newer edits on `main`.
 - `tests/test_hub_feed.py`: offline collection and persistence checks.
 - `tests/test_hub_navigation.cjs`: offline navigation, deep-link and keyboard checks (Node.js 20+).
+- `tests/test_biodiversity.cjs`: shared fetching, safe record previews and failure/retry checks.
 
 The public frontend does not itself enforce access to protected research-centre information; that remains the responsibility of the external service.
 
@@ -31,7 +32,7 @@ Open http://localhost:8000/.
 
 ```sh
 python -m unittest discover -s tests -v
-node --test tests/test_hub_navigation.cjs
+node --test tests/test_*.cjs
 python scripts/refresh_hub.py
 ```
 
@@ -56,3 +57,9 @@ Failed sources retain eligible cached records that passed the current content ch
 The bare site URL opens the Overview, which introduces the hub and links to every section. Explicit `?section=` links and older feed-filter-only links remain supported. Research toolkit stays last in the tab order.
 
 The Overview includes Instagram’s native profile preview for `hau_entomology`. It loads `https://www.instagram.com/embed.js` only after the visitor selects **Show Instagram preview**; no account token is stored in the repository. A permanent profile link remains available if Instagram cannot load. The embedded content is controlled by Instagram and depends on the profile remaining public and embeddable. It is a profile preview, not a separate configurable media feed. The native embed was verified with recent posts on 21 October 2026.
+
+## HAU Biodiversity records
+
+Overview and Practical toolkit show three and six recent observations respectively from [Harper Adams University Biodiversity Data](https://www.inaturalist.org/projects/harper-adams-university-biodiversity-data), iNaturalist project `168313`. `site/biodiversity.js` makes one shared, unauthenticated request to the public v1 observations API when either preview approaches the viewport. Records are ordered by observation date, descending; later identification changes remain on the original record. Refreshing the page retrieves current API results (subject to iNaturalist caching).
+
+Photographs come from each observation, with the supplied attribution and a link to the photo and licence. Only recognised Creative Commons or CC0 licences are displayed; hidden/flagged images and unlicensed photos get a text link instead. Medium-size derivatives use iNaturalist’s supported `square` → `medium` URL convention and are displayed without cropping. No precise locations are shown or stored. A failed request shows a retry button, and the project link is always available, including without JavaScript.

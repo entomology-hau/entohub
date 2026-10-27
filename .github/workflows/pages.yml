@@ -32,8 +32,8 @@ jobs:
           python-version: '3.12'
       - name: Check collection and persistence rules
         run: python -m unittest discover -s tests -v
-      - name: Check hub navigation
-        run: node --test tests/test_hub_navigation.cjs
+      - name: Check hub navigation and biodiversity previews
+        run: node --test tests/test_*.cjs
       - name: Refresh news and research metadata
         run: python scripts/refresh_hub.py
       - name: Preserve generated feed if main is unchanged

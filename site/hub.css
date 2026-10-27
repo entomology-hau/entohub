@@ -384,3 +384,28 @@
 .overview-instagram .instagram-notice{font-size:.75rem;line-height:1.55}
 .instagram-preview{margin:0 0 16px;overflow:auto}
 .instagram-preview .instagram-media,.instagram-preview iframe{width:100%!important;min-width:0!important;max-width:540px!important;margin:0!important}
+
+/* Shared, live iNaturalist project preview. */
+.biodiversity{margin-top:36px;padding-top:28px;border-top:1px solid var(--line)}
+.biodiversity .section-top{align-items:center;gap:20px}
+.biodiversity .section-top>div{min-width:0}
+.biodiversity .text-link{flex-shrink:0}
+.biodiversity-eyebrow{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:var(--muted);margin:0 0 9px}
+.biodiversity-status,.biodiversity-note{font-size:.8rem;line-height:1.6;color:var(--muted)}
+.biodiversity-status{margin:0 0 16px}
+.biodiversity-note{margin:18px 0 0;max-width:940px}
+.biodiversity-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.biodiversity-record{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.biodiversity-record figure{margin:0}
+.biodiversity-photo,.biodiversity-photo-placeholder{display:flex;align-items:center;justify-content:center;height:190px;background:var(--soft);color:var(--muted);font-size:.8rem;text-align:center}
+.biodiversity-photo img{width:100%;height:100%;object-fit:contain}
+.biodiversity-photo-placeholder{padding:24px}
+.biodiversity-credit{font-size:.65rem;line-height:1.5;padding:9px 16px 0;overflow-wrap:anywhere;color:var(--muted)}
+.biodiversity-record-body{padding:16px}
+.biodiversity-record h3{font-size:1rem;line-height:1.4;margin:0 0 6px}
+.biodiversity-scientific{font-size:.8rem;color:var(--muted);margin:0 0 10px}
+.biodiversity-record-meta{font-size:.75rem;line-height:1.7;margin:0;color:var(--muted)}
+.biodiversity-record-link{display:inline-block;margin-top:12px;font-size:.8rem;font-weight:600}
+.biodiversity-grade{font-size:.65rem;display:inline-block;padding:3px 7px;margin:10px 0 0;background:var(--soft);border:1px solid var(--line);border-radius:3px;color:var(--muted)}
+@media(max-width:900px){.biodiversity .section-top{align-items:flex-start;flex-direction:column}.biodiversity-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.biodiversity-grid{grid-template-columns:minmax(0,1fr)}.biodiversity{margin-top:28px;padding-top:24px}.biodiversity-photo,.biodiversity-photo-placeholder{height:210px}}
