@@ -1,7 +1,26 @@
 {
-  "updatedAt": "2026-11-08T11:56:53Z",
-  "lastSuccessfulUpdate": "2026-11-08T11:56:53Z",
+  "updatedAt": "2026-11-09T13:55:11Z",
+  "lastSuccessfulUpdate": "2026-11-09T13:55:11Z",
   "items": [
+    {
+      "id": "auto-afdc164b65049575",
+      "kind": "research",
+      "title": "Toxicity and transgenerational effects of cyproflanilide on Ostrinia furnacalis (Lepidoptera: Crambidae)",
+      "url": "https://doi.org/10.1093/jee/toag336",
+      "source": "Journal of Economic Entomology",
+      "sourceId": "journal-economic-entomology",
+      "published": "2026-11-07",
+      "areas": [
+        "Crop protection & IPM"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jee/toag336"
+    },
     {
       "id": "auto-6518ef37710a08d2",
       "kind": "research",
@@ -40,25 +59,6 @@
       "tagMethod": "automatic-keywords",
       "contentChecksVersion": 2,
       "doi": "10.1111/een.70156"
-    },
-    {
-      "id": "auto-e5113fa46be04bab",
-      "kind": "research",
-      "title": "New World screwworm genomics: implications for past, present, and future control strategies",
-      "url": "https://doi.org/10.1093/jee/toag332",
-      "source": "Journal of Economic Entomology",
-      "sourceId": "journal-economic-entomology",
-      "published": "2026-11-06",
-      "areas": [
-        "Insect biology & behaviour"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 2,
-      "doi": "10.1093/jee/toag332"
     },
     {
       "id": "auto-98b7b929b71b4050",
@@ -155,6 +155,25 @@
       "tagMethod": "automatic-keywords",
       "contentChecksVersion": 2,
       "doi": "10.1111/syen.70077"
+    },
+    {
+      "id": "auto-e5113fa46be04bab",
+      "kind": "research",
+      "title": "New World screwworm genomics: implications for past, present, and future control strategies",
+      "url": "https://doi.org/10.1093/jee/toag332",
+      "source": "Journal of Economic Entomology",
+      "sourceId": "journal-economic-entomology",
+      "published": "2026-11-06",
+      "areas": [
+        "Insect biology & behaviour"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jee/toag332"
     },
     {
       "id": "auto-ab6c65cecd543709",
@@ -404,25 +423,6 @@
       "doi": "10.1111/icad.70161"
     },
     {
-      "id": "auto-41bd54c85353dc6f",
-      "kind": "research",
-      "title": "Attract-and-kill treatment reduces the abundance of the most common bee in soybean",
-      "url": "https://doi.org/10.1093/jee/toag333",
-      "source": "Journal of Economic Entomology",
-      "sourceId": "journal-economic-entomology",
-      "published": "2026-11-05",
-      "areas": [
-        "Pollination & beneficial insects"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 2,
-      "doi": "10.1093/jee/toag333"
-    },
-    {
       "id": "auto-95fc1a58795c513a",
       "kind": "research",
       "title": "Forecasting Culex pipiens/restuans abundance in Ontario, Canada using surveillance and weather data",
@@ -498,6 +498,25 @@
       "tagMethod": "automatic-keywords",
       "contentChecksVersion": 2,
       "doi": "10.1111/icad.70158"
+    },
+    {
+      "id": "auto-41bd54c85353dc6f",
+      "kind": "research",
+      "title": "Attract-and-kill treatment reduces the abundance of the most common bee in soybean",
+      "url": "https://doi.org/10.1093/jee/toag333",
+      "source": "Journal of Economic Entomology",
+      "sourceId": "journal-economic-entomology",
+      "published": "2026-11-05",
+      "areas": [
+        "Pollination & beneficial insects"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2,
+      "doi": "10.1093/jee/toag333"
     },
     {
       "id": "auto-e503088914aeeb12",
@@ -973,25 +992,6 @@
       "tagMethod": "automatic-keywords",
       "contentChecksVersion": 2,
       "doi": "10.1111/phen.70070"
-    },
-    {
-      "id": "auto-12fffd93222ca723",
-      "kind": "research",
-      "title": "Mechanisms regulating threonine-induced silk protein synthesis in Bombyx mori (Lepidoptera: Bombycidae) on artificial diet",
-      "url": "https://doi.org/10.1093/jee/toag330",
-      "source": "Journal of Economic Entomology",
-      "sourceId": "journal-economic-entomology",
-      "published": "2026-10-30",
-      "areas": [
-        "Crop protection & IPM"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 2,
-      "doi": "10.1093/jee/toag330"
     },
     {
       "id": "auto-bab75faf759bf440",
@@ -2535,8 +2535,8 @@
       "url": "https://www.buglife.org.uk/news/feed/",
       "homepage": "https://www.buglife.org.uk/news/",
       "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
       "count": 8
     },
     {
@@ -2545,8 +2545,8 @@
       "url": "https://www.bumblebeeconservation.org/feed/",
       "homepage": "https://www.bumblebeeconservation.org/what-we-do/news/",
       "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
       "count": 10
     },
     {
@@ -2554,10 +2554,11 @@
       "name": "CABI",
       "url": "https://blog.cabi.org/feed/",
       "homepage": "https://blog.cabi.org/",
-      "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
+      "status": "error",
+      "lastAttempt": "2026-11-09T13:55:11Z",
       "lastSuccess": "2026-11-08T11:56:53Z",
-      "count": 0
+      "count": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     {
       "id": "entomology-today",
@@ -2565,8 +2566,8 @@
       "url": "https://entomologytoday.org/feed/",
       "homepage": "https://entomologytoday.org/",
       "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
       "count": 9
     },
     {
@@ -2574,10 +2575,11 @@
       "name": "PlantwisePlus · CABI",
       "url": "https://blog.plantwise.org/feed/",
       "homepage": "https://blog.plantwise.org/",
-      "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
+      "status": "cached",
+      "lastAttempt": "2026-11-09T13:55:11Z",
       "lastSuccess": "2026-11-08T11:56:53Z",
-      "count": 1
+      "count": 1,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     {
       "id": "royal-entomological-society",
@@ -2585,8 +2587,8 @@
       "url": "https://www.royensoc.co.uk/feed/",
       "homepage": "https://www.royensoc.co.uk/",
       "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
       "count": 10
     },
     {
@@ -2595,8 +2597,8 @@
       "url": "https://appliedecologistsblog.com/feed/",
       "homepage": "https://appliedecologistsblog.com/",
       "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
       "count": 1
     },
     {
@@ -2605,8 +2607,8 @@
       "url": "https://xerces.org/rss.xml",
       "homepage": "https://xerces.org/",
       "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
       "count": 7
     },
     {
@@ -2615,8 +2617,8 @@
       "url": "https://api.crossref.org/journals/1461-9563/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/14619563",
       "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
       "count": 22
     },
     {
@@ -2625,7 +2627,7 @@
       "url": "https://api.crossref.org/journals/1573-8248/works",
       "homepage": "https://link.springer.com/journal/10526",
       "status": "cached",
-      "lastAttempt": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
       "lastSuccess": "2026-11-07T11:45:12Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2636,8 +2638,8 @@
       "url": "https://api.crossref.org/journals/1049-9644/works",
       "homepage": "https://www.sciencedirect.com/journal/biological-control",
       "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
       "count": 0
     },
     {
@@ -2645,10 +2647,11 @@
       "name": "Ecological Entomology",
       "url": "https://api.crossref.org/journals/1365-2311/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652311",
-      "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
+      "status": "cached",
+      "lastAttempt": "2026-11-09T13:55:11Z",
       "lastSuccess": "2026-11-08T11:56:53Z",
-      "count": 35
+      "count": 6,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "environmental-entomology",
@@ -2656,7 +2659,7 @@
       "url": "https://api.crossref.org/journals/1938-2936/works",
       "homepage": "https://academic.oup.com/ee",
       "status": "cached",
-      "lastAttempt": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
       "lastSuccess": "2026-11-07T11:45:12Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2666,31 +2669,32 @@
       "name": "Insect Conservation and Diversity",
       "url": "https://api.crossref.org/journals/1752-4598/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/17524598",
-      "status": "cached",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-07T11:45:12Z",
-      "count": 6,
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
+      "count": 35
     },
     {
       "id": "insect-molecular-biology",
       "name": "Insect Molecular Biology",
       "url": "https://api.crossref.org/journals/1365-2583/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652583",
-      "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
+      "status": "cached",
+      "lastAttempt": "2026-11-09T13:55:11Z",
       "lastSuccess": "2026-11-08T11:56:53Z",
-      "count": 14
+      "count": 6,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "insect-science",
       "name": "Insect Science",
       "url": "https://api.crossref.org/journals/1744-7917/works",
       "homepage": "https://onlinelibrary.wiley.com/journal/17447917",
-      "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
+      "status": "cached",
+      "lastAttempt": "2026-11-09T13:55:11Z",
       "lastSuccess": "2026-11-08T11:56:53Z",
-      "count": 35
+      "count": 6,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "insect-systematics-diversity",
@@ -2698,7 +2702,7 @@
       "url": "https://api.crossref.org/journals/2399-3421/works",
       "homepage": "https://academic.oup.com/isd",
       "status": "cached",
-      "lastAttempt": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
       "lastSuccess": "2026-11-07T11:45:12Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2708,11 +2712,10 @@
       "name": "Journal of Economic Entomology",
       "url": "https://api.crossref.org/journals/1938-291X/works",
       "homepage": "https://academic.oup.com/jee",
-      "status": "cached",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-07T11:45:12Z",
-      "count": 6,
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
+      "count": 35
     },
     {
       "id": "journal-insect-conservation",
@@ -2720,8 +2723,8 @@
       "url": "https://api.crossref.org/journals/1572-9753/works",
       "homepage": "https://link.springer.com/journal/10841",
       "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
       "count": 35
     },
     {
@@ -2729,32 +2732,31 @@
       "name": "Journal of Medical Entomology",
       "url": "https://api.crossref.org/journals/1938-2928/works",
       "homepage": "https://academic.oup.com/jme",
-      "status": "cached",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-07T11:45:12Z",
-      "count": 6,
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
+      "count": 35
     },
     {
       "id": "medical-veterinary-entomology",
       "name": "Medical and Veterinary Entomology",
       "url": "https://api.crossref.org/journals/1365-2915/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652915",
-      "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
+      "status": "cached",
+      "lastAttempt": "2026-11-09T13:55:11Z",
       "lastSuccess": "2026-11-08T11:56:53Z",
-      "count": 35
+      "count": 6,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "pest-management-science",
       "name": "Pest Management Science",
       "url": "https://api.crossref.org/journals/1526-4998/works",
       "homepage": "https://scijournals.onlinelibrary.wiley.com/journal/15264998",
-      "status": "cached",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-07T11:45:12Z",
-      "count": 6,
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
+      "count": 13
     },
     {
       "id": "physiological-entomology",
@@ -2762,8 +2764,8 @@
       "url": "https://api.crossref.org/journals/1365-3032/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653032",
       "status": "ok",
-      "lastAttempt": "2026-11-08T11:56:53Z",
-      "lastSuccess": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
+      "lastSuccess": "2026-11-09T13:55:11Z",
       "count": 16
     },
     {
@@ -2772,7 +2774,7 @@
       "url": "https://api.crossref.org/journals/1365-3113/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653113",
       "status": "cached",
-      "lastAttempt": "2026-11-08T11:56:53Z",
+      "lastAttempt": "2026-11-09T13:55:11Z",
       "lastSuccess": "2026-11-07T11:45:12Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
