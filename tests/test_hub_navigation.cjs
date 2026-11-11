@@ -196,3 +196,16 @@ test('repeating the same in-panel anchor does not create duplicate history entri
   b.clickAnchor('#courses-undergraduate'); b.clickAnchor('#courses-undergraduate');
   b.assertSection('courses'); assert.equal(b.historyLength(), 2);
 });
+
+test('legacy Sources URLs open the footer disclosure and retain a selected main tab', async () => {
+  const b = await browser('?section=sources');
+  b.assertSection('overview');
+  assert.equal(b.tab('sources'), undefined);
+  assert.equal(b.document.getElementById('panel-sources').open, true);
+  assert.equal(b.location.hash, '#sources');
+
+  const deepLink = await browser('?section=learn#about');
+  deepLink.assertSection('learn');
+  assert.equal(deepLink.document.getElementById('panel-sources').open, true);
+  assert.equal(deepLink.document.getElementById('about').parentElement.open, true);
+});

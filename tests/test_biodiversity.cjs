@@ -10,7 +10,7 @@ const settle = () => new Promise(resolve => setImmediate(resolve));
 
 function harness(respond) {
   let requests = 0;
-  const sections = [3, 6].map(limit => {
+  const sections = [2, 3].map(limit => {
     const handlers = new Map();
     const status = {textContent: ''};
     const grid = {innerHTML: '', attrs: {}, setAttribute(key, value) { this.attrs[key] = value; }, querySelectorAll() { return []; }};
@@ -30,21 +30,22 @@ const licensed = overrides => ({id: 101, url: 'https://inaturalist-open-data.s3.
 const response = results => ({ok: true, json: async () => ({results})});
 const countCards = section => (section.grid.innerHTML.match(/class="biodiversity-record"/g) || []).length;
 
-test('both panels share one public request and render three/six records', async () => {
+test('both panels share one public request and render two/three records', async () => {
   const b = harness((url, options) => {
     const query = new URL(url).searchParams;
     assert.equal(query.get('project_id'), '168313');
     assert.equal(query.get('order_by'), 'observed_on');
     assert.equal(query.get('order'), 'desc');
+    assert.equal(query.get('per_page'), '3');
     assert.equal(options.credentials, 'omit');
     return response(Array.from({length: 6}, (_, i) => record(i + 1)));
   });
   await settle();
   assert.equal(b.requests(), 1);
-  assert.deepEqual(b.sections.map(countCards), [3, 6]);
+  assert.deepEqual(b.sections.map(countCards), [2, 3]);
   assert.ok(b.sections.every(s => s.grid.attrs['aria-busy'] === 'false' && s.retry.hidden));
   assert.match(html, /data-biodiversity data-limit="3"/);
-  assert.match(html, /data-biodiversity data-limit="6"/);
+  assert.match(html, /data-biodiversity data-limit="2"/);
   assert.equal((html.match(/href="https:\/\/www\.inaturalist\.org\/projects\/harper-adams-university-biodiversity-data"/g) || []).length, 2);
 });
 
@@ -60,7 +61,9 @@ test('external names and attribution are escaped; photos require reuse permissio
   records[5].photos = [licensed({license_code: 'unknown'})];
   const b = harness(() => response(records));
   await settle();
-  const output = b.sections[1].grid.innerHTML;
+  const b2 = harness(() => response(records.slice(3)));
+  await settle();
+  const output = b.sections[1].grid.innerHTML + b2.sections[1].grid.innerHTML;
   assert.ok(!output.includes('<script>') && !output.includes('<b>Photographer</b>') && !output.includes('<img src=x'));
   assert.ok(output.includes('&lt;script&gt;unsafe&lt;/script&gt;') && output.includes('&lt;b&gt;Photographer&lt;/b&gt;'));
   assert.equal((output.match(/<img /g) || []).length, 1);

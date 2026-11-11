@@ -390,22 +390,48 @@
 .biodiversity .section-top{align-items:center;gap:20px}
 .biodiversity .section-top>div{min-width:0}
 .biodiversity .text-link{flex-shrink:0}
-.biodiversity-eyebrow{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:var(--muted);margin:0 0 9px}
 .biodiversity-status,.biodiversity-note{font-size:.8rem;line-height:1.6;color:var(--muted)}
-.biodiversity-status{margin:0 0 16px}
-.biodiversity-note{margin:18px 0 0;max-width:940px}
-.biodiversity-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.biodiversity-status{margin:0 0 8px}
+.biodiversity-note{margin:8px 0 0;max-width:940px}
+.biodiversity-grid{display:grid;grid-template-columns:repeat(3,minmax(0,250px));gap:12px}
 .biodiversity-record{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
 .biodiversity-record figure{margin:0}
-.biodiversity-photo,.biodiversity-photo-placeholder{display:flex;align-items:center;justify-content:center;height:190px;background:var(--soft);color:var(--muted);font-size:.8rem;text-align:center}
+.biodiversity-photo,.biodiversity-photo-placeholder{display:flex;align-items:center;justify-content:center;height:106px;background:var(--soft);color:var(--muted);font-size:.8rem;text-align:center}
 .biodiversity-photo img{width:100%;height:100%;object-fit:contain}
-.biodiversity-photo-placeholder{padding:24px}
-.biodiversity-credit{font-size:.65rem;line-height:1.5;padding:9px 16px 0;overflow-wrap:anywhere;color:var(--muted)}
-.biodiversity-record-body{padding:16px}
+.biodiversity-photo-placeholder{padding:10px}
+.biodiversity-credit{font-size:.65rem;line-height:1.5;padding:7px 12px 0;overflow-wrap:anywhere;color:var(--muted)}
+.biodiversity-record-body{padding:10px 12px}
 .biodiversity-record h3{font-size:1rem;line-height:1.4;margin:0 0 6px}
 .biodiversity-scientific{font-size:.8rem;color:var(--muted);margin:0 0 10px}
 .biodiversity-record-meta{font-size:.75rem;line-height:1.7;margin:0;color:var(--muted)}
 .biodiversity-record-link{display:inline-block;margin-top:12px;font-size:.8rem;font-weight:600}
 .biodiversity-grade{font-size:.65rem;display:inline-block;padding:3px 7px;margin:10px 0 0;background:var(--soft);border:1px solid var(--line);border-radius:3px;color:var(--muted)}
 @media(max-width:900px){.biodiversity .section-top{align-items:flex-start;flex-direction:column}.biodiversity-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:620px){.biodiversity-grid{grid-template-columns:minmax(0,1fr)}.biodiversity{margin-top:28px;padding-top:24px}.biodiversity-photo,.biodiversity-photo-placeholder{height:210px}}
+@media(max-width:620px){.biodiversity-grid{grid-template-columns:minmax(0,1fr)}.biodiversity{margin-top:28px;padding-top:24px}.biodiversity-photo,.biodiversity-photo-placeholder{height:90px}}
+
+.overview-rail{display:grid;gap:16px;min-width:0}
+.overview-guides>.overview-card:last-child{grid-column:1/-1}
+.overview-icon{
+  display:grid;place-items:center;width:38px;height:38px;margin-bottom:13px;
+  border-radius:6px;background:var(--soft);color:var(--link)
+}
+.overview-icon::before{
+  content:"";width:22px;height:22px;background:currentColor;
+  mask:var(--section-icon) center/contain no-repeat
+}
+.hub-photo{
+  margin:0;min-width:0;overflow:hidden;border:1px solid var(--line);
+  border-radius:6px;background:var(--panel)
+}
+.hub-photo img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.hub-photo figcaption{padding:8px 12px;color:var(--muted);font-size:.72rem}
+.toolkit-intro{align-items:center;gap:24px}
+.toolkit-photo{width:min(100%,260px);flex:none}
+.footer-sources{margin-top:18px;border-top:1px solid var(--line);padding-top:14px}
+.footer-sources>summary{width:fit-content;cursor:pointer;color:var(--link);font-weight:600}
+.footer-sources>.sources{padding-top:14px}
+@media(max-width:1050px){.overview-rail{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}}
+@media(max-width:620px){
+  .overview-rail{grid-template-columns:minmax(0,1fr)}
+  .toolkit-intro{align-items:flex-start;flex-direction:column}
+}

@@ -7,7 +7,7 @@ const validDate = value => typeof value==='string' && /^\d{4}-\d{2}-\d{2}(?:T.*)
 const dateText = value => validDate(value)?new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'Europe/London'}).format(new Date(value.length===10?value+'T12:00:00Z':value)):'Date unavailable';
 const validItem = item => item && typeof item.id==='string' && typeof item.title==='string' && safeURL(item.url) && ['news','research'].includes(item.kind) && validDate(item.published) && item.published.slice(0,10)<=new Date().toISOString().slice(0,10) && Array.isArray(item.areas);
 let database=null,kind='all',currentPage=1,saved=new Map(),sourceConfig=[],activeSection='overview';
-const SECTIONS=['overview','highlights','courses','learn','sources','research'];
+const SECTIONS=['overview','highlights','courses','learn','research'];
 const FEED_PARAMS=['view','q','area','region','selection','sort','size','page'];
 function setSectionParam(params){
   if(activeSection==='overview'&&!FEED_PARAMS.some(name=>params.has(name)))params.delete('section');
@@ -78,13 +78,27 @@ function showSection(name,{push=false,focus=false,clearHash=false}={}){
 }
 function revealFragment(){
   let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
+  if(!id&&new URLSearchParams(location.search).get('section')==='sources'){
+    const url=new URL(location.href);
+    url.searchParams.delete('section');
+    url.hash='sources';
+    history.replaceState(null,'',url.pathname+url.search+url.hash);
+    id='sources';
+  }
   if(!id)return;
   const target=$(id),panel=target?.closest('[data-panel]');
   if(panel){
     showSection(panel.dataset.panel);
     let ancestor=target.parentElement;while(ancestor){if(ancestor.tagName==='DETAILS')ancestor.open=true;ancestor=ancestor.parentElement;}
     target.scrollIntoView({block:'start'});
+  }else if(target&&isFooterSource(target)){
+    $('panel-sources').open=true;
+    if(id==='about'||id==='source-health')$('about').parentElement.open=true;
+    target.scrollIntoView({block:'start'});
   }
+}
+function isFooterSource(target){
+  return ['panel-sources','sources','sources-heading','about','source-health','source-links'].includes(target.getAttribute('id'));
 }
 function initNavigation(){
   showSection(activeSection);revealFragment();
