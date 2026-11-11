@@ -13,19 +13,21 @@ function setSectionParam(params){
   if(activeSection==='overview'&&!FEED_PARAMS.some(name=>params.has(name)))params.delete('section');
   else params.set('section',activeSection);
 }
-function initInstagram(){
-  const button=$('load-instagram'),preview=$('instagram-preview'),notice=$('instagram-notice');
-  if(!button||!preview)return;
-  button.hidden=false;
-  button.addEventListener('click',()=>{
-    button.hidden=true;preview.hidden=false;
-    notice.textContent='If the preview is unavailable, open our profile using the link below.';
-    const script=document.createElement('script');
-    script.src='https://www.instagram.com/embed.js';script.async=true;
-    script.onload=()=>window.instgrm?.Embeds?.process();
-    script.onerror=()=>{preview.hidden=true;notice.textContent='Instagram could not load here. You can still visit our profile below.';};
-    document.head.append(script);
-  },{once:true});
+let instagramRequested=false;
+function loadInstagram(){
+  if(instagramRequested)return;
+  instagramRequested=true;
+  const preview=$('instagram-preview'),notice=$('instagram-notice');
+  preview.hidden=false;
+  const script=document.createElement('script');
+  script.src='https://www.instagram.com/embed.js';script.async=true;
+  script.onload=()=>window.instgrm?.Embeds?.process();
+  script.onerror=()=>{
+    preview.hidden=true;
+    notice.hidden=false;
+    notice.textContent='Instagram preview unavailable.';
+  };
+  document.head.append(script);
 }
 function initTheme(){
   let theme='light';try{theme=localStorage.getItem('entomology-theme')==='dark'?'dark':'light';}catch{}
@@ -74,6 +76,7 @@ function showSection(name,{push=false,focus=false,clearHash=false}={}){
     if(clearHash)url.hash='';
     try{history.pushState(null,'',url.pathname+url.search+url.hash);}catch{}
   }
+  if(activeSection==='overview')loadInstagram();
   if(focus)$('panel-'+activeSection).focus({preventScroll:true});
 }
 function revealFragment(){
@@ -137,7 +140,7 @@ function initNavigation(){
 }
 
 async function load(){
- initTheme();initInstagram();loadSaved();for(const area of AREAS)$('area').add(new Option(area,area));restore();initNavigation();
+ initTheme();loadSaved();for(const area of AREAS)$('area').add(new Option(area,area));restore();initNavigation();
  $('filters').addEventListener('submit',e=>e.preventDefault());$('search').addEventListener('input',filterChanged);for(const id of ['area','region','selection','sort','page-size'])$(id).addEventListener('change',filterChanged);document.querySelectorAll('[data-kind]').forEach(button=>button.addEventListener('click',()=>{kind=button.dataset.kind;filterChanged();}));$('reset').addEventListener('click',reset);$('empty-reset').addEventListener('click',reset);$('cards').addEventListener('click',event=>{const button=event.target.closest('[data-save]');if(button)toggleSaved(button.dataset.save);});for(const [id,delta] of [['previous',-1],['next',1]])$(id).addEventListener('click',()=>{currentPage+=delta;render();$('feed-heading').setAttribute('tabindex','-1');$('feed-heading').focus({preventScroll:true});$('highlights').scrollIntoView({block:'start'});});window.addEventListener('popstate',()=>{restore();showSection(activeSection);revealFragment();render();});window.addEventListener('storage',event=>{if(event.key==='entomology-hub-saved'){loadSaved();render();}});
  try{const response=await fetch('data/feed.json');if(!response.ok)throw Error('Feed unavailable');database=await response.json();if(!Array.isArray(database.items))throw Error('Invalid feed');database.items=database.items.filter(validItem);render();renderSources();}catch{ $('feed-error').hidden=false;$('result-count').textContent='Highlights unavailable';if(saved.size){database={items:[],sources:[]};kind='saved';render();}}
  try{const response=await fetch('data/sources.json');if(response.ok){const config=await response.json();sourceConfig=Array.isArray(config)?config:config.sources||[];if(database)renderSources();}}catch{}

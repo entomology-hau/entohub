@@ -12,7 +12,7 @@ const script = fs.readFileSync(path.join(root, 'site/hub.js'), 'utf8').replace(/
 
 async function browser(relative = '') {
   const nodes = [], stack = [], byId = new Map(), windowEvents = new Map(), documentEvents = new Map();
-  const storage = new Map();
+  const storage = new Map(), appendedScripts = [];
   let current = new URL(relative, 'https://entomology-hau.github.io/entohub/');
   const historyEntries = [current.href];
   let historyIndex = 0;
@@ -65,6 +65,8 @@ async function browser(relative = '') {
     if (!['area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'].includes(tag) && !token[0].endsWith('/>')) stack.push(n);
   }
   document = {
+    head: {append(script) { appendedScripts.push(script); }},
+    createElement(tag) { return node(tag, {}); },
     activeElement: null, documentElement: nodes.find(n => n.tagName === 'HTML'),
     getElementById(id) { return byId.get(id) || null; },
     querySelectorAll(selector) { return nodes.filter(n => matches(n, selector)); },
@@ -90,7 +92,7 @@ async function browser(relative = '') {
   vm.runInContext(script, context, {filename: 'site/hub.js'});
   await vm.runInContext('load()', context);
   return {
-    document, history, location,
+    document, history, location, appendedScripts,
     section: () => vm.runInContext('activeSection', context),
     kind: () => vm.runInContext('kind', context),
     tab: section => byId.get(`tab-${section}`),
@@ -208,4 +210,18 @@ test('legacy Sources URLs open the footer disclosure and retain a selected main 
   deepLink.assertSection('learn');
   assert.equal(deepLink.document.getElementById('panel-sources').open, true);
   assert.equal(deepLink.document.getElementById('about').parentElement.open, true);
+});
+
+test('Instagram loads automatically the first time Overview opens and retains a fallback', async () => {
+  const b = await browser('?section=learn');
+  assert.equal(b.appendedScripts.length, 0);
+  b.clickTab('overview');
+  assert.deepEqual(b.appendedScripts.map(script => script.src), ['https://www.instagram.com/embed.js']);
+  assert.equal(b.document.getElementById('instagram-preview').hidden, false);
+  b.clickTab('learn');
+  b.clickTab('overview');
+  assert.equal(b.appendedScripts.length, 1);
+  b.appendedScripts[0].onerror();
+  assert.equal(b.document.getElementById('instagram-preview').hidden, true);
+  assert.equal(b.document.getElementById('instagram-notice').hidden, false);
 });
