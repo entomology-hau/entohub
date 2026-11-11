@@ -1,6 +1,6 @@
 'use strict';
 (() => {
-  const endpoint='https://api.inaturalist.org/v1/observations?project_id=168313&per_page=6&order_by=observed_on&order=desc&locale=en-GB';
+  const endpoint='https://api.inaturalist.org/v1/observations?project_id=168313&per_page=3&order_by=observed_on&order=desc&locale=en-GB';
   const licences=new Map([
     ['cc0','CC0'],['cc-by','CC BY'],['cc-by-sa','CC BY-SA'],
     ['cc-by-nc','CC BY-NC'],['cc-by-nc-sa','CC BY-NC-SA'],
@@ -42,7 +42,7 @@
         if(!response.ok)throw Error('Records unavailable');
         const data=await response.json();
         if(!Array.isArray(data.results))throw Error('Invalid records');
-        return data.results.filter(record=>record&&Number.isSafeInteger(record.id)&&record.id>0).slice(0,6);
+        return data.results.filter(record=>record&&Number.isSafeInteger(record.id)&&record.id>0).slice(0,3);
       }finally{clearTimeout(timeout);}
     })().catch(error=>{request=null;throw error;});
     return request;
