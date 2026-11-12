@@ -1,7 +1,26 @@
 {
-  "updatedAt": "2026-11-11T12:43:56Z",
-  "lastSuccessfulUpdate": "2026-11-11T12:43:56Z",
+  "updatedAt": "2026-11-12T13:47:11Z",
+  "lastSuccessfulUpdate": "2026-11-12T13:47:11Z",
   "items": [
+    {
+      "id": "auto-53e578820bff0e47",
+      "kind": "news",
+      "title": "On-farm Pollinator Habitat Sows Better Harvests, Deep Pride",
+      "url": "https://xerces.org/news/organizational-news/on-farm-pollinator-habitat-sows-better-harvests-deep-pride",
+      "source": "Xerces Society for Invertebrate Conservation",
+      "sourceId": "xerces-society",
+      "published": "2026-11-12",
+      "areas": [
+        "Ecology & conservation",
+        "Pollination & beneficial insects"
+      ],
+      "region": "global",
+      "curated": false,
+      "summary": "",
+      "why": "",
+      "tagMethod": "automatic-keywords",
+      "contentChecksVersion": 2
+    },
     {
       "id": "auto-3ebca28ec084040a",
       "kind": "news",
@@ -2322,25 +2341,6 @@
       "doi": "10.1093/isd/ixag029"
     },
     {
-      "id": "auto-c1dc2e287fdb63ad",
-      "kind": "news",
-      "title": "Oregon’s New Pollinator Conservation Strategy Prioritizes Actions Across the State",
-      "url": "https://xerces.org/news/organizational-news/oregons-new-pollinator-conservation-strategy-prioritizes-actions-across",
-      "source": "Xerces Society for Invertebrate Conservation",
-      "sourceId": "xerces-society",
-      "published": "2026-08-27",
-      "areas": [
-        "Ecology & conservation",
-        "Pollination & beneficial insects"
-      ],
-      "region": "global",
-      "curated": false,
-      "summary": "",
-      "why": "",
-      "tagMethod": "automatic-keywords",
-      "contentChecksVersion": 2
-    },
-    {
       "id": "news-20260826-approaches-entomology",
       "title": "A new home for entomological methods and ethics",
       "url": "https://www.royensoc.co.uk/news/approaches-in-entomology-qa/",
@@ -2532,8 +2532,8 @@
       "url": "https://www.buglife.org.uk/news/feed/",
       "homepage": "https://www.buglife.org.uk/news/",
       "status": "ok",
-      "lastAttempt": "2026-11-11T12:43:56Z",
-      "lastSuccess": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
+      "lastSuccess": "2026-11-12T13:47:11Z",
       "count": 9
     },
     {
@@ -2542,8 +2542,8 @@
       "url": "https://www.bumblebeeconservation.org/feed/",
       "homepage": "https://www.bumblebeeconservation.org/what-we-do/news/",
       "status": "ok",
-      "lastAttempt": "2026-11-11T12:43:56Z",
-      "lastSuccess": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
+      "lastSuccess": "2026-11-12T13:47:11Z",
       "count": 10
     },
     {
@@ -2552,7 +2552,7 @@
       "url": "https://blog.cabi.org/feed/",
       "homepage": "https://blog.cabi.org/",
       "status": "error",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-08T11:56:53Z",
       "count": 0,
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -2563,8 +2563,8 @@
       "url": "https://entomologytoday.org/feed/",
       "homepage": "https://entomologytoday.org/",
       "status": "ok",
-      "lastAttempt": "2026-11-11T12:43:56Z",
-      "lastSuccess": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
+      "lastSuccess": "2026-11-12T13:47:11Z",
       "count": 9
     },
     {
@@ -2573,7 +2573,7 @@
       "url": "https://blog.plantwise.org/feed/",
       "homepage": "https://blog.plantwise.org/",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-08T11:56:53Z",
       "count": 1,
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -2584,8 +2584,8 @@
       "url": "https://www.royensoc.co.uk/feed/",
       "homepage": "https://www.royensoc.co.uk/",
       "status": "ok",
-      "lastAttempt": "2026-11-11T12:43:56Z",
-      "lastSuccess": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
+      "lastSuccess": "2026-11-12T13:47:11Z",
       "count": 10
     },
     {
@@ -2594,8 +2594,8 @@
       "url": "https://appliedecologistsblog.com/feed/",
       "homepage": "https://appliedecologistsblog.com/",
       "status": "ok",
-      "lastAttempt": "2026-11-11T12:43:56Z",
-      "lastSuccess": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
+      "lastSuccess": "2026-11-12T13:47:11Z",
       "count": 1
     },
     {
@@ -2604,9 +2604,9 @@
       "url": "https://xerces.org/rss.xml",
       "homepage": "https://xerces.org/",
       "status": "ok",
-      "lastAttempt": "2026-11-11T12:43:56Z",
-      "lastSuccess": "2026-11-11T12:43:56Z",
-      "count": 7
+      "lastAttempt": "2026-11-12T13:47:11Z",
+      "lastSuccess": "2026-11-12T13:47:11Z",
+      "count": 8
     },
     {
       "id": "agricultural-forest-entomology",
@@ -2614,9 +2614,9 @@
       "url": "https://api.crossref.org/journals/1461-9563/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/14619563",
       "status": "ok",
-      "lastAttempt": "2026-11-11T12:43:56Z",
-      "lastSuccess": "2026-11-11T12:43:56Z",
-      "count": 21
+      "lastAttempt": "2026-11-12T13:47:11Z",
+      "lastSuccess": "2026-11-12T13:47:11Z",
+      "count": 20
     },
     {
       "id": "biocontrol",
@@ -2624,7 +2624,7 @@
       "url": "https://api.crossref.org/journals/1573-8248/works",
       "homepage": "https://link.springer.com/journal/10526",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-11T09:54:12Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2634,10 +2634,11 @@
       "name": "Biological Control",
       "url": "https://api.crossref.org/journals/1049-9644/works",
       "homepage": "https://www.sciencedirect.com/journal/biological-control",
-      "status": "ok",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "status": "error",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-11T12:43:56Z",
-      "count": 0
+      "count": 0,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "ecological-entomology",
@@ -2645,7 +2646,7 @@
       "url": "https://api.crossref.org/journals/1365-2311/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652311",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-11T09:54:12Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2656,7 +2657,7 @@
       "url": "https://api.crossref.org/journals/1938-2936/works",
       "homepage": "https://academic.oup.com/ee",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-10T13:28:49Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2667,7 +2668,7 @@
       "url": "https://api.crossref.org/journals/1752-4598/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/17524598",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-10T13:28:49Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2678,7 +2679,7 @@
       "url": "https://api.crossref.org/journals/1365-2583/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652583",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-10T13:28:49Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2689,7 +2690,7 @@
       "url": "https://api.crossref.org/journals/1744-7917/works",
       "homepage": "https://onlinelibrary.wiley.com/journal/17447917",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-11T09:46:47Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2700,7 +2701,7 @@
       "url": "https://api.crossref.org/journals/2399-3421/works",
       "homepage": "https://academic.oup.com/isd",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-11T09:54:12Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2711,7 +2712,7 @@
       "url": "https://api.crossref.org/journals/1938-291X/works",
       "homepage": "https://academic.oup.com/jee",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-11T09:54:12Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2722,7 +2723,7 @@
       "url": "https://api.crossref.org/journals/1572-9753/works",
       "homepage": "https://link.springer.com/journal/10841",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-11T09:54:12Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2733,7 +2734,7 @@
       "url": "https://api.crossref.org/journals/1938-2928/works",
       "homepage": "https://academic.oup.com/jme",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-11T09:46:47Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2744,7 +2745,7 @@
       "url": "https://api.crossref.org/journals/1365-2915/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652915",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-10T13:28:49Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2755,7 +2756,7 @@
       "url": "https://api.crossref.org/journals/1526-4998/works",
       "homepage": "https://scijournals.onlinelibrary.wiley.com/journal/15264998",
       "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
       "lastSuccess": "2026-11-09T13:55:11Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2766,8 +2767,8 @@
       "url": "https://api.crossref.org/journals/1365-3032/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653032",
       "status": "ok",
-      "lastAttempt": "2026-11-11T12:43:56Z",
-      "lastSuccess": "2026-11-11T12:43:56Z",
+      "lastAttempt": "2026-11-12T13:47:11Z",
+      "lastSuccess": "2026-11-12T13:47:11Z",
       "count": 16
     },
     {
@@ -2775,11 +2776,10 @@
       "name": "Systematic Entomology",
       "url": "https://api.crossref.org/journals/1365-3113/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653113",
-      "status": "cached",
-      "lastAttempt": "2026-11-11T12:43:56Z",
-      "lastSuccess": "2026-11-11T09:54:12Z",
-      "count": 5,
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "lastAttempt": "2026-11-12T13:47:11Z",
+      "lastSuccess": "2026-11-12T13:47:11Z",
+      "count": 8
     }
   ]
 }
