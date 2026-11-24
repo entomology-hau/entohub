@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-24T09:39:36Z",
-  "lastSuccessfulUpdate": "2026-11-24T09:39:36Z",
+  "updatedAt": "2026-11-24T15:54:07Z",
+  "lastSuccessfulUpdate": "2026-11-24T15:54:07Z",
   "items": [
     {
       "id": "auto-bd0ed3fe0156d591",
@@ -1382,16 +1382,15 @@
       "contentChecksVersion": 2
     },
     {
-      "id": "auto-dc5d07c8ba13a313",
+      "id": "auto-e98bfab75b795af6",
       "kind": "research",
-      "title": "Thermal stress reduces dung burial, brood production, and the development of dung beetles: a challenge for climate resilience",
-      "url": "https://doi.org/10.1093/ee/nvag104",
+      "title": "Post-fire regeneration increases plant quality and insect herbivore performance",
+      "url": "https://doi.org/10.1093/ee/nvag120",
       "source": "Environmental Entomology",
       "sourceId": "environmental-entomology",
       "published": "2026-11-05",
       "areas": [
-        "Insect biology & behaviour",
-        "Ecology & conservation"
+        "Crop protection & IPM"
       ],
       "region": "global",
       "curated": false,
@@ -1399,7 +1398,7 @@
       "why": "",
       "tagMethod": "automatic-keywords",
       "contentChecksVersion": 2,
-      "doi": "10.1093/ee/nvag104"
+      "doi": "10.1093/ee/nvag120"
     },
     {
       "id": "auto-675a9d05644dd78f",
@@ -1440,16 +1439,16 @@
       "doi": "10.1111/phen.70071"
     },
     {
-      "id": "auto-d233df3af4888b89",
+      "id": "auto-dc5d07c8ba13a313",
       "kind": "research",
-      "title": "The sweetpotato whitefly Bemisia tabaci avoids caterpillar traces to reduce incidental intraguild predation",
-      "url": "https://doi.org/10.1093/ee/nvag110",
+      "title": "Thermal stress reduces dung burial, brood production, and the development of dung beetles: a challenge for climate resilience",
+      "url": "https://doi.org/10.1093/ee/nvag104",
       "source": "Environmental Entomology",
       "sourceId": "environmental-entomology",
       "published": "2026-11-05",
       "areas": [
-        "Crop protection & IPM",
-        "Biological control"
+        "Insect biology & behaviour",
+        "Ecology & conservation"
       ],
       "region": "global",
       "curated": false,
@@ -1457,7 +1456,7 @@
       "why": "",
       "tagMethod": "automatic-keywords",
       "contentChecksVersion": 2,
-      "doi": "10.1093/ee/nvag110"
+      "doi": "10.1093/ee/nvag104"
     },
     {
       "id": "auto-3b85e8c31f3b880a",
@@ -1515,15 +1514,16 @@
       "contentChecksVersion": 2
     },
     {
-      "id": "auto-c9e04680272bd575",
+      "id": "auto-d233df3af4888b89",
       "kind": "research",
-      "title": "Excavation of belowground objects by Dirhinus giffardii (Hymenoptera: Chalcididae)",
-      "url": "https://doi.org/10.1093/ee/nvag111",
+      "title": "The sweetpotato whitefly Bemisia tabaci avoids caterpillar traces to reduce incidental intraguild predation",
+      "url": "https://doi.org/10.1093/ee/nvag110",
       "source": "Environmental Entomology",
       "sourceId": "environmental-entomology",
       "published": "2026-11-05",
       "areas": [
-        "Ecology & conservation"
+        "Crop protection & IPM",
+        "Biological control"
       ],
       "region": "global",
       "curated": false,
@@ -1531,7 +1531,7 @@
       "why": "",
       "tagMethod": "automatic-keywords",
       "contentChecksVersion": 2,
-      "doi": "10.1093/ee/nvag111"
+      "doi": "10.1093/ee/nvag110"
     },
     {
       "id": "auto-6f7bee1a1c35527e",
@@ -1554,16 +1554,15 @@
       "doi": "10.1111/icad.70162"
     },
     {
-      "id": "auto-abc4feae894c2ea7",
+      "id": "auto-c9e04680272bd575",
       "kind": "research",
-      "title": "Non-target feeding on cultivated artichoke by Cassida rubiginosa (Coleoptera: Chrysomelidae) reflects behavioral flexibility rather than host-range expansion",
-      "url": "https://doi.org/10.1093/ee/nvag109",
+      "title": "Excavation of belowground objects by Dirhinus giffardii (Hymenoptera: Chalcididae)",
+      "url": "https://doi.org/10.1093/ee/nvag111",
       "source": "Environmental Entomology",
       "sourceId": "environmental-entomology",
       "published": "2026-11-05",
       "areas": [
-        "Insect biology & behaviour",
-        "Monitoring & environmental risk"
+        "Ecology & conservation"
       ],
       "region": "global",
       "curated": false,
@@ -1571,7 +1570,7 @@
       "why": "",
       "tagMethod": "automatic-keywords",
       "contentChecksVersion": 2,
-      "doi": "10.1093/ee/nvag109"
+      "doi": "10.1093/ee/nvag111"
     },
     {
       "id": "auto-557aad0dcde47a6d",
@@ -1612,15 +1611,16 @@
       "doi": "10.1111/syen.70074"
     },
     {
-      "id": "auto-856119152841291a",
+      "id": "auto-abc4feae894c2ea7",
       "kind": "research",
-      "title": "Variation in the composition of nutrients in the blood of vertebrate hosts affect gonotrophic cycle velocity and the reproductive output of Culex pipiens",
-      "url": "https://doi.org/10.1093/ee/nvag108",
+      "title": "Non-target feeding on cultivated artichoke by Cassida rubiginosa (Coleoptera: Chrysomelidae) reflects behavioral flexibility rather than host-range expansion",
+      "url": "https://doi.org/10.1093/ee/nvag109",
       "source": "Environmental Entomology",
       "sourceId": "environmental-entomology",
       "published": "2026-11-05",
       "areas": [
-        "Insect biology & behaviour"
+        "Insect biology & behaviour",
+        "Monitoring & environmental risk"
       ],
       "region": "global",
       "curated": false,
@@ -1628,7 +1628,7 @@
       "why": "",
       "tagMethod": "automatic-keywords",
       "contentChecksVersion": 2,
-      "doi": "10.1093/ee/nvag108"
+      "doi": "10.1093/ee/nvag109"
     },
     {
       "id": "auto-1f74d32b9bf4d9b7",
@@ -2541,8 +2541,8 @@
       "url": "https://www.buglife.org.uk/news/feed/",
       "homepage": "https://www.buglife.org.uk/news/",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 9
     },
     {
@@ -2551,8 +2551,8 @@
       "url": "https://www.bumblebeeconservation.org/feed/",
       "homepage": "https://www.bumblebeeconservation.org/what-we-do/news/",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 8
     },
     {
@@ -2561,7 +2561,7 @@
       "url": "https://blog.cabi.org/feed/",
       "homepage": "https://blog.cabi.org/",
       "status": "error",
-      "lastAttempt": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
       "lastSuccess": "2026-11-08T11:56:53Z",
       "count": 0,
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -2572,8 +2572,8 @@
       "url": "https://entomologytoday.org/feed/",
       "homepage": "https://entomologytoday.org/",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 10
     },
     {
@@ -2582,7 +2582,7 @@
       "url": "https://blog.plantwise.org/feed/",
       "homepage": "https://blog.plantwise.org/",
       "status": "cached",
-      "lastAttempt": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
       "lastSuccess": "2026-11-08T11:56:53Z",
       "count": 1,
       "error": "HTTPError: HTTP Error 403: Forbidden"
@@ -2593,8 +2593,8 @@
       "url": "https://www.royensoc.co.uk/feed/",
       "homepage": "https://www.royensoc.co.uk/",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 10
     },
     {
@@ -2603,8 +2603,8 @@
       "url": "https://appliedecologistsblog.com/feed/",
       "homepage": "https://appliedecologistsblog.com/",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 1
     },
     {
@@ -2613,8 +2613,8 @@
       "url": "https://xerces.org/rss.xml",
       "homepage": "https://xerces.org/",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 7
     },
     {
@@ -2623,8 +2623,8 @@
       "url": "https://api.crossref.org/journals/1461-9563/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/14619563",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 20
     },
     {
@@ -2633,8 +2633,8 @@
       "url": "https://api.crossref.org/journals/1573-8248/works",
       "homepage": "https://link.springer.com/journal/10526",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 13
     },
     {
@@ -2643,8 +2643,8 @@
       "url": "https://api.crossref.org/journals/1049-9644/works",
       "homepage": "https://www.sciencedirect.com/journal/biological-control",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 0
     },
     {
@@ -2653,8 +2653,8 @@
       "url": "https://api.crossref.org/journals/1365-2311/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652311",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 35
     },
     {
@@ -2662,11 +2662,10 @@
       "name": "Environmental Entomology",
       "url": "https://api.crossref.org/journals/1938-2936/works",
       "homepage": "https://academic.oup.com/ee",
-      "status": "cached",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-23T15:59:23Z",
-      "count": 6,
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
+      "count": 29
     },
     {
       "id": "insect-conservation-diversity",
@@ -2674,8 +2673,8 @@
       "url": "https://api.crossref.org/journals/1752-4598/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/17524598",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 35
     },
     {
@@ -2684,8 +2683,8 @@
       "url": "https://api.crossref.org/journals/1365-2583/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652583",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 20
     },
     {
@@ -2694,8 +2693,8 @@
       "url": "https://api.crossref.org/journals/1744-7917/works",
       "homepage": "https://onlinelibrary.wiley.com/journal/17447917",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 35
     },
     {
@@ -2703,10 +2702,11 @@
       "name": "Insect Systematics and Diversity",
       "url": "https://api.crossref.org/journals/2399-3421/works",
       "homepage": "https://academic.oup.com/isd",
-      "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
+      "status": "cached",
+      "lastAttempt": "2026-11-24T15:54:07Z",
       "lastSuccess": "2026-11-24T09:39:36Z",
-      "count": 20
+      "count": 6,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "journal-economic-entomology",
@@ -2714,8 +2714,8 @@
       "url": "https://api.crossref.org/journals/1938-291X/works",
       "homepage": "https://academic.oup.com/jee",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 35
     },
     {
@@ -2724,8 +2724,8 @@
       "url": "https://api.crossref.org/journals/1572-9753/works",
       "homepage": "https://link.springer.com/journal/10841",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 35
     },
     {
@@ -2734,8 +2734,8 @@
       "url": "https://api.crossref.org/journals/1938-2928/works",
       "homepage": "https://academic.oup.com/jme",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 35
     },
     {
@@ -2744,7 +2744,7 @@
       "url": "https://api.crossref.org/journals/1365-2915/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13652915",
       "status": "cached",
-      "lastAttempt": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
       "lastSuccess": "2026-11-23T15:59:23Z",
       "count": 6,
       "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -2755,19 +2755,20 @@
       "url": "https://api.crossref.org/journals/1526-4998/works",
       "homepage": "https://scijournals.onlinelibrary.wiley.com/journal/15264998",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
-      "count": 10
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
+      "count": 9
     },
     {
       "id": "physiological-entomology",
       "name": "Physiological Entomology",
       "url": "https://api.crossref.org/journals/1365-3032/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653032",
-      "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
+      "status": "cached",
+      "lastAttempt": "2026-11-24T15:54:07Z",
       "lastSuccess": "2026-11-24T09:39:36Z",
-      "count": 13
+      "count": 6,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
       "id": "systematic-entomology",
@@ -2775,8 +2776,8 @@
       "url": "https://api.crossref.org/journals/1365-3113/works",
       "homepage": "https://resjournals.onlinelibrary.wiley.com/journal/13653113",
       "status": "ok",
-      "lastAttempt": "2026-11-24T09:39:36Z",
-      "lastSuccess": "2026-11-24T09:39:36Z",
+      "lastAttempt": "2026-11-24T15:54:07Z",
+      "lastSuccess": "2026-11-24T15:54:07Z",
       "count": 10
     }
   ]
