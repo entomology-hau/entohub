@@ -409,7 +409,6 @@
 @media(max-width:620px){.biodiversity-grid{grid-template-columns:minmax(0,1fr)}.biodiversity{margin-top:28px;padding-top:24px}.biodiversity-photo,.biodiversity-photo-placeholder{height:90px}}
 
 .overview-rail{display:grid;gap:16px;min-width:0}
-.overview-guides>.overview-card:last-child{grid-column:1/-1}
 .overview-card-heading{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:12px;margin-bottom:12px}
 .overview-icon{
   display:grid;place-items:center;width:46px;height:46px;
